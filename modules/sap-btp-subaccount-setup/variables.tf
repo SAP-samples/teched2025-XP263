@@ -22,7 +22,7 @@ variable "parent_id" {
 }
 
 variable "subaccounts" {
-    type = map(object({
+  type = map(object({
     region         = string
     cost_center    = string
     contact_person = string

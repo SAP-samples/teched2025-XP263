@@ -1,0 +1,22 @@
+{
+	"name": "TechEd 2025 XP263",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+	"features": {
+		"ghcr.io/devcontainers/features/terraform:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"HashiCorp.terraform"
+			],
+			"settings": {}
+		},
+		"codespaces": {}
+	},
+	"hostRequirements": {
+		"memory": "4gb"
+	},
+	// If you want to use SSO please install xdg-utils in the container
+	"remoteUser": "vscode"
+}

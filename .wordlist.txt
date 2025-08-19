@@ -1,4 +1,6 @@
 API
+aydin
+Aydin
 api
 autocompletion
 APIs
@@ -58,6 +60,8 @@ oidc
 OIDC
 OpenSSF
 OpenTofu
+Ozcan
+ozcan
 PEM
 Pre
 pre
@@ -76,6 +80,8 @@ subaccounts
 subaccount's
 subcommands
 TBD
+TechEd
+teched
 templating
 Terraform
 Terraform's
@@ -101,6 +107,7 @@ UUID
 VS
 workspace
 workspaces
+XP
 YAML
 yaml
 yml

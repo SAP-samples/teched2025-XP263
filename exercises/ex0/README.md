@@ -6,9 +6,9 @@ We distinguish between two ways of doing the Terraform part of the workshop:
 - Guided hands-on workshop at the SAP TechEd 2025 in Berlin
 - Self-paced on your own
 
-## Guided HandsOn Workshop at SAP TechEd 2025 in Berlin
+## Guided Hands-On Workshop at SAP TechEd 2025 in Berlin
 
-The prerequistes for the hands-on workshop are already installed on the local machine provided to you. There is only one last step you need to do namely to download the code of this workshop to your local machine.
+The prerequisites for the hands-on workshop are already installed on the local machine provided to you. There is only one last step you need to do namely to download the code of this workshop to your local machine.
 
 ### Option 1 - Clone the repository (recommended)
 
@@ -100,7 +100,7 @@ The prerequisites for a local installation are:
 - The *Terraform CLI*. You can download it from the [Terraform website](https://developer.hashicorp.com/terraform/install) or install it with a package manager like [WinGet](https://learn.microsoft.com/windows/package-manager/winget/) or [brew](https://brew.sh/) depending on your OS.
 - The Git CLI. You can download it from the [Git website](https://git-scm.com/downloads) or install it with a package manager like [WinGet](https://learn.microsoft.com/windows/package-manager/winget/) or [brew](https://brew.sh/) depending on your OS.
 
-If these prerequistes are installed, you can clone the repository as described in section [Option 1 - Clone the repository](#option-1---clone-the-repository).
+If these prerequisites are installed, you can clone the repository as described in section [Option 1 - Clone the repository](#option-1---clone-the-repository).
 
 ### Using the Dev Container
 

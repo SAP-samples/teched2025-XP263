@@ -28,6 +28,8 @@ dev
 devcontainer
 devcontainers
 dir
+Dropdown
+dropdown
 EMEA
 faq
 Github
@@ -105,6 +107,7 @@ url
 uuid
 UUID
 VS
+WinGet
 workspace
 workspaces
 XP

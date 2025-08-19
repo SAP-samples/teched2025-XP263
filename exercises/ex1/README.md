@@ -1,4 +1,4 @@
-# Exercise 1 - Exercise 1 Description
+# Exercise 1 - Setup of Terraform Configuration
 
 In this exercise, we will create...
 
@@ -11,7 +11,7 @@ After completing these steps you will have created...
 
 2.	Insert this line of code.
 ```abap
-response->set_text( |Hello World! | ). 
+response->set_text( |Hello World! | ).
 ```
 
 
@@ -41,4 +41,3 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
 You've now ...
 
 Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
-

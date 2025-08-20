@@ -67,6 +67,7 @@ ozcan
 PEM
 Pre
 pre
+preconfigured
 PowerShell
 powershell
 README
@@ -81,6 +82,8 @@ Subaccount
 subaccounts
 subaccount's
 subcommands
+subfolder
+Subfolder
 TBD
 TechEd
 teched
@@ -98,6 +101,7 @@ todo
 toml
 TOML
 toolchain
+toset
 UIs
 UI
 Unmanaged

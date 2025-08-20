@@ -6,8 +6,6 @@ variable "globalaccount" {
 variable "username" {
   type        = string
   description = "The username for authentication against SAP BTP"
-  ephemeral   = true
-  sensitive   = true
 }
 
 variable "password" {

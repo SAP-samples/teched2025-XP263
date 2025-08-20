@@ -1,10 +1,10 @@
 locals {
-  stages = ["Dev", "Test", "Prod"]
+  stages = ["Dev", "Test"]
 }
 
 # Main Directory per subsidiary
 resource "btp_directory" "main" {
-  name        = "SUB: ${var.subsidiary_name}"
+  name        = "SUB: ${var.subsidiary_name} - ${var.username}"
   description = "The parent directory for the subsidiary ${var.subsidiary_name}."
 }
 
@@ -19,7 +19,7 @@ resource "btp_directory" "stage" {
 
 # Subaccount setup
 module "sap-btp-subaccount-setup" {
-  source   = "../../modules/sap-btp-subaccount-setup"
+  source   = "../../../modules/sap-btp-subaccount-setup"
   for_each = toset(local.stages)
 
   parent_id       = btp_directory.stage[each.key].id

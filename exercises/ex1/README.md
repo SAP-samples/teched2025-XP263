@@ -2,7 +2,7 @@
 
 In this exercise, we will walk through a setup of an SAP BTP account structure consisting of directories, subaccounts and several other resources. We will use [Terraform](https://developer.hashicorp.com/terraform) to automate the creation of these resources.
 
-Terraform is the de-facto industry standard when it comes to infrastructure as code. It allows you to define your infrastructure in a declarative way and manage it through version control.
+Terraform is the industry standard when it comes to infrastructure as code. It allows you to define your infrastructure in a declarative way and manage it through version control.
 
 You find the solution for this exercise in the folder [`solutions/ex1`](../../solutions/ex1/) i.e., in the corresponding subfolder for each exercise.
 
@@ -74,7 +74,7 @@ The module [`sap-btp-subaccount-setup`](../../modules/sap-btp-subaccount-setup/R
 > [!NOTE]
 > Feel free to further explore the content and the modules used in the configuration. You can find the modules in the folder [`modules`](../../modules/).
 
-With that we are ready to make the necessary adjustements and deploy the setup to SAP BTP.
+With that we are ready to make the necessary adjustments and deploy the setup to SAP BTP.
 
 > [!CAUTION]
 > The setup we are using here is a setup for demo purposes only. It is not meant to be used in a production environment. The setup is designed to enable a simple and quick local deployment of a multistage SAP BTP account structure. In a productive scenario you would certainly split the setup and define a more granular orchestration via a CI/CD environment to avoid a monolithic state file.
@@ -154,7 +154,7 @@ Let's enhance the configuration further by adding a new subaccount.
 
 After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional subaccount.
 
-The creation of the subaccounts is triggered by the values we provide for the variable `subacounts`. To add a new subaccount, add a new value to the variable `subaccounts` in the file `terraform.tfvars`.
+The creation of the subaccounts is triggered by the values we provide for the variable `subaccounts`. To add a new subaccount, add a new value to the variable `subaccounts` in the file `terraform.tfvars`.
 
 - Open the file `terraform.tfvars`.
 - Add the values for a new subaccount that represents a financial app to the variable `subaccounts`. The identifier is `Fin App 1`, the `region` is `us10`, the `cost_center` is `CC67890` and the `contact_person` is `carter.burke@weyland-corp.com`. The result should look like this:
@@ -208,7 +208,7 @@ Once the deployment is finished, you see a summary of the resources that were cr
 
 ## Exercise 1.4 - Adding the production stage
 
-After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional stage representing the subacounts used for production.
+After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional stage representing the subaccounts used for production.
 
 As we are confident with the setup, you can now enhance the configuration to include a production stage. This is done by adding the stage `Prod` to the local variable `stages` in the file `main.tf`.
 

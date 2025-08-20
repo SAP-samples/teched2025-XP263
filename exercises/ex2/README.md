@@ -39,4 +39,4 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
 
 You've now ...
 
-Continue to - [Exercise 3 - Exercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Exercise 3](../ex3/README.md)

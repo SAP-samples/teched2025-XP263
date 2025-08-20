@@ -9,6 +9,7 @@ subaccounts = {
     cost_center    = "CC12345"
     contact_person = "michael.bishop@weyland-corp.com"
   },
+  # Newly added subaccount
   "Fin App 1" = {
     region         = "us10"
     cost_center    = "CC67890"

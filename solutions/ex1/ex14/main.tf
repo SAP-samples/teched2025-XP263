@@ -1,5 +1,5 @@
 locals {
-  stages = ["Dev", "Test"]
+  stages = ["Dev", "Test", "Prod"] # <- Updated to include Prod stage
 }
 
 # Main Directory per subsidiary

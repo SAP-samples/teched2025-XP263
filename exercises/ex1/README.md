@@ -4,6 +4,8 @@ In this exercise, we will walk through a setup of an SAP BTP account structure c
 
 Terraform is the de-facto industry standard when it comes to infrastructure as code. It allows you to define your infrastructure in a declarative way and manage it through version control.
 
+You find the solution for this exercise in the folder [`solutions/ex1`](../../solutions/ex1/) i.e., in the corresponding subfolder for each exercise.
+
 ## Exercise 1.1 - Understanding the Setup
 
 After completing these steps, you will have an understanding of the preconfigured setup that we will use in this exercise.
@@ -264,5 +266,3 @@ Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 - [Getting Started with Terraform on SAP BTP](https://learning.sap.com/learning-journeys/getting-started-with-terraform-on-sap-btp) on learning.sap.com
 - [SAP BTP Administrator's Guide](https://help.sap.com/docs/btp/btp-admin-guide/btp-admin-guide)
 - [SAP BTP - Administrator's Guide Samples](https://github.com/SAP-samples/btp-admin-guide-samples)
-
-

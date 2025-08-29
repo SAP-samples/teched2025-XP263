@@ -6,7 +6,8 @@ subsidiary_name = "Weyland Corporation Core"
 subaccounts = {
   "Sales App 1" = {
     region         = "eu10"
-    cost_center    = "CC12345"
+    cost_center    = "CC-12345"
     contact_person = "michael.bishop@weyland-corp.com"
+    department     = "Sales"
   }
 }

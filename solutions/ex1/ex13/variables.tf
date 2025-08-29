@@ -34,6 +34,7 @@ variable "subaccounts" {
     region         = string
     cost_center    = string
     contact_person = string
+    department     = string
   }))
   description = <<-EOT
     A map of subaccounts where the key is the subaccount name, and the value is an object containing:

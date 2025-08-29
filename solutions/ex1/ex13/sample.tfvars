@@ -6,13 +6,15 @@ subsidiary_name = "Weyland Corporation Core"
 subaccounts = {
   "Sales App 1" = {
     region         = "eu10"
-    cost_center    = "CC12345"
+    cost_center    = "CC-12345"
     contact_person = "michael.bishop@weyland-corp.com"
+    department     = "Sales"
   },
   # Newly added subaccount
   "Fin App 1" = {
     region         = "us10"
-    cost_center    = "CC67890"
+    cost_center    = "CC-67890"
     contact_person = "carter.burke@weyland-corp.com"
+    department     = "Finance"
   }
 }

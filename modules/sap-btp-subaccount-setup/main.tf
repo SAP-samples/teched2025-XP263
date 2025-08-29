@@ -47,9 +47,10 @@ resource "btp_subaccount" "self" {
   description = "Subaccount for ${each.key} in the ${var.stage} stage of the subsidiary ${var.subsidiary_name}."
   usage       = var.stage == "Prod" ? "USED_FOR_PRODUCTION" : "NOT_USED_FOR_PRODUCTION"
   labels = {
-    "cost_center"    = ["${each.value.cost_center}"]
-    "contact_person" = ["${each.value.contact_person}"]
-    "geo_region"     = ["${lookup(local.region_mapping, each.value.region, "UNKNOWN")}"]
+    "Cost Center"    = ["${each.value.cost_center}"]
+    "Contact Person" = ["${each.value.contact_person}"]
+    "Department"     = ["${each.value.department}"]
+    "Region"         = ["${lookup(local.region_mapping, each.value.region, "UNKNOWN")}"]
   }
 }
 
@@ -96,6 +97,12 @@ resource "btp_subaccount_environment_instance" "cloudfoundry" {
   })
 }
 
-# Create the app subscrioptions for the subaccounts
+module "sap_btp_subaccount_default_app_service_instances" {
+  depends_on = [module.sap_btp_entitlements]
+  for_each   = var.subaccounts
+  source     = "../../modules/sap-btp-default-apps-and-services"
 
-# Create the service instances for the subaccounts
+  subaccount_id = btp_subaccount.self[each.key].id
+  stage         = var.stage
+  department    = each.value.department
+}

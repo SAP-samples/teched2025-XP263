@@ -1,23 +1,35 @@
 locals {
   default_entitlements = {
     "Dev" = {
-      "alert-notification" = ["standard"],
-      "auditlog"           = ["standard=1"],
-      "cloud-logging"      = ["standard=1"],
-      "sapappstudio"       = ["build-code"],
-      "xsuaa"              = ["application"]
+      "aicore"                  = ["standard"],
+      "ai-launchpad"            = ["standard"]
+      "alert-notification"      = ["standard"],
+      "application-logs"        = ["standard=1"],
+      "build-workzone-standard" = ["standard"],
+      "credstore"               = ["standard=1"],
+      "jobscheduler"            = ["standard=1"],
+      "hana-cloud"              = ["hana"],
+      "transport"               = ["standard"],
     },
     "Test" = {
-      "alert-notification" = ["standard"],
-      "auditlog"           = ["standard=1"],
-      "cloud-logging"      = ["standard=1"],
-      "xsuaa"              = ["application"]
+      "ai-launchpad"            = ["standard"]
+      "alert-notification"      = ["standard"],
+      "application-logs"        = ["standard=1"],
+      "build-workzone-standard" = ["standard"],
+      "credstore"               = ["standard=1"],
+      "jobscheduler"            = ["standard=1"],
+      "hana-cloud"              = ["hana"],
+      "transport"               = ["standard"],
     },
     "Prod" = {
-      "alert-notification" = ["standard"],
-      "auditlog"           = ["standard=1"],
-      "cloud-logging"      = ["standard=1"],
-      "xsuaa"              = ["application"]
+      "ai-launchpad"            = ["standard"]
+      "alert-notification"      = ["standard"],
+      "application-logs"        = ["standard=1"],
+      "build-workzone-standard" = ["standard"],
+      "credstore"               = ["standard=1"],
+      "jobscheduler"            = ["standard=1"],
+      "hana-cloud"              = ["hana"],
+      "transport"               = ["standard"],
     }
   }
 }

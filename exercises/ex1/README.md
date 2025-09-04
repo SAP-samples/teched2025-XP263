@@ -121,7 +121,7 @@ With this we are ready to deploy the configuration. To do so, execute the follow
 1. Create a plan for the deployment and store it as `plan.out`:
 
    ```powershell
-   terraform plan -out=plan.out
+   terraform plan -out="plan.out"
    ```
 
     The output is quite lengthy, but at the end you should see a summary of the resources that will be created, modified or destroyed. The output should look like this (number of resources may vary):
@@ -131,7 +131,7 @@ With this we are ready to deploy the configuration. To do so, execute the follow
 1. Apply the stored plan and execute the deployment:
 
    ```powershell
-   terraform apply plan.out
+   terraform apply "plan.out"
    ```
 
    This command will create the directories, subaccounts and other resources defined in the configuration. This will take a bit. You can follow the progress in the terminal as well as in the SAP BTP cockpit.
@@ -195,20 +195,25 @@ Let us deploy the changes to SAP BTP. To do so, execute the following commands i
 1. Create a plan for the deployment and store it as `plan.out`:
 
    ```powershell
-   terraform plan -out=plan.out
+   terraform plan -out="plan.out"
    ```
 
-    You see that the change that will be applied is only affecting the new subaccount. As you did not change anything for the existing subaccounts.
+    You see that the change that will be applied is affecting the new subaccount. There are also some changes for the existing resources. This is due to Terraform's dependency management and if you take a closer look at the details of the plan you see that the existing resources are not changed.
 
 1. Apply the stored plan and execute the deployment:
 
    ```powershell
-   terraform apply plan.out
+   terraform apply "plan.out"
    ```
 
-Once the deployment is finished, you see a summary of the resources that were created. Check the setup in the SAP BTP cockpit. Besides the already existing subaccounts you also see the newly added ones per stage.
+Once the deployment is finished, you see a summary of the resources that were created. You also see that there have been no changes to the existing resources during the apply phase of Terraform.
+
+Check the setup in the SAP BTP cockpit. Besides the already existing subaccounts you also see the newly added ones per stage.
 
 ## Exercise 1.4 - Adding the production stage
+
+> [!NOTE]
+> This exercise is optional. If you want to continue with the next exercise, you can directly go to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 
 After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional stage representing the subaccounts used for production.
 
@@ -241,18 +246,20 @@ You are already an expert in deploying the configuration, so you can now deploy 
 1. Create a plan for the deployment and store it as `plan.out`:
 
    ```powershell
-   terraform plan -out=plan.out
+   terraform plan -out="plan.out"
    ```
 
-    You see that the change that will be applied is only affecting the new stage. As you did not change anything for the existing stages.
+    You see that the change that will be applied create the new stage. As in the previous step you also see some changes for the existing resources. This is due to Terraform's dependency management and if you take a closer look at the details of the plan you see that the existing resources are not changed.
 
 1. Apply the stored plan and execute the deployment:
 
    ```powershell
-   terraform apply plan.out
+   terraform apply "plan.out"
    ```
 
-Once the deployment is finished, you see a summary of the resources that were created. Check the setup in the SAP BTP cockpit. Besides the already existing directories and subaccounts for the stages `Dev` and `Test` you also the newly added ones for the stage `Prod`.
+Once the deployment is finished, you see a summary of the resources that were created. You also see that there have been no changes to the existing resources during the apply phase of Terraform.
+
+Check the setup in the SAP BTP cockpit. Besides the already existing directories and subaccounts for the stages `Dev` and `Test` you also the newly added ones for the stage `Prod`.
 
 > [!NOTE]
 > You can also delete the complete setup in one run via the command `terraform destroy`. This will delete all resources created by Terraform in the current state. The command will present you a plan what it will destroy. Review and carefully and approve the action by typing `yes` when prompted.

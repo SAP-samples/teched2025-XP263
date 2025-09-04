@@ -36,10 +36,35 @@ locals {
   }
 
   # Needed to find the right landscape label for the Cloud Foundry environment
-  extension_landscape_index_mapping = {
-    "eu10" = 1
-    "eu20" = 1
-    "us10" = 1
+  extension_landscape_mapping = {
+    "br10" = "cf-br10"
+    "jp10" = "cf-jp10"
+    "ap10" = "cf-ap10"
+    "ap11" = "cf-ap11"
+    "ap12" = "cf-ap12"
+    "ca10" = "cf-ca10"
+    "eu10" = "cf-eu10-004"
+    "eu11" = "cf-eu11"
+    "us10" = "cf-us10-002"
+    "us11" = "cf-us10"
+    "us30" = "cf-us30"
+    "eu30" = "cf-eu30"
+    "in30" = "cf-in30"
+    "il30" = "cf-il30"
+    "jp30" = "cf-jp30"
+    "jp31" = "cf-jp31"
+    "ap30" = "cf-ap30"
+    "br30" = "cf-br30"
+    "eu20" = "cf-eu20-001"
+    "ap20" = "cf-ap20"
+    "ap21" = "cf-ap21"
+    "br20" = "cf-br20"
+    "ca20" = "cf-ca20"
+    "cn20" = "cf-cn20"
+    "us20" = "cf-us20"
+    "jp20" = "cf-jp20"
+    "us21" = "cf-us21"
+    "ch20" = "cf-ch20"
   }
 
 }
@@ -79,24 +104,6 @@ module "sap_btp_entitlements" {
   entitlements = module.subaccount_default_entitlements.default_entitlements_for_stage
 }
 
-# Set up the Cloud Foundry environment for each subaccount
-data "btp_subaccount_environments" "all" {
-  for_each = var.subaccounts
-
-  subaccount_id = btp_subaccount.self[each.key].id
-}
-
-resource "terraform_data" "landscape_label_index" {
-  for_each = var.subaccounts
-
-  input = lookup(local.extension_landscape_index_mapping, each.value.region, 0)
-}
-
-resource "terraform_data" "cf_landscape_label" {
-  for_each = var.subaccounts
-
-  input = [for env in data.btp_subaccount_environments.all[each.key].values : env if env.service_name == "cloudfoundry" && env.environment_type == "cloudfoundry"][terraform_data.landscape_label_index[each.key].output].landscape_label
-}
 
 # Create the Cloud Foundry Environment for the subaccounts
 resource "btp_subaccount_environment_instance" "cloudfoundry" {
@@ -107,7 +114,7 @@ resource "btp_subaccount_environment_instance" "cloudfoundry" {
   environment_type = "cloudfoundry"
   service_name     = "cloudfoundry"
   plan_name        = "standard"
-  landscape_label  = terraform_data.cf_landscape_label[each.key].output
+  landscape_label  = lookup(local.extension_landscape_mapping, each.value.region, null)
   parameters = jsonencode({
     instance_name = "${replace(lower(each.key), " ", "-")}-${lower(var.stage)}-${random_uuid.self.result}"
   })

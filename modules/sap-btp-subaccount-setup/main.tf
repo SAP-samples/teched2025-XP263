@@ -79,15 +79,6 @@ module "sap_btp_entitlements" {
   entitlements = module.subaccount_default_entitlements.default_entitlements_for_stage
 }
 
-# Add the default users to each subaccount
-module "sap_btp_subaccount_default_users" {
-  for_each = var.subaccounts
-  source   = "../../modules/sap-btp-subaccount-default-users"
-
-  subaccount_id  = btp_subaccount.self[each.key].id
-  default_admins = var.default_admins
-}
-
 # Set up the Cloud Foundry environment for each subaccount
 data "btp_subaccount_environments" "all" {
   for_each = var.subaccounts

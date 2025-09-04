@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2025 session called XP2
 
 ## Overview
 
-This session gives the attendees the opprtuinity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It will give you insights on how to automate the consistent setup of SAP BTP accounts using Terraform as a prerequiste for doing FinOps on these accounts.You as global account administrator and controller will also be equipped with the skills to efficiently manage, monitor, and optimize their global accounts. Learn about new capabilities for global account management and cost and usage optimization.
+This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It will give you insights on how to automate the consistent setup of SAP BTP accounts using Terraform as a prerequisite for doing FinOps on these accounts.You as global account administrator and controller will also be equipped with the skills to efficiently manage, monitor, and optimize their global accounts. Learn about new capabilities for global account management and cost and usage optimization.
 
 ## Requirements
 

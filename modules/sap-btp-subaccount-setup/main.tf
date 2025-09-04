@@ -34,6 +34,14 @@ locals {
     "us21" = "AMER"
     "ch20" = "EMEA"
   }
+
+  # Needed to find the right landscape label for the Cloud Foundry environment
+  extension_landscape_index_mapping = {
+    "eu10" = 1
+    "eu20" = 1
+    "us10" = 1
+  }
+
 }
 
 # Create subaccounts based on the provided information
@@ -50,6 +58,7 @@ resource "btp_subaccount" "self" {
     "Cost Center"    = ["${each.value.cost_center}"]
     "Contact Person" = ["${each.value.contact_person}"]
     "Department"     = ["${each.value.department}"]
+    "Environment"    = ["${var.stage}"]
     "Region"         = ["${lookup(local.region_mapping, each.value.region, "UNKNOWN")}"]
   }
 }
@@ -70,16 +79,32 @@ module "sap_btp_entitlements" {
   entitlements = module.subaccount_default_entitlements.default_entitlements_for_stage
 }
 
+# Add the default users to each subaccount
+module "sap_btp_subaccount_default_users" {
+  for_each = var.subaccounts
+  source   = "../../modules/sap-btp-subaccount-default-users"
+
+  subaccount_id  = btp_subaccount.self[each.key].id
+  default_admins = var.default_admins
+}
+
+# Set up the Cloud Foundry environment for each subaccount
 data "btp_subaccount_environments" "all" {
   for_each = var.subaccounts
 
   subaccount_id = btp_subaccount.self[each.key].id
 }
 
+resource "terraform_data" "landscape_label_index" {
+  for_each = var.subaccounts
+
+  input = lookup(local.extension_landscape_index_mapping, each.value.region, 0)
+}
+
 resource "terraform_data" "cf_landscape_label" {
   for_each = var.subaccounts
 
-  input = [for env in data.btp_subaccount_environments.all[each.key].values : env if env.service_name == "cloudfoundry" && env.environment_type == "cloudfoundry"][0].landscape_label
+  input = [for env in data.btp_subaccount_environments.all[each.key].values : env if env.service_name == "cloudfoundry" && env.environment_type == "cloudfoundry"][terraform_data.landscape_label_index[each.key].output].landscape_label
 }
 
 # Create the Cloud Foundry Environment for the subaccounts
@@ -97,6 +122,8 @@ resource "btp_subaccount_environment_instance" "cloudfoundry" {
   })
 }
 
+
+# Add default service instances and app subscriptions to each subaccount
 module "sap_btp_subaccount_default_app_service_instances" {
   depends_on = [module.sap_btp_entitlements]
   for_each   = var.subaccounts

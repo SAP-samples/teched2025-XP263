@@ -80,8 +80,8 @@ resource "btp_subaccount" "self" {
   description = "Subaccount for ${each.key} in the ${var.stage} stage of the subsidiary ${var.subsidiary_name}."
   usage       = var.stage == "Prod" ? "USED_FOR_PRODUCTION" : "NOT_USED_FOR_PRODUCTION"
   labels = {
-    "Cost Center"    = ["${each.value.cost_center}"]
-    "Contact Person" = ["${each.value.contact_person}"]
+    "CostCenter"    = ["${each.value.cost_center}"]
+    "ContactPerson" = ["${each.value.contact_person}"]
     "Department"     = ["${each.value.department}"]
     "Environment"    = ["${var.stage}"]
     "Region"         = ["${lookup(local.region_mapping, each.value.region, "UNKNOWN")}"]

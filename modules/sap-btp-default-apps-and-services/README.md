@@ -7,13 +7,13 @@ This module encapsulates the default service instances and app subscriptions for
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.12 |
-| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.15.0 |
+| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.16.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_btp"></a> [btp](#provider\_btp) | >= 1.15.0 |
+| <a name="provider_btp"></a> [btp](#provider\_btp) | >= 1.16.0 |
 
 ## Modules
 

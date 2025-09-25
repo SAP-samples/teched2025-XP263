@@ -1,35 +1,29 @@
 locals {
   default_entitlements = {
     "Dev" = {
-      "aicore"                  = ["standard"],
-      "ai-launchpad"            = ["standard"]
-      "alert-notification"      = ["standard"],
-      "application-logs"        = ["standard=1"],
-      "build-workzone-standard" = ["standard"],
-      "credstore"               = ["standard=1"],
-      "jobscheduler"            = ["standard=1"],
-      "hana-cloud"              = ["hana"],
-      "transport"               = ["standard"],
+      "auditlog-viewer"         = ["free"],
+      "build-workzone-standard" = ["foundation"],
+      "cloudfoundry"            = ["standard"],
+      "destination"             = ["lite"],
+      "malware-scanner"         = ["clamav"],
+      "xsuaa"                   = ["application"]
     },
     "Test" = {
-      "ai-launchpad"            = ["standard"]
-      "alert-notification"      = ["standard"],
-      "application-logs"        = ["standard=1"],
-      "build-workzone-standard" = ["standard"],
-      "credstore"               = ["standard=1"],
-      "jobscheduler"            = ["standard=1"],
-      "hana-cloud"              = ["hana"],
-      "transport"               = ["standard"],
+      "auditlog-viewer"         = ["free"],
+      "build-workzone-standard" = ["foundation"],
+      "cloudfoundry"            = ["standard"],
+      "destination"             = ["lite"],
+      "malware-scanner"         = ["clamav"],
+      "xsuaa"                   = ["application"]
+
     },
     "Prod" = {
-      "ai-launchpad"            = ["standard"]
-      "alert-notification"      = ["standard"],
-      "application-logs"        = ["standard=1"],
-      "build-workzone-standard" = ["standard"],
-      "credstore"               = ["standard=1"],
-      "jobscheduler"            = ["standard=1"],
-      "hana-cloud"              = ["hana"],
-      "transport"               = ["standard"],
+      "auditlog-viewer"         = ["free"],
+      "build-workzone-standard" = ["foundation"],
+      "cloudfoundry"            = ["standard"],
+      "destination"             = ["lite"],
+      "malware-scanner"         = ["clamav"],
+      "xsuaa"                   = ["application"]
     }
   }
 }

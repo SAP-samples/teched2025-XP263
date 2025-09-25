@@ -3,33 +3,21 @@ locals {
 }
 
 # Create the app subscrioptions for the subaccounts
-resource "btp_subaccount_subscription" "ai_launchpad" {
+resource "btp_subaccount_subscription" "auditlog_viewer__free" {
   subaccount_id = var.subaccount_id
-  app_name      = "ai-launchpad"
-  plan_name     = "standard"
+  app_name      = "auditlog-viewer"
+  plan_name     = "free"
 }
 
 # Create the service instances for the subaccounts
-data "btp_subaccount_service_plan" "alert_notification__standard" {
+data "btp_subaccount_service_plan" "malware_scanner__clamav" {
   subaccount_id = var.subaccount_id
-  name          = "standard"
-  offering_name = "alert-notification"
+  name          = "clamav"
+  offering_name = "malware-scanner"
 }
 
-resource "btp_subaccount_service_instance" "alert_notification__standard" {
+resource "btp_subaccount_service_instance" "malware_scanner__clamav" {
   subaccount_id  = var.subaccount_id
-  serviceplan_id = data.btp_subaccount_service_plan.alert_notification__standard.id
-  name           = "${local.service_name_prefix}-alert-notification-standard"
-}
-
-data "btp_subaccount_service_plan" "credstore__standard" {
-  subaccount_id = var.subaccount_id
-  name          = "standard"
-  offering_name = "credstore"
-}
-
-resource "btp_subaccount_service_instance" "credstore__standard" {
-  subaccount_id  = var.subaccount_id
-  serviceplan_id = data.btp_subaccount_service_plan.credstore__standard.id
-  name           = "${local.service_name_prefix}-credstore-standard"
+  serviceplan_id = data.btp_subaccount_service_plan.malware_scanner__clamav.id
+  name           = "${local.service_name_prefix}-malware-scanner-clamav"
 }

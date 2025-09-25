@@ -73,12 +73,13 @@ locals {
 resource "btp_subaccount" "self" {
   for_each = var.subaccounts
 
-  parent_id   = var.parent_id
-  name        = "${each.key} - ${var.stage}"
-  subdomain   = "${replace(lower(each.key), " ", "-")}-${lower(var.stage)}-${random_uuid.self.result}"
-  region      = each.value.region
-  description = "Subaccount for ${each.key} in the ${var.stage} stage of the subsidiary ${var.subsidiary_name}."
-  usage       = var.stage == "Prod" ? "USED_FOR_PRODUCTION" : "NOT_USED_FOR_PRODUCTION"
+  parent_id             = var.parent_id
+  name                  = "${each.key} - ${var.stage}"
+  subdomain             = "${replace(lower(each.key), " ", "-")}-${lower(var.stage)}-${random_uuid.self.result}"
+  region                = each.value.region
+  description           = "Subaccount for ${each.key} in the ${var.stage} stage of the subsidiary ${var.subsidiary_name}."
+  skip_auto_entitlement = true
+  usage                 = var.stage == "Prod" ? "USED_FOR_PRODUCTION" : "NOT_USED_FOR_PRODUCTION"
   labels = {
     "CostCenter"    = ["${each.value.cost_center}"]
     "ContactPerson" = ["${each.value.contact_person}"]
@@ -107,7 +108,8 @@ module "sap_btp_entitlements" {
 
 # Create the Cloud Foundry Environment for the subaccounts
 resource "btp_subaccount_environment_instance" "cloudfoundry" {
-  for_each = var.subaccounts
+  depends_on = [module.sap_btp_entitlements]
+  for_each   = var.subaccounts
 
   subaccount_id    = btp_subaccount.self[each.key].id
   name             = "${replace(lower(each.key), " ", "-")}-${lower(var.stage)}-${random_uuid.self.result}"

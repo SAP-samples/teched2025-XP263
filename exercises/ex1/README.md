@@ -86,7 +86,7 @@ After completing these steps, you will have a first deployment of your Terraform
 Inside of the folder [`infra`](infra/) you find a file called [`sample.tfvars`](infra/sample.tfvars). This file contains the *values* for the variables that you want to use for your configuration. Execute the following steps:
 
 1. Rename the file to `terraform.tfvars`. Due to this naming Terraform will directly use this file as input for the configuration.
-1. Open the renamed file `terraform.tfvars`. You will find values for the variables defined in [`variables.tf`](infra/variables.tf).
+1. Open the renamed file `terraform.tfvars`. You will find values for the variables defined in the file [`variables.tf`](infra/variables.tf).
 1. Fill in the values for the variables `globalaccount`, `username`, `password` and `idp`. You can find these values in your SAP BTP account.
 1. Save the file.
 

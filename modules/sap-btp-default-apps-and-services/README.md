@@ -7,13 +7,13 @@ This module encapsulates the default service instances and app subscriptions for
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.12 |
-| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.15.0 |
+| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.16.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_btp"></a> [btp](#provider\_btp) | >= 1.15.0 |
+| <a name="provider_btp"></a> [btp](#provider\_btp) | >= 1.16.1 |
 
 ## Modules
 
@@ -23,11 +23,9 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [btp_subaccount_service_instance.alert_notification__standard](https://registry.terraform.io/providers/SAP/btp/latest/docs/resources/subaccount_service_instance) | resource |
-| [btp_subaccount_service_instance.credstore__standard](https://registry.terraform.io/providers/SAP/btp/latest/docs/resources/subaccount_service_instance) | resource |
-| [btp_subaccount_subscription.ai_launchpad](https://registry.terraform.io/providers/SAP/btp/latest/docs/resources/subaccount_subscription) | resource |
-| [btp_subaccount_service_plan.alert_notification__standard](https://registry.terraform.io/providers/SAP/btp/latest/docs/data-sources/subaccount_service_plan) | data source |
-| [btp_subaccount_service_plan.credstore__standard](https://registry.terraform.io/providers/SAP/btp/latest/docs/data-sources/subaccount_service_plan) | data source |
+| [btp_subaccount_service_instance.malware_scanner__clamav](https://registry.terraform.io/providers/SAP/btp/latest/docs/resources/subaccount_service_instance) | resource |
+| [btp_subaccount_subscription.auditlog_viewer__free](https://registry.terraform.io/providers/SAP/btp/latest/docs/resources/subaccount_subscription) | resource |
+| [btp_subaccount_service_plan.malware_scanner__clamav](https://registry.terraform.io/providers/SAP/btp/latest/docs/data-sources/subaccount_service_plan) | data source |
 
 ## Inputs
 

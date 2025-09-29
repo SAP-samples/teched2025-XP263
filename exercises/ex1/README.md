@@ -266,7 +266,7 @@ Check the setup in the SAP BTP cockpit. Besides the already existing directories
 
 ## Summary
 
-You've now finished all steps to setup a multistage SAP BTP account structure using Terraform. You have learned how to create directories, subaccounts, and other resources in a structured way that enables furter adminstrative tasks like cost and usage optimizations (*FinOps*).
+You've now finished all steps to setup a multistage SAP BTP account structure using Terraform. You have learned how to create directories, subaccounts, and other resources in a structured way that enables further administrative tasks like cost and usage optimizations (*FinOps*).
 
 Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 

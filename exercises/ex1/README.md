@@ -259,14 +259,14 @@ You are already an expert in deploying the configuration, so you can now deploy 
 
 Once the deployment is finished, you see a summary of the resources that were created. You also see that there have been no changes to the existing resources during the apply phase of Terraform.
 
-Check the setup in the SAP BTP cockpit. Besides the already existing directories and subaccounts for the stages `Dev` and `Test` you also the newly added ones for the stage `Prod`.
+Check the setup in the SAP BTP cockpit. Besides the already existing directories and subaccounts for the stages `Dev` and `Test` you also find the newly added ones for the stage `Prod`.
 
 > [!NOTE]
 > You can also delete the complete setup in one run via the command `terraform destroy`. This will delete all resources created by Terraform in the current state. The command will present you a plan what it will destroy. Review and carefully and approve the action by typing `yes` when prompted.
 
 ## Summary
 
-You've now finished all steps to setup a multistage SAP BTP account structure using Terraform. You have learned how to create directories, subaccounts, and other resources in a structured way.
+You've now finished all steps to setup a multistage SAP BTP account structure using Terraform. You have learned how to create directories, subaccounts, and other resources in a structured way that enables further administrative tasks like cost and usage optimizations (*FinOps*).
 
 Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 

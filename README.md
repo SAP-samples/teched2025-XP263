@@ -6,13 +6,16 @@ This repository contains the material for the SAP TechEd 2025 session called XP2
 
 ## Overview
 
-This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It will give you insights on how to automate the consistent setup of SAP BTP accounts using Terraform as a prerequisite for doing FinOps on these accounts.You as global account administrator and controller will also be equipped with the skills to efficiently manage, monitor, and optimize their global accounts. Learn about new capabilities for global account management and cost and usage optimization.
+This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It consists of two parts.
+
+- Exercise 1 will give you insights on how to automate the consistent setup of SAP BTP accounts using **Terraform** as a prerequisite for doing FinOps on these accounts.
+- Exercise 2 will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. Learn about new capabilities for **cost and usage optimization**.
 
 ## Requirements
 
 Make sure that the following prerequisites are met if you do this exercise on your own SAP BTP account:
 
-- You have an SAP BTP CPEA or BTPEA Account.
+- You have an SAP BTP account.
 - Make sure that your SAP Universal ID is configured correctly. You can find the instructions in [SAP Note 3085908](https://me.sap.com/notes/3085908).
 - The Terraform provider does not support 2FA. Make sure that this option is not enforced for your account.
 - For if you intend to use the ['dev container' tools option](exercises/ex0/README.md#using-the-dev-container) then you must also have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your machine, as well as [Visual Studio Code](https://code.visualstudio.com/) with the [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.

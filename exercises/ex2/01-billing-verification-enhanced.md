@@ -256,4 +256,195 @@ In this exercise, you learned how to:
 
 ---
 
-[^1]: **Balance Statement**: A monthly financial document from SAP that details all charges, credits, and payment information for your BTP consumption.
+## 📚 Reference Materials
+
+<details>
+<summary>📖 <b>Glossary of Terms</b></summary>
+
+### Billing & Financial Terms
+
+| Term | Definition |
+|------|------------|
+| **Balance Statement** | A monthly financial document from SAP that details all charges, credits, and payment information for your BTP consumption |
+| **Charged Usage** | Consumption beyond prepaid quota that incurs additional charges at consumption rates |
+| **Cloud Credits** | Prepaid monetary value applied to BTP service consumption under a Cloud Platform Enterprise Agreement |
+| **Cloud Platform Enterprise Agreement (CPEA)** | An enterprise contract providing cloud credits for SAP BTP services, often with volume discounts |
+| **Consumption-Based Model** | A pricing model where you pay only for actual service usage, billed monthly |
+| **Hybrid Billing Model** | A combination of subscription and consumption billing where prepaid quota is used first |
+| **List Price** | The standard published price for a service before any discounts or credits |
+| **Net Overage Amount** | Charges exceeding cloud credits that require additional payment |
+| **Prepaid Quota** | Service allocation included in your subscription that doesn't incur additional charges when used |
+| **Subscription-Based Model** | A pricing model with upfront payment for a committed level of service |
+
+### BTP Technical Terms
+
+| Term | Definition |
+|------|------------|
+| **Global Account** | The top-level container for your SAP BTP resources, representing your entire BTP environment |
+| **Subaccount** | A subdivision of a global account, typically representing a project, department, or environment |
+| **Directory** | A folder-like container to organize multiple subaccounts |
+| **Service** | A cloud offering available on BTP (e.g., HANA Cloud, Cloud Foundry, Integration Suite) |
+| **SKU (Stock Keeping Unit)** | A unique identifier for a specific service offering and pricing plan |
+| **Usage Metrics** | Measurements of consumption (e.g., GB-hours, API calls, compute hours) |
+
+### FinOps Terms
+
+| Term | Definition |
+|------|------------|
+| **Chargeback** | Billing internal teams/departments for their actual cloud usage |
+| **Showback** | Reporting cloud costs to teams without actual billing/transfer of funds |
+| **Right-sizing** | Adjusting resource allocation to match actual usage needs, eliminating over-provisioning |
+| **Cost Allocation** | The process of assigning cloud costs to specific business units or cost centers |
+| **Burn Rate** | The rate at which cloud credits or budget is being consumed |
+| **Run Rate** | Current monthly spending extrapolated over a longer period (e.g., annual run rate) |
+
+</details>
+
+<details>
+<summary>🎯 <b>Quick Reference Card</b></summary>
+
+### Key Formulas
+
+| Calculation | Formula |
+|-------------|---------|
+| **Remaining Credits** | `Period Credits - Used Credits` |
+| **Charged Usage** | `Total Usage - Prepaid Quota` |
+| **Service Cost** | `Charged Usage × Rate` |
+| **Growth Rate** | `(Current - Previous) / Previous × 100%` |
+| **Burn Rate** | `Credits Used / Months Elapsed` |
+| **Projected Depletion** | `Remaining Credits / Monthly Burn Rate` |
+
+### Navigation Quick Reference
+
+| Action | Location | Shortcut |
+|--------|----------|----------|
+| Access Costs & Usage | Left Nav → Bottom of list | Bookmark it! |
+| Change Month | Top header → Month filter | - |
+| Filter Services | "Show only services with charged usage" checkbox | - |
+| View Service Details | Click service name in table | - |
+| Export Data | Top right → Export button | - |
+| View Balance Statement | SAP for Me → Billing & Payment | - |
+
+### Verification Checklist (One-Page)
+
+```
+☐ Navigate to Costs and Usage
+☐ Set month filter to verification period
+☐ Enable "Show only services with charged usage"
+☐ Verify Total Consumption services
+☐ Verify CPEA services
+☐ Validate cloud credits calculation
+☐ Confirm no unexpected overages
+☐ Review cost trend graph
+☐ Identify highest cost month
+☐ Document findings
+☐ Communicate to stakeholders
+```
+
+### When to Escalate
+
+| Situation | Severity | Action |
+|-----------|----------|--------|
+| < $100 discrepancy | 🟢 Low | Document, monitor |
+| $100-$1000 discrepancy | 🟡 Medium | Email support |
+| > $1000 discrepancy | 🔴 High | Create support ticket |
+| Cloud credits exhausted | 🔴 Critical | Alert CFO immediately |
+| Growth > 15% MoM | 🟡 Medium | Cost review meeting |
+| Growth > 30% MoM | 🔴 High | Emergency cost reduction |
+
+</details>
+
+<details>
+<summary>🔗 <b>Useful Links & Documentation</b></summary>
+
+### Official SAP Documentation
+
+| Resource | URL | Description |
+|----------|-----|-------------|
+| **BTP Cockpit Guide** | [help.sap.com/btp-cockpit](https://help.sap.com/docs/btp-cockpit) | Comprehensive guide to navigating and using BTP Cockpit |
+| **Cost and Usage Analytics** | [help.sap.com/btp-usage](https://help.sap.com/docs/btp/cost-usage) | Detailed documentation on cost tracking features |
+| **Commercial Models** | [help.sap.com/btp-pricing](https://help.sap.com/docs/btp/commercial-models) | Understanding consumption vs. subscription pricing |
+| **Cloud Credits FAQ** | [help.sap.com/cpea](https://help.sap.com/docs/cpea) | Everything about Cloud Platform Enterprise Agreements |
+| **BTP Pricing** | [sap.com/btp-pricing](https://www.sap.com/products/technology-platform/pricing.html) | Current pricing for BTP services |
+
+### Support & Community
+
+| Resource | URL | Description |
+|----------|-----|-------------|
+| **SAP Support Portal** | [support.sap.com](https://support.sap.com) | Create support tickets, access knowledge base |
+| **SAP Community** | [community.sap.com](https://community.sap.com) | Forums, blogs, Q&A |
+| **SAP for Me** | [me.sap.com](https://me.sap.com) | Access balance statements, contracts, licensing info |
+| **BTP Status** | [status.sap.com](https://status.sap.com) | Service availability and incident notifications |
+
+### Learning Resources
+
+| Resource | URL | Description |
+|----------|-----|-------------|
+| **SAP Learning Hub** | [learning.sap.com](https://learning.sap.com) | Official training courses |
+| **openSAP** | [open.sap.com](https://open.sap.com) | Free online courses |
+| **SAP TechEd** | [sap.com/teched](https://www.sap.com/events/teched.html) | Annual technology conference |
+| **FinOps Foundation** | [finops.org](https://www.finops.org) | Cloud financial management best practices |
+
+### Tools & Calculators
+
+| Resource | Purpose |
+|----------|---------|
+| **BTP Estimator** | Estimate costs for planned BTP usage |
+| **Cloud Credits Calculator** | Track credit consumption and burn rate |
+| **ROI Calculator** | Assess return on BTP investments |
+
+> [!NOTE]
+> **Bookmark These**: Save the most relevant links for quick access during your daily work.
+
+</details>
+
+<details>
+<summary>💻 <b>BTP Cockpit Tips & Tricks</b></summary>
+
+### Navigation Shortcuts
+
+1. **Breadcrumb Navigation**: Use the breadcrumb trail at the top to quickly navigate back to parent levels
+2. **Recent Items**: Check "Recent" in the left nav for frequently accessed accounts
+3. **Favorites**: Star your most-used subaccounts for quick access
+4. **Search**: Use the global search (top right) to find subaccounts or services
+
+### Data Export Tips
+
+1. **Export Formats**: Choose CSV for Excel analysis, JSON for programmatic processing
+2. **Date Ranges**: Export multiple months to create your own trend analysis
+3. **Filtering**: Apply filters before exporting to get only relevant data
+4. **Automation**: Use BTP CLI or APIs for scheduled exports
+
+### Visualization Tips
+
+1. **Full Screen Charts**: Click the expand icon on charts for better visibility
+2. **Compare Periods**: Use the comparison view to see month-over-month changes
+3. **Drill-Down**: Click any data point in charts to see underlying details
+4. **Custom Views**: Save your preferred filter combinations
+
+### Performance Optimization
+
+1. **Browser**: Chrome or Edge recommended for best performance
+2. **Cache**: Clear browser cache if data doesn't update
+3. **Refresh**: Use manual refresh button rather than browser refresh for faster updates
+4. **Bookmarks**: Bookmark specific filtered views to skip navigation steps
+
+### Mobile Access
+
+1. **Responsive Design**: BTP Cockpit works on tablets
+2. **Mobile App**: Consider SAP Mobile Start for notifications
+3. **Offline**: Export data before traveling for offline analysis
+
+### Troubleshooting Common Issues
+
+| Issue | Solution |
+|-------|----------|
+| Data not updating | Click "Refresh" button; check "Last Updated" timestamp |
+| Missing services | Verify month filter; check "Show all services" option |
+| Export failing | Reduce date range; try different format |
+| Slow loading | Clear browser cache; try different browser |
+| Charts not rendering | Enable JavaScript; check browser compatibility |
+
+</details>
+
+---

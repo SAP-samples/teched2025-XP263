@@ -693,11 +693,11 @@ Given the following information:
 **Calculation**:
 
 $$
-\text{Daily Average} = \frac{\text{Cost to Date}}{\text{Days Elapsed}} = \frac{\$300{,}000}{15} = \$20{,}000\text{ per day}
+\text{Daily Average} = \frac{\text{Cost to Date}}{\text{Days Elapsed}} = \frac{300{,}000}{15} = 20{,}000\text{ per day}
 $$
 
 $$
-\text{Projected Full Month} = \text{Daily Average} \times \text{Days in Month} = \$20{,}000 \times 30 = \$600{,}000
+\text{Projected Full Month} = \text{Daily Average} \times \text{Days in Month} = 20{,}000 \times 30 = 600{,}000
 $$
 
 **Answer**: $600,000 (projected)

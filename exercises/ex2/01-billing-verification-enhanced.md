@@ -2,12 +2,14 @@
 
 ## 🎯 Overview
 
-**Verify Billing vs. Balance Statement**: The balance statement[^1] (available in SAP for Me) is the starting point for your cross-checking the BTP cost information. Verifying your balance statement is recommended to be done monthly once the balance statement has been generated. As the next step you may investigate and further analyze the costs of the BTP Cockpit.
+**Verify Billing vs. Balance Statement**: The balance statement (available in SAP for Me) is the starting point for your cross-checking the BTP cost information. Verifying your balance statement is recommended to be done monthly once the balance statement has been generated. As the next step you may investigate and further analyze the costs of the BTP Cockpit.
 
 You can use the Billing view to display, monitor, and analyze your monthly charges of billable services, which have been consumed by the subaccounts in your global account over the last 12 months. The Billing view is split into two perspectives:
 
 - **View by Service** – more suitable for billing verification as it presents all the services ordered as in the balance statement to enable analysis of the service costs and usage.
 - **View by Account** – better suited for cross charging as it presents the account hierarchy including subaccounts and directories to enable analysis of the account entity costs and usage.
+
+<div align="center">
 
 ```mermaid
 flowchart TD
@@ -21,6 +23,8 @@ flowchart TD
     G -->|Issues Found| I[🔍 Investigate Discrepancies]
     I --> D
 ```
+
+</div>
 
 ---
 
@@ -147,7 +151,14 @@ $$
 
 **Question**: Did the billing verification confirm that all charges are accurate?
 
-**Your Answer**: **Yes / No**
+<details>
+<summary><b>Click to reveal answer</b></summary>
+
+**Answer**: Yes
+
+All service costs match between the balance statement and BTP Cockpit. The cloud credits calculation is correct ($8.3M - $5.6M = $2.7M remaining), and there are no unexpected overages.
+
+</details>
 
 <details>
 <summary>📋 <b>Verification Checklist Summary</b></summary>
@@ -171,6 +182,9 @@ $$
 - [ ] Scroll down to view the graph presenting the **Global Account - Cost Summary**
 - [ ] Choose **View By: List Price**
 - [ ] Review the cost trend for the last 12 months
+- [ ] Hover over the bars to see the estimated costs in November
+
+<div align="center">
 
 ```mermaid
 pie title Example Cost Distribution
@@ -181,13 +195,22 @@ pie title Example Cost Distribution
     "Storage & Other" : 8
 ```
 
+</div>
+
 ### Cost Trend Analysis
+
+### ✅ Verification Checkpoint
 
 **Question**: Which month has the highest costs over the last 12 months?
 
-**Your Answer**: **October**
+<details>
+<summary><b>Click to reveal answer</b></summary>
 
-- [ ] Hover over the bars to see the estimated costs in November
+**Answer**: October
+
+October 2025 shows the highest costs over the 12-month period, continuing the upward trend that requires further investigation.
+
+</details>
 
 > [!IMPORTANT]
 > **Understanding Estimated Costs**: In November (current month), the estimated costs are displayed as **striped bars**. These values cover the period between the last balance statement and today.

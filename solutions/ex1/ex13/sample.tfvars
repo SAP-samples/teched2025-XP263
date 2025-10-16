@@ -1,7 +1,7 @@
 globalaccount   = "<your-global-account-subdomain>" #<- Replace with your global account subdomain
-username        = "<your-username>"                 #<- Replace with your SAP BTP username e.g., XP263-001@education.cloud.sap
-password        = "<your-password>"                 #<- Replace with your SAP BTP password e.g., ainfvn15r
-idp             = "<value-for-the-idp>"             #<- Replace with your identity provider
+username        = "<your-username>"                 #<- Replace with your SAP BTP username e.g., XP263-XXX@education.cloud.sap
+password        = "<your-password>"                 #<- Replace with your SAP BTP password
+idp             = "<value-for-the-idp>"             #<- Replace with your identity provider e.g., ainfvn15r
 subsidiary_name = "Weyland Corporation Core"
 subaccounts = {
   "Sales App 1" = {

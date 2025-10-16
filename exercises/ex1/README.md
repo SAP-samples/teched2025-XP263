@@ -17,7 +17,7 @@ The goal of our Terraform configuration is to create a multistage SAP BTP accoun
 - Each directory contains one or more subaccounts. Each subaccount represents a specific application used by a business department in your company
 - Each subaccount contains several resources like entitlements, a Cloud Foundry environment etc.
 
-You find the baseline for this configuration in the folder [`infra`](infra/). Let us shortly walk through the files to get an overview of the setup:
+You find the baseline for this configuration in the folder `exercises/ex1/infra`. Let us shortly walk through the files to get an overview of the setup:
 
 - The configuration of the Terraform provider is done in the file [`provider.tf`](infra/provider.tf). This file contains the configuration for the Terraform provider for SAP BTP, namely the version constraints as well as the authentication information.
 - As an input for the configuration we use the file [`variables.tf`](infra/variables.tf). This contains the parameters for the configuration of the Terraform provider and other data to configure your SAP BTP account, like the information about the contact person and cost centers for the subaccounts.
@@ -83,14 +83,24 @@ With that we are ready to make the necessary adjustments and deploy the setup to
 
 After completing these steps, you will have a first deployment of your Terraform configuration to SAP BTP.
 
-Inside of the folder [`infra`](infra/) you find a file called [`sample.tfvars`](infra/sample.tfvars). This file contains the *values* for the variables that you want to use for your configuration. Execute the following steps:
+Inside of the folder `exercises/ex1/infra` you find a file called [`sample.tfvars`](infra/sample.tfvars). This file contains the *values* for the variables that you want to use for your configuration. Execute the following steps:
 
 1. Rename the file to `terraform.tfvars`. Due to this naming Terraform will directly use this file as input for the configuration.
 1. Open the renamed file `terraform.tfvars`. You will find values for the variables defined in the file [`variables.tf`](infra/variables.tf).
-1. Fill in the values for the variables `globalaccount`, `username`, `password` and `idp`. You can find these values in your SAP BTP account.
-1. Save the file.
+1. Fill in the values for the variables `globalaccount`, `username`, `password` and `idp`.
 
-With this we are ready to deploy the configuration. To do so, execute the following open a PowerShell terminal window and navigate to the folder `infra`. Execute the following commands:
+> [!IMPORTANT]
+> For the participants of the onsite hands-on workshop at SAP TechEd Berlin 2025 the value for **username** will have the format `XP263-XXX@education.cloud.sap` where XXX is the number of your workshop place. The value for the **idp** is `ainfvn15r`. The value for the subdomain as well as the password will be provided to you during the workshop.
+
+Save the file.
+
+With this we are ready to deploy the configuration. To do so, execute the following open a PowerShell terminal window and navigate to the folder `infra`:
+
+```powershell
+cd exercises/ex1/infra
+```
+
+Execute the following commands in the PowerShell terminal:
 
 1. Initialize the Terraform configuration:
 

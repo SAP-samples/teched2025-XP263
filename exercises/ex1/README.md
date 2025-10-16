@@ -89,10 +89,10 @@ Inside of the folder `exercises/ex1/infra` you find a file called [`sample.tfvar
 1. Open the renamed file `terraform.tfvars`. You will find values for the variables defined in the file [`variables.tf`](infra/variables.tf).
 1. Fill in the values for the variables `globalaccount`, `username`, `password` and `idp`.
 
-   > [!IMPORTANT]
-   > For the participants of the onsite hands-on workshop at SAP TechEd Berlin 2025 the value for **username** will have the format `XP263-XXX@education.cloud.sap` where XXX is the number of your workshop place. The value for the **idp** is `ainfvn15r`. The value for the subdomain as well as the password will be provided to you during the workshop.
+> [!IMPORTANT]
+> For the participants of the onsite hands-on workshop at SAP TechEd Berlin 2025 the value for **username** will have the format `XP263-XXX@education.cloud.sap` where XXX is the number of your workshop place. The value for the **idp** is `ainfvn15r`. The value for the subdomain as well as the password will be provided to you during the workshop.
 
-1. Save the file.
+Save the file.
 
 With this we are ready to deploy the configuration. To do so, execute the following open a PowerShell terminal window and navigate to the folder `infra`:
 

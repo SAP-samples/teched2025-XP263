@@ -1,7 +1,7 @@
 # TechEd - Apex Holdings Scenario
 
 > [!NOTE]
-> This guided exercise demonstrates SAP BTP administration and FinOps practices using a realistic enterprise simulation.
+> This guided exercise demonstrates SAP BTP administration and FinOps practices using a realistic enterprise simulation, for TechEd demo.
 
 ---
 

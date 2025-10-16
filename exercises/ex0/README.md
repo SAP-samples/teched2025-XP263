@@ -127,4 +127,5 @@ The dev container will automatically start and you are ready to go.
 ## Summary
 
 Now that you have set up the prerequisites, you can start with the first exercise of the workshop.
+
 Continue to - [Exercise 1 - Setup of Terraform Configuration](../ex1/README.md)

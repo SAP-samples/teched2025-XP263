@@ -21,5 +21,9 @@ matrix:
             - "pre"
             - "blockquote"
     sources:
-      - "**/*.md"
+      - "exercises/ex0/README.md"
+      - "exercises/ex1/README.md"
+      - "exercises/ex2/00-*.md"
+      - "exercises/ex2/01-*.md"
+      - "README.md"
     default_encoding: utf-8

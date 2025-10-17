@@ -1,4 +1,5 @@
 API
+APAC
 AI
 ai
 auditlog
@@ -59,6 +60,7 @@ kubeconfig
 kymaruntime
 Kyma
 kyma
+LATAM
 macOS
 md
 namings
@@ -127,3 +129,16 @@ YAML
 yaml
 yml
 zsh
+
+Chargeback
+chargeback
+HANA
+SKU
+Showback
+ROI
+cpea
+finops
+openSAP
+www
+WWW
+CSV

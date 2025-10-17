@@ -6,10 +6,22 @@ This repository contains the material for the SAP TechEd 2025 session called XP2
 
 ## Overview
 
-This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It consists of two parts.
+In this guided exercise, participants will take on the roles of Apex Holdings administrators and a FinOps controller.
 
-- Exercise 1 will give you insights on how to automate the consistent setup of SAP BTP accounts using **Terraform** as a prerequisite for doing FinOps on these accounts.
-- Exercise 2 will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. Learn about new capabilities for **cost and usage optimization**.
+Apex Holdings is a sample global enterprise created to simulate SAP BTP administration and FinOps practices. The company operates across diverse industries - such as health, retail, energy, etc. - each represented as Subsidiary with its own BTP directory.
+
+Within each Subsidiary, you'll find departments such as finance, sales, HR, IT, and operations with subaccounts spanning regions like EMEA, North America, APAC, LATAM, and the Middle East (represented as labels).
+Each Subsidiary manages its own dedicated applications, ranging from payroll and performance reviews in HR to revenue forecasting, logistics, and customer insights.
+
+The overall account structure mirrors a real-world organization with production, test, and development environments (represented as directories) aligned to cost centers and contact persons (represented as labels).
+
+This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It consists of two parts:
+
+- **Exercise 1** will give you insights on how to automate a consistent sample setup of SAP BTP accounts using **Terraform** as a foundation for using the FinOps capabilities on your accounts.
+- **Exercise 2** will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. You will learn about new capabilities for **cost and usage optimization** using the Apex setup available to all customers. At the end, you will explore a preview of the Cost and Usage Overview page (non-productive at the time of SAP TechEd 2025).
+
+> [!NOTE]
+> The two exercises are independent of each other. In case you get stuck in exercise 1 you can still proceed with exercise 2.
 
 ## Requirements
 

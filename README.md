@@ -18,7 +18,7 @@ The overall account structure mirrors a real-world organization with production,
 This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It consists of two parts:
 
 - **Exercise 1** will give you insights on how to automate a consistent sample setup of SAP BTP accounts using **Terraform** as a foundation for using the FinOps capabilities on your accounts.
-- **Exercise 2** will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. You will learn about new capabilities for **cost and usage optimization** using the Apex setup available to all customers. At the end, you will explore a preview of the Cost and Usage Overview page (non-productive at the time of SAP TechEd 2025).
+- **Exercise 2** will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. You will learn about the **FinOps capabilities** (management cost and usage for BTP services) available to all customers using the Apex setup. At the end, you will explore a preview of the Cost and Usage Overview page (non-productive at the time of SAP TechEd 2025).
 
 > [!NOTE]
 > The two exercises are independent of each other. In case you get stuck in exercise 1 you can still proceed with exercise 2.

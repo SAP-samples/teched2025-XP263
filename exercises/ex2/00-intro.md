@@ -45,9 +45,14 @@ This exercise demonstrates **FinOps capabilities** that are publicly available t
 
 8. Each subaccount has 5 Labels representing the Contact Person, Cost Center, Department, Environment and Region.
 
-   **What are labels?** – *Collapsible Section*
+<details>
+<summary><b>What are labels?</b></summary>
 
-   Labels are user-defined words or phrases that you can assign to various entities (such as directories, subaccounts) in SAP BTP to categorize them in your global account, to identify them more easily. They enable you to organize and filter your entities within your global account to assist in managing the account and cost aggregation. They are particularly useful for accounts that lack a well-defined structure (e.g., those built-up layer by layer over time).
+Labels are user-defined words or phrases that you can assign to various entities (such as directories, subaccounts) in SAP BTP to categorize them in your global account, to identify them more easily. They enable you to organize and filter your entities within your global account to assist in managing the account and cost aggregation. They are particularly useful for accounts that lack a well-defined structure (e.g., those built-up layer by layer over time).
+
+</details>
+
+<br>
 
 9. Try it out! Label filtering by entering ContactPerson in the search box and choose:
    ```

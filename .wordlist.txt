@@ -1,3 +1,4 @@
+ainfvn
 Alex
 alex
 API
@@ -50,6 +51,7 @@ dir
 Dropdown
 dropdown
 EMEA
+emea
 ESC
 faq
 FinOps
@@ -64,6 +66,7 @@ https
 HCL
 HashiCorp
 IdP
+idp
 json
 JSON
 js
@@ -89,6 +92,7 @@ nav
 OAuth
 oidc
 OIDC
+ondemand
 OpenID
 openSAP
 OpenSSF

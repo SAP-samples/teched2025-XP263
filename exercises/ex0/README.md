@@ -8,7 +8,24 @@ We distinguish between two ways of doing the Terraform part of the workshop:
 
 ## Guided Hands-On Workshop at SAP TechEd 2025 in Berlin
 
-The prerequisites for the hands-on workshop are already installed on the local machine provided to you. There is only one last step you need to do namely to download the code of this workshop to your local machine.
+The prerequisites for the hands-on workshop are already installed on the local machine provided to you. There are two steps you need to do before you can start with the first exercise of the workshop:
+
+- Access to the SAP BTP Account
+- Get the code of the workshop onto your machine
+
+We will guide you through these two steps in the following sections.
+
+## Access to the SAP BTP Account
+
+We provide a dedicated SAP BTP account for each workshop place. Access the SAP BTP Account using the following data:
+
+1. Open the following link in a browser to access the SAP BTP account: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com>
+2. Enter the user name `XP263-XXX@education.cloud.sap`, where `XXX` is the number of your workshop place. For example: XP263-000@education.cloud.sap
+3. Enter the password for your user. **The password will be provided to you at the beginning of the workshop.**
+
+## Access to the Code Repository
+
+There is one last step you need to do namely to download the code of this workshop to your local machine. You have two options described in the following sections.
 
 ### Option 1 - Clone the repository (recommended)
 
@@ -30,7 +47,7 @@ The prerequisites for the hands-on workshop are already installed on the local m
    code .
    ```
 
-You are good to go and can start with the [next exercise](#summary).
+You are good to go and can start with the [Exercise 1 - Setup of Terraform Configuration](../ex1/README.md).
 
 ### Option 2 - Download the code from the GitHub repository
 
@@ -86,7 +103,7 @@ Next you must extract the ZIP file and copy the extracted folder into your users
    code .
    ```
 
-You are good to go and can start with the [next exercise](#summary).
+You are good to go and can start with the [Exercise 1 - Setup of Terraform Configuration](../ex1/README.md).
 
 ## Self-paced on your own
 

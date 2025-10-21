@@ -84,7 +84,7 @@ sequenceDiagram
 
 **Objective**: Navigate to the Costs and Usage section and understand your account's billing structure.
 
-![BTP Cockpit Costs and Usage](images/billing-verification/btp-cockpit-costs-and-usage-overview.jpg)
+![BTP Cockpit Costs and Usage](images/01-billing-verification/btp-cockpit-costs-and-usage-overview.jpg)
 
 ### Navigation Steps
 
@@ -183,7 +183,7 @@ $$
 > [!NOTE]
 > For this exercise, we're using screenshots from the **October 2025** balance statement. The balance statement is organized into sections marked by blue headings.
 
-![Balance Statement Comparison](images/billing-verification/billing-view-by-service-with-cost-summary.jpg)
+![Balance Statement Comparison](images/01-billing-verification/billing-view-by-service-with-cost-summary.jpg)
 
 ### Initial Setup
 
@@ -220,7 +220,7 @@ The same backend system feeds both the balance statement and BTP Cockpit, so the
 
 ### 💰 Section 2A: Total Consumption Services
 
-<img src="images/billing-verification/balance-statement-total-consumption-section.jpg" alt="Total Consumption Services" width="75%">
+<img src="images/01-billing-verification/balance-statement-total-consumption-section.jpg" alt="Total Consumption Services" width="75%">
 
 **What are Total Consumption services?** These are services charged purely based on usage, without any prepaid quota applied. They appear in the first section of your balance statement.
 
@@ -293,7 +293,7 @@ $$
 
 ### 💳 Section 2B: Cloud Platform Enterprise Agreement Services
 
-<img src="images/billing-verification/balance-statement-cpea-section.jpg" alt="Cloud Platform Enterprise Agreement Services" width="75%">
+<img src="images/01-billing-verification/balance-statement-cpea-section.jpg" alt="Cloud Platform Enterprise Agreement Services" width="75%">
 
 **What are CPEA services?** These are services covered under your Cloud Platform Enterprise Agreement, drawn against your cloud credits. They represent your committed subscription services.
 
@@ -363,7 +363,7 @@ flowchart TD
 
 ### 🏦 Section 2C: Cloud Credits and Payment Summary
 
-<img src="images/billing-verification/balance-statement-cloud-credits-payment-summary.jpg" alt="Cloud Credits and Payment Summary" width="75%">
+<img src="images/01-billing-verification/balance-statement-cloud-credits-payment-summary.jpg" alt="Cloud Credits and Payment Summary" width="75%">
 
 **Objective**: Verify your cloud credit calculation and confirm there are no unexpected payment obligations.
 

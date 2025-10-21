@@ -2,6 +2,8 @@
 
 > [!NOTE]
 > This guide covers all current GitHub markdown features including recent additions for creating visually rich documentation.
+>
+> **Updated with real-world nuances:** Includes critical findings about indentation issues, copy buttons, and spacing that affect rendering on GitHub.
 
 ---
 
@@ -22,6 +24,17 @@
 | **Collapsible Sections** | Always | Hide/show content | `<details>` |
 | **Tables** | Always | Data grids | `\| col \|` |
 | **Video Embeds** | 2023 | MP4, WebM support | Drag & drop or link |
+| **Code Blocks** | Always | Copy buttons automatic | ` ```code``` ` |
+| **HTML Breaks** | Always | Extra spacing | `<br>` |
+
+### ⚠️ Critical Gotchas & Nuances
+
+| Issue | Problem | Solution | Section |
+|-------|---------|----------|---------|
+| **Indented `<details>`** | Renders as plain text | Start at column 0 or use alerts | 🔟 Collapsible Sections |
+| **Inline code copying** | No copy button | Use fenced code blocks instead | 1️⃣1️⃣ Code Blocks |
+| **Multiple blank lines** | Collapse to single space | Use `<br>` tags | 1️⃣2️⃣ Spacing |
+| **Preview vs. actual** | May render differently | Always test on GitHub.com | Throughout |
 
 ---
 
@@ -282,6 +295,78 @@ Simply drag and drop `.mp4`, `.mov`, `.webm`, or `.ogv` files into your markdown
 
 ## 🔟 Collapsible Sections (Details/Summary)
 
+### Basic Syntax
+
+```markdown
+<details>
+<summary><b>Click to expand</b></summary>
+
+Your content here...
+
+</details>
+```
+
+### ⚠️ Critical: Indentation Issues
+
+**IMPORTANT:** Indentation can break collapsible sections!
+
+#### ❌ Broken (Will Render as Plain Text)
+```markdown
+8. Some list item
+
+   <details>
+   <summary><b>What are labels?</b></summary>
+
+   Content here
+
+   </details>
+```
+
+**Why it breaks:** GitHub's markdown parser may not recognize indented `<details>` tags as HTML.
+
+#### ✅ Working Options
+
+**Option 1: No Indentation (Functional but not visually aligned)**
+```markdown
+8. Some list item
+
+<details>
+<summary><b>What are labels?</b></summary>
+
+Content here
+
+</details>
+```
+
+**Option 2: Use Alerts Instead (Better for lists)**
+```markdown
+8. Some list item
+
+   > [!NOTE]
+   > **What are labels?**
+   > Content here - alerts work fine when indented!
+```
+
+**Option 3: Separate from List**
+```markdown
+8. Some list item
+
+---
+
+<details>
+<summary><b>What are labels?</b></summary>
+
+Content here
+
+</details>
+
+---
+
+9. Next list item
+```
+
+### Working Examples
+
 <details>
 <summary><b>📊 Click to see cost breakdown</b></summary>
 
@@ -310,6 +395,227 @@ Simply drag and drop `.mp4`, `.mov`, `.webm`, or `.ogv` files into your markdown
    - [ ] Set up alerts
 
 </details>
+
+### Best Practices
+
+1. **Start tags at column 0** (no indentation) for guaranteed rendering
+2. **Use alerts for indented content** - they handle indentation better
+3. **Add blank lines** before and after `<details>` blocks
+4. **Test rendering** on GitHub - preview may differ from actual rendering
+5. **Prefer `<b>` over `**bold**`** in summary tags for consistency
+
+---
+
+## 1️⃣1️⃣ Code Blocks & Copy Buttons
+
+### Inline vs. Block Code
+
+GitHub automatically provides **copy buttons** on fenced code blocks, but NOT on inline code.
+
+#### Inline Code (No Copy Button)
+```markdown
+Use `inline code` for short snippets in text flow.
+```
+Renders as: Use `inline code` for short snippets in text flow.
+
+**When to use:**
+- Variable names, file paths, short commands within sentences
+- When visual distinction is needed but copying is not critical
+
+#### Fenced Code Blocks (Copy Button Included!)
+````markdown
+```
+Text in a code block - has copy button!
+```
+````
+
+**When to use:**
+- URLs, credentials, email addresses users need to copy
+- Multi-line code snippets
+- Any value users will copy-paste
+
+### ✅ Best Practice: Copyable Values
+
+**❌ Don't use inline code for values to copy:**
+```markdown
+Enter the URL `https://very-long-url.com/with/many/parameters`
+```
+
+**✅ Do use code blocks for copyable values:**
+```markdown
+Enter the URL:
+```
+https://very-long-url.com/with/many/parameters
+```
+```
+
+### Real-World Example
+
+**Workshop Instructions Format:**
+
+````markdown
+1. Open the application
+   ```
+   https://emea.cockpit.btp.cloud.sap/cockpit/?idp=example.com
+   ```
+
+2. Enter your username (replace XXX with your number):
+   ```
+   XP263-XXX@education.cloud.sap
+   ```
+   For example:
+   ```
+   XP263-000@education.cloud.sap
+   ```
+
+3. Enter the password:
+   ```
+   SecurePassword123!
+   ```
+````
+
+### Copy Button Availability
+
+| Context | Copy Button | Notes |
+|---------|-------------|-------|
+| GitHub.com (web) | ✅ Yes | Appears on hover (top-right corner) |
+| GitHub README | ✅ Yes | Same as web view |
+| VS Code preview | ⚠️ Maybe | Depends on markdown extension |
+| Raw markdown | ❌ No | Not rendered |
+| GitHub mobile app | ✅ Yes | Tap to copy |
+
+### Tips
+
+1. **Hover test:** Copy buttons appear when hovering over code blocks on GitHub
+2. **Use blank code blocks** when you don't need syntax highlighting
+3. **Language tags optional:** ` ```bash` vs ` ``` ` - both have copy buttons
+4. **Indentation works:** Code blocks can be indented (unlike `<details>`)
+
+---
+
+## 1️⃣2️⃣ Spacing & Line Breaks
+
+### The Problem: Multiple Blank Lines Collapse
+
+Markdown collapses multiple consecutive blank lines into a single space when rendered.
+
+#### ❌ Doesn't Create Extra Space
+```markdown
+Some text
+
+
+More text (only 1 line gap will show)
+```
+
+#### ✅ Use HTML Break Tags
+```markdown
+Some text
+
+<br>
+
+More text (now has visual spacing!)
+```
+
+### When to Use `<br>` Tags
+
+**Use case 1: Separating sections within lists**
+```markdown
+8. First item with details
+
+<details>
+<summary>More info</summary>
+Content here
+</details>
+
+<br>
+
+9. Next item (has visual space from previous)
+```
+
+**Use case 2: Creating breathing room in dense content**
+```markdown
+> [!NOTE]
+> Important information here
+
+<br>
+
+Next paragraph needs separation
+```
+
+**Use case 3: Between different element types**
+```markdown
+Regular paragraph
+
+<br>
+
+| Table | Header |
+|-------|--------|
+| Data  | Here   |
+```
+
+### Alternative: Horizontal Rules
+
+For stronger visual separation, use `---`:
+
+```markdown
+Section 1 content
+
+---
+
+Section 2 content
+```
+
+### Spacing Best Practices
+
+| Situation | Solution | Visual Impact |
+|-----------|----------|---------------|
+| Between paragraphs | 1 blank line | Standard |
+| Before/after code blocks | 1 blank line | Standard |
+| Before/after lists | 1 blank line | Standard |
+| Extra breathing room | `<br>` tag | Medium |
+| Section separation | `---` rule | Strong |
+| Major section break | `---` + blank lines | Very strong |
+
+### Common Patterns
+
+**Pattern 1: List item with collapsible**
+```markdown
+8. Item text
+
+<details>
+<summary>Details</summary>
+Content
+</details>
+
+<br>
+
+9. Next item
+```
+
+**Pattern 2: Alert with follow-up**
+```markdown
+> [!WARNING]
+> Critical information
+
+<br>
+
+Continue with normal text after visual break
+```
+
+**Pattern 3: Code block series**
+```markdown
+Step 1:
+```
+command-one
+```
+
+<br>
+
+Step 2:
+```
+command-two
+```
+```
 
 ---
 
@@ -414,20 +720,36 @@ Use consistent header levels with emoji prefixes
 | **Lists** | Bullets/Numbers | `- item` `1. item` | Enumerations |
 | **Links** | Hyperlinks | `[text](url)` | Navigation |
 | **Images** | Images | `![alt](url)` | Visual content |
-| **Code** | Inline/Block | `` `code` `` ` ```lang` | Code samples |
+| **Code** | Inline | `` `code` `` | Short snippets (no copy button) |
+| **Code** | Fenced Block | ` ```lang` | Multi-line code (has copy button!) |
 | **Tables** | Tables | `\| col \|` | Data presentation |
 | **Quotes** | Blockquotes | `> quote` | Emphasis |
 | **Rules** | Horizontal | `---` | Separation |
+| **Spacing** | Line Break | `<br>` | Extra vertical space |
 | **Tasks** | Checkboxes | `- [ ]` | Progress tracking |
-| **Alerts** | Callouts | `> [!TYPE]` | Important notes |
+| **Alerts** | Callouts | `> [!TYPE]` | Important notes (indents well!) |
 | **Diagrams** | Mermaid | ` ```mermaid` | Flowcharts |
 | **Math** | LaTeX | `$math$` | Formulas |
 | **Maps** | GeoJSON | ` ```geojson` | Geographic data |
 | **3D** | STL | ` ```stl` | 3D models |
-| **Collapse** | Details | `<details>` | Hide/show content |
+| **Collapse** | Details | `<details>` | Hide/show (no indent!) |
 | **Footnotes** | References | `[^1]` | Citations |
 | **Videos** | Embed | Drag/drop or URL | Demonstrations |
 
 ---
 
+## 📝 Quick Reference: Common Issues & Solutions
+
+| If you need to... | Don't use... | Use instead... |
+|-------------------|--------------|----------------|
+| Make text copyable | Inline `code` | Fenced code block |
+| Add collapsible in list | Indented `<details>` | Unindented `<details>` or alert |
+| Create extra spacing | Multiple blank lines | `<br>` tag |
+| Visual separation | Nothing | `---` horizontal rule |
+| Highlight important info | Bold text | Alert boxes (`> [!NOTE]`) |
+
+---
+
 *This guide represents the current state of GitHub Markdown as of 2024-2025. Features may be added or modified over time.*
+
+*Last updated: Based on real-world TechEd 2025 workshop development - includes tested solutions for common rendering issues.*

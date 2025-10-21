@@ -59,3 +59,7 @@ This exercise demonstrates **FinOps capabilities** that are publicly available t
    ContactPerson :alex.yamamoto@apex.com
    ```
    You will see a filtered list of the account structure including the subaccounts with this label.
+
+---
+
+Continue to: [Exercise 1 - Billing verification](01-billing-verification.md)

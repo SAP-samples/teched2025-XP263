@@ -30,7 +30,7 @@ flowchart TD
 
 ## 📍 Orientation
 
-![BTP Cockpit Costs and Usage](images/billing-verification/btp-cockpit-costs-and-usage-overview.jpg)
+![BTP Cockpit Costs and Usage](images/01-billing-verification/btp-cockpit-costs-and-usage-overview.jpg)
 
 ### Navigation Steps
 
@@ -64,7 +64,7 @@ Combines both models: subscription quota is consumed first, then overages are ch
 > [!NOTE]
 > For this exercise, we will provide screen shots from the **October 2025** balance statement. The balance statement is split into a few sections which you can see via the Blue headings.
 
-![Balance Statement Comparison](images/billing-verification/billing-view-by-service-with-cost-summary.jpg)
+![Balance Statement Comparison](images/01-billing-verification/billing-view-by-service-with-cost-summary.jpg)
 
 ### Initial Setup
 
@@ -78,7 +78,7 @@ Combines both models: subscription quota is consumed first, then overages are ch
 
 ### 💰 Section 1: Total Consumption Services
 
-<img src="images/billing-verification/balance-statement-total-consumption-section.jpg" alt="Total Consumption Services" width="75%">
+<img src="images/01-billing-verification/balance-statement-total-consumption-section.jpg" alt="Total Consumption Services" width="75%">
 
 **Verification Task**: Compare the first 3 services listed in the balance statement under section **'Total Consumption'** with the information in the Costs and Usage.
 
@@ -98,7 +98,7 @@ Click the information icon (ℹ️) on the Costs and Usage page for detailed exp
 
 ### 💳 Section 2: Cloud Platform Enterprise Agreement Services
 
-<img src="images/billing-verification/balance-statement-cpea-section.jpg" alt="Cloud Platform Enterprise Agreement Services" width="75%">
+<img src="images/01-billing-verification/balance-statement-cpea-section.jpg" alt="Cloud Platform Enterprise Agreement Services" width="75%">
 
 **Verification Task**: Compare the first 3 services in the balance statement under section **'Cloud Platform Enterprise Agreement'** with the Costs and Usage page.
 
@@ -109,7 +109,7 @@ Click the information icon (ℹ️) on the Costs and Usage page for detailed exp
 
 ### 🏦 Section 3: Cloud Credits and Payment Summary
 
-<img src="images/billing-verification/balance-statement-cloud-credits-payment-summary.jpg" alt="Cloud Credits and Payment Summary" width="75%">
+<img src="images/01-billing-verification/balance-statement-cloud-credits-payment-summary.jpg" alt="Cloud Credits and Payment Summary" width="75%">
 
 **Verification Task**: Compare the 'Total net value of service consumed' and cloud credits.
 

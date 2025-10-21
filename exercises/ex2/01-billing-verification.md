@@ -36,21 +36,22 @@ Note: The Balance Statement is divided into several sections, indicated by the b
 
    <img src="images/01-billing-verification/balance-statement-total-consumption-section.jpg" alt="Total Consumption Services" width="75%">
 
+> [!NOTE]
+> The Costs and Usage page aggregates the two sections from the balance statement into a single view. This enables you to see the information per service together and drill down into the details of each service to better understand how its costs were generated.
+
 5. Compare the first three services in the Balance Statement under the "Cloud Platform Enterprise Agreement" section (see #2 in the screenshot below) with the Costs and Usage page by reviewing the List Price column.
 
    <img src="images/01-billing-verification/balance-statement-cpea-section.jpg" alt="Cloud Platform Enterprise Agreement Services" width="75%">
 
-   > [!NOTE]
-   > As you may see on the Costs and Usage page, the table aggregates the two sections from the balance statement into a single view. This enabled you to see the information per service together and drill down into the details of each service to better understand how its costs were generated.
-
 6. Compare the 'Total net value of service consumed' in the balance statement (#3 in screen shot below) with the data in the Cost and Usage page. In the Cost and Usage header, you may find this information by expanding the Cloud Platform Enterprise Agreement card (card on the right). To view cloud credits used in October, hover over the October bar.
+
+> [!NOTE]
+> Since there are remaining cloud credits, the balance statement shows a 'Net Overage Amount' of 0. This indicates there are no overages, and therefore you can see in the "Payment Summary", no additional costs to be paid.
+
 7. Compare the 'Closing Cloud Credit balance as of 30, Oct 2025' in the balance statement (#3 in screen shot below) with the information in Cloud Platform Enterprise Agreement card. In the card, you will find the cloud credits for the current period:
    - Cloud credits allocated: $8.3 M
    - Cloud credits used: $5.6 M
    - This means the remaining cloud credits: $2.7 M ($8.3 M − $5.6 M) like in the balance statement.
-
-   > [!NOTE]
-   > Since there are remaining cloud credits, the balance statement shows a 'Net Overage Amount' of 0. This indicates there are no overages, and therefore you can see in the "Payment Summary", no additional costs to be paid.
 
    <img src="images/01-billing-verification/balance-statement-cloud-credits-payment-summary.jpg" alt="Cloud Credits and Payment Summary" width="75%">
 
@@ -70,10 +71,10 @@ Note: The Balance Statement is divided into several sections, indicated by the b
    **October**
    </details>
 
-2. Hover to see the estimated costs in November.
+> [!NOTE]
+> In November (current month), the estimated costs are displayed as striped bars. These values cover the period between the last balance statement and today. They are considered estimates because they are based on raw resource usage data before final aggregation for billing (not forecast values). Once the billing cycle closes and a new Balance Statement is issued, the values are finalized and will no longer appear as striped bars.
 
-   > [!NOTE]
-   > In November (current month), the estimated costs are displayed as striped bars. These values cover the period between the last balance statement and today. They are considered estimates because they are based on raw resource usage data before final aggregation for billing (not forecast values). Once the billing cycle closes and a new Balance Statement is issued, the values are finalized and will no longer appear as striped bars.
+2. Hover to see the estimated costs in November.
 
 ## Summary
 

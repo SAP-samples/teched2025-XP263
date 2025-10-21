@@ -15,10 +15,11 @@ You may also use the option available to export the data to Excel for further tr
 1. In the Costs and Usage header, ensure that the filter for Month is set to the previous month.
 2. Ensure that you are in the Billing → View by Account and click on the collapse all button to view the Account hierarchy.
 3. You will see 5 Subsidiaries and a list of subaccounts. These are subaccounts that had cost or usage during the last 12 months and were deleted.
-4. Select subsidiary NexaTech Digital, what is the cumulative list price in the last 12 months?
 
-   > [!TIP]
-   > Scroll down to the graph and choose View by: Cumulative List Price.
+> [!TIP]
+> Scroll down to the graph and choose View by: Cumulative List Price.
+
+4. Select subsidiary NexaTech Digital, what is the cumulative list price in the last 12 months?
 
    <details>
    <summary>Answer</summary>
@@ -28,10 +29,11 @@ You may also use the option available to export the data to Excel for further tr
    <br>
 
 5. Unselect subsidiary NexaTech Digital.
-6. What subaccount has the highest costs in the previous month?
 
-   > [!TIP]
-   > Select "Show only subaccounts" and sort the List Price column in descending order to organize the services by cost.
+> [!TIP]
+> Select "Show only subaccounts" and sort the List Price column in descending order to organize the services by cost.
+
+6. What subaccount has the highest costs in the previous month?
 
    <details>
    <summary>Answer</summary>
@@ -40,10 +42,10 @@ You may also use the option available to export the data to Excel for further tr
    </details>
    <br>
 
-   1. Was the previous month the highest cost period for this SA in the last 12 months?
+   > [!TIP]
+   > Select this subaccount and scroll down to the graph, choose View by: List Price.
 
-      > [!TIP]
-      > Select this subaccount and scroll down to the graph, choose View by: List Price.
+   1. Was the previous month the highest cost period for this SA in the last 12 months?
 
       <details>
       <summary>Answer</summary>
@@ -52,10 +54,10 @@ You may also use the option available to export the data to Excel for further tr
       </details>
       <br>
 
-   2. Which is the costliest service plan they used?
+   > [!TIP]
+   > In the graph choose View by: Cost Breakdown by Service Plans.
 
-      > [!TIP]
-      > In the graph choose View by: Cost Breakdown by Service Plans.
+   2. Which is the costliest service plan they used?
 
       <details>
       <summary>Answer</summary>
@@ -65,10 +67,11 @@ You may also use the option available to export the data to Excel for further tr
       <br>
 
    3. To investigate this subaccount – view the labels assigned to it.
-   4. You may contact the owner of this subaccount to inform them that they have crossed the 40k USD in the previous month. Who is the contact person?
 
-      > [!TIP]
-      > View the labels of this subaccount.
+   > [!TIP]
+   > View the labels of this subaccount.
+
+   4. You may contact the owner of this subaccount to inform them that they have crossed the 40k USD in the previous month. Who is the contact person?
 
       <details>
       <summary>Answer</summary>
@@ -94,10 +97,10 @@ You may also use the option available to export the data to Excel for further tr
    </details>
    <br>
 
-3. As you saw, subaccount HR App 4 - TEST is in EMEA, what are the cost for the whole Apex EMEA region?
+> [!TIP]
+> Search for the label Region and choose Region: EMEA or you may search for EMEA (similar to the previous step).
 
-   > [!TIP]
-   > Search for the label Region and choose Region: EMEA or you may search for EMEA (similar to the previous step).
+3. As you saw, subaccount HR App 4 - TEST is in EMEA, what are the cost for the whole Apex EMEA region?
 
    <details>
    <summary>Answer</summary>

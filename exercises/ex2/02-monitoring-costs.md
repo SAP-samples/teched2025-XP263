@@ -11,10 +11,11 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 1. In the Costs and Usage header, ensure that the filter for Month is set to the previous month.
 2. The default view displays Billing → View By Service
-3. Which service plan has the highest cost?
 
-   > [!TIP]
-   > Sort the List Price column in descending order to organize the services by cost.
+> [!TIP]
+> Sort the List Price column in descending order to organize the services by cost.
+
+3. Which service plan has the highest cost?
 
    <details>
    <summary>Answer</summary>
@@ -37,10 +38,11 @@ In this section, you will monitor costs and resource consumption by comparing se
    3. This explains some of the increase in the overall previous month costs. Let's see why this increase occurred. Close the expanded graph view to see the full Billing table
 5. Select the service plan with the highest costs (as identified in step #3).
 6. You can see on the right-hand side the service plan details and find all subaccounts that use this service plan.
-7. What is the Subaccount with the highest costs in the previous month using this service plan?
 
-   > [!TIP]
-   > Check "Shows subaccounts only" and sort the List Price Column by descending.
+> [!TIP]
+> Check "Shows subaccounts only" and sort the List Price Column by descending.
+
+7. What is the Subaccount with the highest costs in the previous month using this service plan?
 
    <details>
    <summary>Answer</summary>

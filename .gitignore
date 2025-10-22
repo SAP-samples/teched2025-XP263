@@ -17,3 +17,10 @@ output
 
 # Temporary files
 temp/
+
+# Obsidian
+.obsidian/
+.obsidian.vimrc
+
+# Claude Code
+claude.md

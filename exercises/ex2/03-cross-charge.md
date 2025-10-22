@@ -24,7 +24,9 @@ You may also use the option available to export the data to Excel for further tr
    <details>
    <summary>Answer</summary>
 
-   **1,887,337.35**
+   **1,887,337.35 USD**
+
+   This represents the total cumulative list price for the NexaTech Digital subsidiary over the last 12 months, providing a comprehensive view of this business unit's BTP consumption costs. This information is valuable for cross-charging and understanding the cost distribution across subsidiaries.
    </details>
    <br>
 
@@ -39,6 +41,8 @@ You may also use the option available to export the data to Excel for further tr
    <summary>Answer</summary>
 
    **HR App 4 – TEST**
+
+   This test environment subaccount has the highest costs in the previous month. It's noteworthy that a test environment is incurring such significant costs, which may indicate an opportunity for optimization or a need to understand why test workloads are so resource-intensive.
    </details>
    <br>
 
@@ -51,6 +55,8 @@ You may also use the option available to export the data to Excel for further tr
       <summary>Answer</summary>
 
       **Yes**
+
+      The previous month (October) represents the peak cost period for this subaccount over the entire 12-month period. This sustained high cost trend suggests this is not a temporary spike but rather a consistent pattern that requires attention and potentially cost optimization measures.
       </details>
       <br>
 
@@ -63,6 +69,8 @@ You may also use the option available to export the data to Excel for further tr
       <summary>Answer</summary>
 
       **SAP Integration Suite, advanced event mesh - Default**
+
+      This advanced event mesh service is the primary cost driver for the HR App 4 – TEST subaccount. The advanced event mesh is an event-driven architecture platform that can incur significant costs based on message volume and throughput, which may need to be reviewed for cost optimization opportunities in the test environment.
       </details>
       <br>
 
@@ -77,6 +85,8 @@ You may also use the option available to export the data to Excel for further tr
       <summary>Answer</summary>
 
       **logan.ibrahim@apex.com**
+
+      Logan Ibrahim is the designated contact person for this subaccount and should be notified about the significant cost increase, particularly since the subaccount has exceeded 40,000 USD in the previous month. Reaching out to the contact person enables collaborative discussion about the cost drivers and potential optimization strategies.
       </details>
       <br>
 
@@ -94,6 +104,8 @@ You may also use the option available to export the data to Excel for further tr
    <summary>Answer</summary>
 
    **221,821.91 USD**
+
+   This represents the total cost for all test environments across the Apex global account in the previous month. This aggregated view, made possible by the Environment label, helps you understand the overall investment in testing infrastructure and can be used for cross-charging test costs back to the appropriate business units or departments.
    </details>
    <br>
 
@@ -106,6 +118,8 @@ You may also use the option available to export the data to Excel for further tr
    <summary>Answer</summary>
 
    **362,710.05 USD**
+
+   This is the total cost for the EMEA (Europe, Middle East, and Africa) region in the previous month. Using the Region label enables regional cost tracking and cross-charging, which is essential for multi-regional organizations to understand geographic cost distribution and allocate expenses appropriately to regional teams or cost centers.
    </details>
    <br>
 
@@ -114,7 +128,9 @@ You may also use the option available to export the data to Excel for further tr
    <details>
    <summary>Answer</summary>
 
-   **156,097.00**
+   **156,097.00 USD**
+
+   This is the total cost for the HR (Human Resources) department in the previous month. By using the Department label, you can accurately track and cross-charge costs back to the HR department for their BTP usage. This departmental cost view enables effective showback or chargeback processes, ensuring that each department is accountable for their cloud consumption.
    </details>
    <br>
 
@@ -128,3 +144,5 @@ In this section, you have learned:
 - Bookmark and share key information for ongoing tracking and collaboration
 
 ---
+
+Continue to: [Exercise 6 - Cost and Usage Overview (Preview - Bonus)](06-cost-usage-overview.md)

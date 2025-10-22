@@ -21,6 +21,8 @@ In this section, you will monitor costs and resource consumption by comparing se
    <summary>Answer</summary>
 
    **SAP HANA Cloud - HANA**
+
+   SAP HANA Cloud is a database-as-a-service offering that typically represents a significant cost component in BTP environments. As the service plan with the highest cost, it will be a key focus area for investigating the October cost increase.
    </details>
    <br>
 
@@ -32,6 +34,8 @@ In this section, you will monitor costs and resource consumption by comparing se
       <summary>Answer</summary>
 
       **Yes**
+
+      There has been a noticeable increase in SAP HANA Cloud - HANA costs in the previous month compared to the month before. This upward trend contributes to the overall cost increase observed in October and requires further investigation to identify the specific subaccounts driving this growth.
       </details>
       <br>
 
@@ -48,6 +52,8 @@ In this section, you will monitor costs and resource consumption by comparing se
    <summary>Answer</summary>
 
    **Sales App 1 – PROD**
+
+   This production subaccount is the primary consumer of SAP HANA Cloud - HANA services in the previous month. Identifying the specific subaccount allows you to drill deeper into understanding when and why these costs began, and whether they represent expected growth or an anomaly requiring attention.
    </details>
    <br>
 
@@ -76,4 +82,4 @@ In this section, you have learned:
 
 ---
 
-Continue to: [Exercise 3 - Cross charge / distribution](03-cross-charge.md)
+Continue to: [Exercise 5 - Optimization](05-optimization.md)

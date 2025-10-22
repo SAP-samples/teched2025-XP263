@@ -59,6 +59,8 @@ Note: The Balance Statement is divided into several sections, indicated by the b
    <summary>Did the billing verification confirm that all charges are accurate?</summary>
 
    **Yes**
+
+   The billing verification confirms that all charges are accurate. The data in the BTP Cockpit Costs and Usage page matches the Balance Statement across all sections, including total consumption, cloud credits usage, and prepaid quota. This verification establishes confidence in the billing data and provides a solid foundation for further cost analysis and optimization efforts.
    </details>
 
 ## Analyze the Overall Global Account Cost Trend
@@ -69,6 +71,8 @@ Note: The Balance Statement is divided into several sections, indicated by the b
    <summary>Which month has the highest costs over the last 12 months?</summary>
 
    **October**
+
+   October represents the previous month and shows the highest costs over the last 12 months, indicating a significant increase in consumption. This trend warrants further investigation to understand the drivers behind the cost increase, which will be explored in the next exercise on monitoring and analyzing costs.
    </details>
 
 > [!NOTE]

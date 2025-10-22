@@ -75,10 +75,21 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 In this section, you have learned:
 
-- Advanced navigation in the BTP Cockpit Costs and Usage interface
-- Monitor costs and compare services costs
-- Find subaccounts with highest costs
-- Analyzing cost trends and drilling into detailed data
+**Cost Investigation & Root Cause Analysis:**
+- ✅ Investigate cost increases by identifying the highest-cost service plans (e.g., SAP HANA Cloud - HANA)
+- ✅ Analyze cost trends over time to distinguish between sustained growth and temporary spikes
+- ✅ Drill down from service-level costs to specific subaccounts to pinpoint consumption sources
+- ✅ Trace the timeline of cost changes to understand when new services or workloads were introduced
+
+**Advanced Navigation & Comparison:**
+- ✅ Navigate seamlessly between "View by Service" and "View by Account" perspectives using the switch button
+- ✅ Sort and filter data by cost columns to prioritize investigation efforts
+- ✅ Use the "Shows subaccounts only" filter to focus analysis on specific consumption units
+- ✅ Interpret Cost Breakdown graphs to visualize service plan distribution
+
+**Data-Driven Decision Making:**
+- ✅ Connect cost data to business context (e.g., identifying new production subaccounts causing cost growth)
+- ✅ Distinguish between expected growth and unexpected cost anomalies requiring action
 
 ---
 

@@ -90,13 +90,25 @@ In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate a
 
 In this section, you have learned:
 
-- Export cost and usage data to Excel for further analysis and reporting
-- Apply custom filters (e.g., subaccounts, labels, services) to create tailored reports for specific stakeholders
-- Share filtered cost data with specific stakeholders (e.g., by contact person) to improve transparency and accountability
-- Add custom columns (e.g., labels) to Excel exports for enhanced pivot table analysis
-- Aggregate and compare expenses using Excel's AI-powered Analyze Data feature
-- Create visualizations and pivot charts to identify cost trends and outliers
-- Extend analysis by importing SAP BTP data into third-party tools for integration with existing reporting infrastructure
+**Export Capabilities & Customization:**
+- ✅ Export cost and usage data to Excel for offline analysis covering 12, 24, or 36 months of history
+- ✅ Apply custom filters (subaccounts, labels, services) to create tailored reports for specific stakeholders
+- ✅ Add custom columns (e.g., labels as columns) to Excel exports for enhanced pivot table analysis and reporting flexibility
+- ✅ Generate time-filtered exports to focus on specific billing periods (e.g., previous month only)
+
+**Stakeholder Communication & Transparency:**
+- ✅ Share filtered cost data with specific stakeholders (e.g., by contact person) to improve transparency and accountability
+- ✅ Create stakeholder-specific reports that show only relevant costs (e.g., alex.yamamoto@apex.com's expenses)
+- ✅ Enable cost-conscious conversations with resource owners using data-driven insights
+
+**Advanced Excel Analysis:**
+- ✅ Aggregate and compare expenses using Excel's AI-powered Analyze Data feature with natural language prompts
+- ✅ Create pivot tables and visualizations automatically to identify cost trends and outliers (e.g., highest cost center)
+- ✅ Perform cost center analysis, departmental comparisons, and multi-dimensional reporting
+
+**Third-Party Integration:**
+- ✅ Extend analysis by importing SAP BTP data into third-party tools for integration with existing reporting infrastructure
+- ✅ Build custom dashboards and reports using familiar tools like Excel, Power BI, or Tableau
 
 ---
 

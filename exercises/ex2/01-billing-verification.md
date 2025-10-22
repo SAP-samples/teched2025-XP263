@@ -84,11 +84,20 @@ Note: The Balance Statement is divided into several sections, indicated by the b
 
 In this section, you have learned:
 
-- Basic navigation in the BTP Cockpit Costs and Usage interface
-- Compare balance statement data with BTP Cockpit information systematically
-- Verify service costs across different billing sections
-- Calculate and validate cloud credit balances
-- Basic analysis of cost trends and identify anomalies
+**Navigation & Orientation:**
+- ✅ Navigate the BTP Cockpit Costs and Usage interface effectively, understanding the key sections and views
+- ✅ Distinguish between "View by Service" (for billing verification) and "View by Account" (for cross-charging) perspectives
+
+**Billing Verification & Validation:**
+- ✅ Compare Balance Statement data with BTP Cockpit information systematically to ensure accuracy
+- ✅ Verify service costs across different billing sections (Total Consumption vs. CPEA)
+- ✅ Calculate and validate cloud credit balances, including allocated, used, and remaining credits
+- ✅ Understand how prepaid quota vs. charged usage affects your billing
+
+**Cost Analysis & Trend Identification:**
+- ✅ Analyze overall global account cost trends over 12 months using visual graphs
+- ✅ Identify cost anomalies and peak spending periods (e.g., October as highest cost month)
+- ✅ Interpret estimated costs vs. finalized costs in monthly billing cycles
 
 Following Apex's previous cost reduction project, a steady increase in costs has been observed from June to October. We will explore the reasons behind this trend in the next section.
 

@@ -138,10 +138,23 @@ You may also use the option available to export the data to Excel for further tr
 
 In this section, you have learned:
 
-- Track and compare costs within the account hierarchy
-- Use labels to filter and aggregate costs across the account
-- Cross charge expenses using the account hierarchy and labels
-- Bookmark and share key information for ongoing tracking and collaboration
+**Account Hierarchy Cost Tracking:**
+- ✅ Navigate and analyze costs across your organizational structure (subsidiaries, directories, subaccounts)
+- ✅ Track costs for entire business units using directory-level views (e.g., NexaTech Digital subsidiary)
+- ✅ Compare cost distribution across subsidiaries to understand which business units drive spending
+- ✅ Identify high-cost subaccounts within the hierarchy for targeted cost management
+
+**Label-Based Cost Aggregation:**
+- ✅ Use labels to create flexible cost views independent of account structure (Environment, Region, Department, Cost Center, Contact Person)
+- ✅ Aggregate costs by business dimensions (e.g., all Test environments, EMEA region costs, HR department expenses)
+- ✅ Combine multiple label filters to create precise cost views for chargeback purposes
+- ✅ Track costs by contact person to enable direct communication with resource owners
+
+**Cross-Charging & Showback:**
+- ✅ Calculate accurate costs for cross-charging to departments, regions, or business units
+- ✅ Identify anomalies such as high test environment costs that may require optimization
+- ✅ Bookmark specific views for recurring cost tracking and sharing with stakeholders
+- ✅ Enable transparent cost allocation across your organization for accountability
 
 ---
 

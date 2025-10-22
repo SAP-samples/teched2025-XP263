@@ -93,13 +93,24 @@ The recommendations section provides actionable insights to help you manage cost
 
 In this section, you have learned:
 
-- Explore the new Overview tab, the central entry point for FinOps in SAP BTP
-- Access preview features currently under development by SAP
-- View the monthly cost summary including current spend, trends vs. past periods, and forecasted costs
-- Monitor cost distribution and breakdown for services and subaccounts at a glance
-- Review the status of last month's prepaid quota consumption
-- Act on proactive recommendations regarding budgets, forecast, and cost spikes
-- Navigate between the Overview and detailed Billing views for deeper analysis
+**Preview Access & Future Vision:**
+- ✅ Access and explore the new Overview tab, SAP's vision for the central entry point for FinOps in SAP BTP
+- ✅ Experience preview features currently under development (subject to change before general availability)
+- ✅ Understand SAP's direction for consolidating key insights and recommendations into a single dashboard
+
+**Centralized Cost Intelligence:**
+- ✅ View monthly cost summaries including current spend, historical trends, and forecasted costs in one place
+- ✅ Monitor cost distribution through visual pie charts for services and subaccounts at a glance
+- ✅ Analyze cost breakdown to quickly identify your highest-cost items and focus optimization efforts
+- ✅ Review last month's prepaid quota consumption status without navigating to separate views
+
+**Proactive Recommendations & Actions:**
+- ✅ Act on automated recommendations for Budgets Exceeded, Cloud Credit Overage Forecasted, and Cost Spikes
+- ✅ Navigate seamlessly between the Overview and detailed Billing views for deeper investigation
+- ✅ Leverage AI-driven insights to catch issues early and prevent budget overruns
+
+**Feedback Opportunity:**
+- ✅ Provide feedback to SAP through your account team to help shape the future of BTP FinOps capabilities
 
 > [!TIP]
 > This preview gives you an early look at how SAP is evolving the BTP FinOps experience. Consider providing feedback to SAP through your account team to help shape the future of these capabilities.

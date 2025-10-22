@@ -194,14 +194,22 @@ After creating your budgets, consider these best practices:
 
 In this section, you have learned:
 
-- Create and manage budgets in SAP BTP to monitor cloud spending proactively
-- Understand the difference between Cost-based and Charged Usage budget types
-- Define different budget scopes — by Global Account, subaccount, or service
-- Configure custom thresholds to match your organization's alert preferences
-- Enable automatic alerts to Global Account Administrators
-- Understand how visual indicators and notifications help identify potential budget exceedances
-- Use SAP Alert Notification Service for flexible, automated alert distribution to custom recipients and channels
-- Drill into budget details via the Billing tab for deeper analysis
+**Budget Creation & Configuration:**
+- ✅ Create and manage budgets in SAP BTP to monitor cloud spending proactively
+- ✅ Understand the difference between Cost-based (monetary) and Charged Usage (resource unit) budget types
+- ✅ Define flexible budget scopes — by Global Account, specific subaccounts, or individual services
+- ✅ Understand how budgets track consumption-based charges (excluding prepaid quota usage)
+
+**Threshold Management & Alerts:**
+- ✅ Configure custom threshold percentages (e.g., 20%, 50%, 80%) to match your organization's alert preferences
+- ✅ Enable automatic email alerts to Global Account Administrators when thresholds are exceeded
+- ✅ Use SAP Alert Notification Service for flexible, automated alert distribution to custom recipients and channels (Teams, Slack, DLs)
+- ✅ Understand how visual indicators in the Budgets tab provide at-a-glance threshold status
+
+**Budget Monitoring & Analysis:**
+- ✅ Interpret budget history previews to validate budget amounts based on past trends
+- ✅ Drill into budget details via the Billing tab for deeper cost analysis
+- ✅ Recognize that budgets evaluate monthly (exceedances don't carry over to the next month)
 
 These capabilities enable you to control and optimize SAP BTP costs effectively by providing early warnings before spending gets out of control.
 

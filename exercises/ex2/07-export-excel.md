@@ -88,27 +88,27 @@ In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate a
 
 ## Summary
 
-In this section, you have learned:
+### 🎯 Key Takeaways
 
-**Export Capabilities & Customization:**
-- ✅ Export cost and usage data to Excel for offline analysis covering 12, 24, or 36 months of history
-- ✅ Apply custom filters (subaccounts, labels, services) to create tailored reports for specific stakeholders
-- ✅ Add custom columns (e.g., labels as columns) to Excel exports for enhanced pivot table analysis and reporting flexibility
-- ✅ Generate time-filtered exports to focus on specific billing periods (e.g., previous month only)
+#### Export Capabilities & Customization
+- ✅ Export cost data to Excel covering 12, 24, or 36 months of history
+- ✅ Apply custom filters (subaccounts, labels, services) for tailored reports
+- ✅ Add custom columns (labels) for enhanced pivot table analysis
+- ✅ Generate time-filtered exports for specific billing periods
 
-**Stakeholder Communication & Transparency:**
-- ✅ Share filtered cost data with specific stakeholders (e.g., by contact person) to improve transparency and accountability
-- ✅ Create stakeholder-specific reports that show only relevant costs (e.g., alex.yamamoto@apex.com's expenses)
-- ✅ Enable cost-conscious conversations with resource owners using data-driven insights
+#### Stakeholder Communication & Transparency
+- ✅ Share filtered cost data with specific stakeholders by contact person
+- ✅ Create stakeholder-specific reports showing only relevant costs
+- ✅ Enable cost-conscious conversations using data-driven insights
 
-**Advanced Excel Analysis:**
-- ✅ Aggregate and compare expenses using Excel's AI-powered Analyze Data feature with natural language prompts
-- ✅ Create pivot tables and visualizations automatically to identify cost trends and outliers (e.g., highest cost center)
-- ✅ Perform cost center analysis, departmental comparisons, and multi-dimensional reporting
+#### Advanced Excel Analysis
+- ✅ Aggregate expenses using Excel's AI-powered Analyze Data with natural language
+- ✅ Create pivot tables and visualizations to identify trends and outliers
+- ✅ Perform cost center and departmental comparisons
 
-**Third-Party Integration:**
-- ✅ Extend analysis by importing SAP BTP data into third-party tools for integration with existing reporting infrastructure
-- ✅ Build custom dashboards and reports using familiar tools like Excel, Power BI, or Tableau
+#### Third-Party Integration
+- ✅ Import SAP BTP data into third-party tools for reporting integration
+- ✅ Build custom dashboards using Excel, Power BI, or Tableau
 
 ---
 

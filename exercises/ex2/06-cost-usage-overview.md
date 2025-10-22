@@ -91,26 +91,26 @@ The recommendations section provides actionable insights to help you manage cost
 
 ## Summary
 
-In this section, you have learned:
+### 🎯 Key Takeaways
 
-**Preview Access & Future Vision:**
-- ✅ Access and explore the new Overview tab, SAP's vision for the central entry point for FinOps in SAP BTP
-- ✅ Experience preview features currently under development (subject to change before general availability)
-- ✅ Understand SAP's direction for consolidating key insights and recommendations into a single dashboard
+#### Preview Access & Future Vision
+- ✅ Explore the new Overview tab, SAP's vision for central FinOps entry point
+- ✅ Experience preview features under development (subject to change)
+- ✅ Understand SAP's direction for consolidating insights into single dashboard
 
-**Centralized Cost Intelligence:**
-- ✅ View monthly cost summaries including current spend, historical trends, and forecasted costs in one place
-- ✅ Monitor cost distribution through visual pie charts for services and subaccounts at a glance
-- ✅ Analyze cost breakdown to quickly identify your highest-cost items and focus optimization efforts
-- ✅ Review last month's prepaid quota consumption status without navigating to separate views
+#### Centralized Cost Intelligence
+- ✅ View monthly cost summaries with current spend, trends, and forecasts
+- ✅ Monitor cost distribution through visual pie charts
+- ✅ Analyze cost breakdown to identify highest-cost items
+- ✅ Review prepaid quota consumption status without navigating elsewhere
 
-**Proactive Recommendations & Actions:**
-- ✅ Act on automated recommendations for Budgets Exceeded, Cloud Credit Overage Forecasted, and Cost Spikes
-- ✅ Navigate seamlessly between the Overview and detailed Billing views for deeper investigation
-- ✅ Leverage AI-driven insights to catch issues early and prevent budget overruns
+#### Proactive Recommendations & Actions
+- ✅ Act on automated recommendations for Budgets, Credit Overages, and Cost Spikes
+- ✅ Navigate between Overview and Billing views for deeper investigation
+- ✅ Leverage AI-driven insights to catch issues early
 
-**Feedback Opportunity:**
-- ✅ Provide feedback to SAP through your account team to help shape the future of BTP FinOps capabilities
+#### Feedback Opportunity
+- ✅ Provide feedback to SAP to shape future BTP FinOps capabilities
 
 > [!TIP]
 > This preview gives you an early look at how SAP is evolving the BTP FinOps experience. Consider providing feedback to SAP through your account team to help shape the future of these capabilities.

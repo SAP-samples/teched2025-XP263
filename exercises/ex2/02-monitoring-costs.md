@@ -73,23 +73,23 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 ## Summary
 
-In this section, you have learned:
+### 🎯 Key Takeaways
 
-**Cost Investigation & Root Cause Analysis:**
-- ✅ Investigate cost increases by identifying the highest-cost service plans (e.g., SAP HANA Cloud - HANA)
-- ✅ Analyze cost trends over time to distinguish between sustained growth and temporary spikes
-- ✅ Drill down from service-level costs to specific subaccounts to pinpoint consumption sources
-- ✅ Trace the timeline of cost changes to understand when new services or workloads were introduced
+#### Cost Investigation & Root Cause Analysis
+- ✅ Identify highest-cost service plans driving cost increases
+- ✅ Analyze cost trends to distinguish sustained growth from temporary spikes
+- ✅ Drill down from service-level costs to specific subaccounts
+- ✅ Trace the timeline of cost changes to understand new workloads
 
-**Advanced Navigation & Comparison:**
-- ✅ Navigate seamlessly between "View by Service" and "View by Account" perspectives using the switch button
-- ✅ Sort and filter data by cost columns to prioritize investigation efforts
-- ✅ Use the "Shows subaccounts only" filter to focus analysis on specific consumption units
+#### Advanced Navigation & Comparison
+- ✅ Navigate between "View by Service" and "View by Account" using the switch button
+- ✅ Sort and filter data by cost columns to prioritize investigations
+- ✅ Use "Shows subaccounts only" filter to focus on specific consumption units
 - ✅ Interpret Cost Breakdown graphs to visualize service plan distribution
 
-**Data-Driven Decision Making:**
-- ✅ Connect cost data to business context (e.g., identifying new production subaccounts causing cost growth)
-- ✅ Distinguish between expected growth and unexpected cost anomalies requiring action
+#### Data-Driven Decision Making
+- ✅ Connect cost data to business context
+- ✅ Distinguish between expected growth and unexpected anomalies
 
 ---
 

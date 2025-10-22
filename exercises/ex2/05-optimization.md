@@ -125,25 +125,25 @@ When deciding between subscription (prepaid quota) and consumption models, consi
 
 ## Summary
 
-In this section, you have learned:
+### 🎯 Key Takeaways
 
-**Cloud Credit Optimization:**
-- ✅ Track and forecast cloud credit usage to identify potential overages months in advance (e.g., February overage prediction)
-- ✅ Use the "Show Forecast" feature to visualize projected spending trajectories
-- ✅ Take proactive action to purchase additional cloud credits at discounted rates before overages occur
-- ✅ Understand the cost difference between prepaid cloud credits and list-price overage charges
+#### Cloud Credit Optimization
+- ✅ Track and forecast cloud credit usage to identify potential overages
+- ✅ Use "Show Forecast" feature to visualize projected spending
+- ✅ Purchase additional cloud credits at discounted rates before overages
+- ✅ Understand cost difference between prepaid credits and list-price overages
 
-**Subscription vs. Consumption Analysis:**
-- ✅ Understand the difference between subscription (prepaid quota) and consumption-based commercial models
-- ✅ Identify prepaid quota utilization across your service portfolio to maximize existing investments
-- ✅ Analyze 12-month usage trends to distinguish between baseline usage and growth patterns
-- ✅ Identify services exceeding their prepaid quotas and incurring additional consumption charges
+#### Subscription vs. Consumption Analysis
+- ✅ Understand subscription (prepaid quota) vs. consumption-based models
+- ✅ Identify prepaid quota utilization to maximize existing investments
+- ✅ Analyze 12-month usage trends to distinguish baseline from growth
+- ✅ Identify services exceeding prepaid quotas and incurring consumption charges
 
-**Strategic Cost Optimization:**
-- ✅ Make data-driven decisions about purchasing additional subscriptions to optimize costs (e.g., Cloud Foundry Runtime expansion)
-- ✅ Balance subscription commitments with consumption flexibility based on workload predictability
-- ✅ Apply break-even analysis to determine when subscriptions are more cost-effective than consumption
-- ✅ Recognize that optimization is an ongoing process requiring monthly reviews and adjustments
+#### Strategic Cost Optimization
+- ✅ Make data-driven decisions about purchasing additional subscriptions
+- ✅ Balance subscription commitments with consumption flexibility
+- ✅ Apply break-even analysis for subscription vs. consumption decisions
+- ✅ Recognize optimization as ongoing process requiring monthly reviews
 
 > [!TIP]
 > Optimization is an ongoing process. Review your cloud credits and prepaid quota utilization monthly to catch trends early and make timely adjustments to your purchasing strategy.

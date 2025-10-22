@@ -192,24 +192,24 @@ After creating your budgets, consider these best practices:
 
 ## Summary
 
-In this section, you have learned:
+### 🎯 Key Takeaways
 
-**Budget Creation & Configuration:**
-- ✅ Create and manage budgets in SAP BTP to monitor cloud spending proactively
-- ✅ Understand the difference between Cost-based (monetary) and Charged Usage (resource unit) budget types
-- ✅ Define flexible budget scopes — by Global Account, specific subaccounts, or individual services
-- ✅ Understand how budgets track consumption-based charges (excluding prepaid quota usage)
+#### Budget Creation & Configuration
+- ✅ Create and manage budgets to monitor cloud spending
+- ✅ Understand Cost-based (monetary) vs. Charged Usage (resource unit) budget types
+- ✅ Define budget scopes by Global Account, subaccounts, or services
+- ✅ Understand how budgets track consumption-based charges (excluding prepaid quota)
 
-**Threshold Management & Alerts:**
-- ✅ Configure custom threshold percentages (e.g., 20%, 50%, 80%) to match your organization's alert preferences
-- ✅ Enable automatic email alerts to Global Account Administrators when thresholds are exceeded
-- ✅ Use SAP Alert Notification Service for flexible, automated alert distribution to custom recipients and channels (Teams, Slack, DLs)
-- ✅ Understand how visual indicators in the Budgets tab provide at-a-glance threshold status
+#### Threshold Management & Alerts
+- ✅ Configure custom threshold percentages to match alert preferences
+- ✅ Enable automatic email alerts when thresholds are exceeded
+- ✅ Use SAP Alert Notification Service for custom recipients and channels (Teams, Slack)
+- ✅ Understand how visual indicators provide at-a-glance threshold status
 
-**Budget Monitoring & Analysis:**
-- ✅ Interpret budget history previews to validate budget amounts based on past trends
-- ✅ Drill into budget details via the Billing tab for deeper cost analysis
-- ✅ Recognize that budgets evaluate monthly (exceedances don't carry over to the next month)
+#### Budget Monitoring & Analysis
+- ✅ Interpret budget history previews to validate amounts based on trends
+- ✅ Drill into budget details via Billing tab for deeper analysis
+- ✅ Recognize budgets evaluate monthly (exceedances don't carry over)
 
 These capabilities enable you to control and optimize SAP BTP costs effectively by providing early warnings before spending gets out of control.
 

@@ -150,7 +150,7 @@ Once the deployment is finished, you see a summary of the resources that were cr
 
 ![Screenshot of output of terraform apply command - result](./images/ex12_04_terraform_apply.png)
 
-Check the setup in the SAP BTP cockpit. You see the newly created directories and subaccounts.
+Check the setup in the SAP BTP cockpit. You see the newly created directories and subaccounts. Navigate into a subaccount and check the created resources like the Cloud Foundry environment as well as service instances and subscriptions.
 
 As Terraform keeps track of the state of the resources via a so called *state file*, you can also check the resources created by Terraform in the file `terraform.tfstate`. To do so execute the command:
 

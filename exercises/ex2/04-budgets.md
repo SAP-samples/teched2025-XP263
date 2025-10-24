@@ -73,7 +73,7 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
 
     **This depends on the current month's spending.**
 
-    Review the threshold indicators in the Budgets table. If you see colored indicators (yellow, orange, or red), those thresholds have been exceeded. Remember that budgets evaluate the current month only, so previous month's exceedances don't carry over.
+    *Review the threshold indicators in the Budgets table. If you see colored indicators (yellow, orange, or red), those thresholds have been exceeded. Remember that budgets evaluate the current month only, so previous month's exceedances don't carry over.*
     </details>
     <br>
 
@@ -117,7 +117,7 @@ In this scenario, you will define a budget based on **charged usage** rather tha
     <details>
     <summary>Answer</summary>
 
-    No. It is important to note that none of the thresholds have been exceeded because budgets are evaluated on a monthly basis. Exceedances from the previous month are not considered
+    *No. It is important to note that none of the thresholds have been exceeded because budgets are evaluated on a monthly basis. Exceedances from the previous month are not considered*
     </details>
     <br>
 

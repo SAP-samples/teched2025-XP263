@@ -22,7 +22,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
    **1,887,337.35 USD**
 
-   This represents the total cumulative list price for the NexaTech Digital subsidiary over the last 12 months, providing a comprehensive view of this business unit's BTP consumption costs. This information is valuable for cross-charging and understanding the cost distribution across subsidiaries.
+   *This represents the total cumulative list price for the NexaTech Digital subsidiary over the last 12 months, providing a comprehensive view of this business unit's BTP consumption costs. This information is valuable for cross-charging and understanding the cost distribution across subsidiaries.*
    </details>
 
    > [!TIP]
@@ -38,7 +38,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
    **HR App 4 – TEST**
 
-   This test environment subaccount has the highest costs in the previous month. It's noteworthy that a test environment is incurring such significant costs, which may indicate an opportunity for optimization or a need to understand why test workloads are so resource-intensive.
+   *This test environment subaccount has the highest costs in the previous month. It's noteworthy that a test environment is incurring such significant costs, which may indicate an opportunity for optimization or a need to understand why test workloads are so resource-intensive.*
    </details>
 
    > [!TIP]
@@ -53,7 +53,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
       **Yes**
 
-      The previous month (October) represents the peak cost period for this subaccount over the entire 12-month period. This sustained high cost trend suggests this is not a temporary spike but rather a consistent pattern that requires attention and potentially cost optimization measures.
+      *The previous month (October) represents the peak cost period for this subaccount over the entire 12-month period. This sustained high cost trend suggests this is not a temporary spike but rather a consistent pattern that requires attention and potentially cost optimization measures.*
       </details>
 
       > [!TIP]
@@ -68,7 +68,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
       **SAP Integration Suite, advanced event mesh - Default**
 
-      This advanced event mesh service is the primary cost driver for the HR App 4 – TEST subaccount. The advanced event mesh is an event-driven architecture platform that can incur significant costs based on message volume and throughput, which may need to be reviewed for cost optimization opportunities in the test environment.
+      *This advanced event mesh service is the primary cost driver for the HR App 4 – TEST subaccount. The advanced event mesh is an event-driven architecture platform that can incur significant costs based on message volume and throughput, which may need to be reviewed for cost optimization opportunities in the test environment.*
       </details>
 
       > [!TIP]
@@ -84,7 +84,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
       **logan.ibrahim@apex.com**
 
-      Logan Ibrahim is the designated contact person for this subaccount and should be notified about the significant cost increase, particularly since the subaccount has exceeded 40,000 USD in the previous month. Reaching out to the contact person enables collaborative discussion about the cost drivers and potential optimization strategies.
+      *Logan Ibrahim is the designated contact person for this subaccount and should be notified about the significant cost increase, particularly since the subaccount has exceeded 40,000 USD in the previous month. Reaching out to the contact person enables collaborative discussion about the cost drivers and potential optimization strategies.*
       </details>
 
       > [!TIP]
@@ -112,7 +112,7 @@ Type in the search box Region and choose Region: EMEA or you may search for EMEA
 <details>
 <summary><b>Answer</b></summary>
 
-362,710.05 USD
+*362,710.05 USD*
 
 </details>
 
@@ -127,7 +127,7 @@ Type in the search box Region and choose Region: EMEA or you may search for EMEA
 
    **156,097.00 USD**
 
-   This is the total cost for the HR (Human Resources) department in the previous month. By using the Department label, you can accurately track and cross-charge costs back to the HR department for their BTP usage. This departmental cost view enables effective showback or chargeback processes, ensuring that each department is accountable for their cloud consumption.
+   *This is the total cost for the HR (Human Resources) department in the previous month. By using the Department label, you can accurately track and cross-charge costs back to the HR department for their BTP usage. This departmental cost view enables effective showback or chargeback processes, ensuring that each department is accountable for their cloud consumption.*
    </details>
    <br>
 

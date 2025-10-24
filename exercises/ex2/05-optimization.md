@@ -37,7 +37,7 @@ In this scenario, you will learn how to use Cloud Credit forecasting to anticipa
 
    **February**
 
-   The forecast predicts that cloud credit overage will occur in February, approximately 3-4 months from now. This early warning provides valuable lead time to take proactive action, such as purchasing additional cloud credits at discounted rates or implementing cost optimization measures to avoid expensive list-price overage charges.
+   *The forecast predicts that cloud credit overage will occur in February, approximately 3-4 months from now. This early warning provides valuable lead time to take proactive action, such as purchasing additional cloud credits at discounted rates or implementing cost optimization measures to avoid expensive list-price overage charges.*
    </details>
    <br>
 
@@ -105,7 +105,7 @@ In this scenario, you will learn how to manage and track both **subscription** a
 
    **Purchase an additional 20 GB of prepaid quota subscription**
 
-   By purchasing additional prepaid quota to cover the 20 GB overage, you can take advantage of subscription pricing (which is typically lower than consumption-based pricing) and reduce your overall costs. This approach is particularly cost-effective when the usage pattern is consistent and predictable.
+   *By purchasing additional prepaid quota to cover the 20 GB overage, you can take advantage of subscription pricing (which is typically lower than consumption-based pricing) and reduce your overall costs. This approach is particularly cost-effective when the usage pattern is consistent and predictable.*
 
    </details>
    <br>

@@ -79,7 +79,7 @@ In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate a
 
    **CC-400**
 
-   Cost center CC-400 has the highest aggregated costs among all cost centers in the previous month. This insight, generated using Excel's AI-powered Analyze Data feature and the exported cost center column, helps identify which business units or departments are driving the most BTP consumption and may require budget adjustments or cost optimization focus.
+   *Cost center CC-400 has the highest aggregated costs among all cost centers in the previous month. This insight, generated using Excel's AI-powered Analyze Data feature and the exported cost center column, helps identify which business units or departments are driving the most BTP consumption and may require budget adjustments or cost optimization focus.*
    </details>
    <br>
 

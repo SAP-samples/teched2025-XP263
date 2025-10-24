@@ -56,7 +56,7 @@ Note: The **Balance Statement** is divided into several sections, indicated by t
 
    **Yes**
 
-   The billing verification confirms that all charges are accurate. The data in the BTP Cockpit Costs and Usage page matches the Balance Statement across all sections, including total consumption, cloud credits usage, and prepaid quota. This verification establishes confidence in the billing data and provides a solid foundation for further cost analysis and optimization efforts.
+   *The billing verification confirms that all charges are accurate. The data in the BTP Cockpit Costs and Usage page matches the Balance Statement across all sections, including total consumption, cloud credits usage, and prepaid quota. This verification establishes confidence in the billing data and provides a solid foundation for further cost analysis and optimization efforts.*
    </details>
 
    <img src="images/01-billing-verification/balance-statement-cloud-credits-payment-summary.jpg" alt="Cloud Credits and Payment Summary" width="75%">
@@ -70,7 +70,7 @@ Note: The **Balance Statement** is divided into several sections, indicated by t
 
    **October**
 
-   October represents the previous month and shows the highest costs over the last 12 months, indicating a significant increase in consumption. This trend warrants further investigation to understand the drivers behind the cost increase, which will be explored in the next exercise on monitoring and analyzing costs.
+   *October represents the previous month and shows the highest costs over the last 12 months, indicating a significant increase in consumption. This trend warrants further investigation to understand the drivers behind the cost increase, which will be explored in the next exercise on monitoring and analyzing costs.*
    </details>
 
 2. Hover to see the estimated costs in November.

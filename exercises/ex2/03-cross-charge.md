@@ -158,4 +158,4 @@ You may also use the option available to export the data to Excel for further tr
 
 ---
 
-Continue to: [Exercise 6 - Cost and Usage Overview (Preview - Bonus)](06-cost-usage-overview.md)
+[← Previous: Exercise 4 - Controlling Costs Using Budgets](04-budgets.md) | [Continue to: Exercise 6 - Cost and Usage Overview (Preview - Bonus) →](06-cost-usage-overview.md)

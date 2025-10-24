@@ -62,4 +62,4 @@ This exercise demonstrates **FinOps capabilities** that are publicly available t
 
 ---
 
-Continue to: [Exercise 1 - Billing verification](01-billing-verification.md)
+[Continue to: Exercise 1 - Billing verification →](01-billing-verification.md)

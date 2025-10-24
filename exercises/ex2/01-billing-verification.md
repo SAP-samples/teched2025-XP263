@@ -103,4 +103,4 @@ Following Apex's previous cost reduction project, a steady increase in costs has
 
 ---
 
-Continue to: [Exercise 2 - Monitoring cost and consumption](02-monitoring-costs.md)
+[← Previous: TechEd - Apex Holdings Scenario](00-intro.md) | [Continue to: Exercise 2 - Monitoring cost and consumption →](02-monitoring-costs.md)

@@ -112,4 +112,8 @@ In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate a
 
 ---
 
+[← Previous: Exercise 6 - Cost and Usage Overview (Preview - Bonus)](06-cost-usage-overview.md)
+
+---
+
 **This concludes the SAP TechEd 2025 XP263 Hands-On session. We hope you found it informative and gained valuable insights into SAP BTP cost management and FinOps best practices.**

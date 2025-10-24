@@ -4,10 +4,6 @@
 
 In this section, you will learn to manage, control, and optimize cloud spending using Budgets. Budgets allow you to better control your global account spending and plan for future consumption by setting up budget limits for your global account in SAP BTP.
 
-### How Budgets Work
-
-The budget amount defined when creating a new budget considers the **consumption-based commercial model**. This means that any usage that falls within your prepaid quota, as defined by your subscription-based commercial agreement, is not evaluated by your budget. Only consumption that exceeds the prepaid quota and incurs additional charges is counted toward your budget.
-
 > [!NOTE]
 > Budgets track actual consumption charges, not prepaid quota usage. This helps you focus on controlling costs that directly impact your bill.
 
@@ -21,68 +17,28 @@ When budget thresholds are reached, multiple alert options are available (you ca
 
 1. **Visual Indicators**: In the Costs and Usage page, visual indicators show the threshold status (0-3 threshold exceedances) for quick at-a-glance monitoring.
 
-2. **Automatic Email Alerts**: Automatically send alert emails to Global Account Administrators. This can be configured when creating a new budget.
-
-   > [!WARNING]
-   > Once a threshold has been exceeded, an email notification will be sent to **all** Global Account Administrators. If you don't want to send alert emails to all Global Account Administrators, remember to uncheck the alert thresholds at the end of this exercise.
+2. **Automatic Email Alerts**: Automatically send alert emails to Global Account Administrators. You can enable this option when creating a new budget. Once a defined threshold is exceeded, an email notification will be sent to all Global Account Administrators. If you prefer not to send alert emails to all administrators, keep the default setting (disabled).
 
 3. **Custom Alerts with SAP Alert Notification Service**: Define custom alerts for specific recipients (e.g., subaccount admins or distribution lists), delivery channels like Microsoft Teams or Slack, and more.
 
-   > [!TIP]
-   > For more information, see: [How to enable SAP Alert Notification for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/alerting-events) and subscribe to the budget event: [Budget Threshold Exceedance Event (Beta)](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance-event). This link is also available in the budget creation screen.
+> [!TIP]
+> For more information, see: [How to enable SAP Alert Notification for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/alerting-events) and subscribe to the budget event: [Budget Threshold Exceedance Event (Beta)](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance-event). This link is also available in the budget creation screen.
 
 ## Creating Budgets
 
 ![Budget Creation Overview](images/04-budgets/budget-creation-overview.jpg)
 
-In the Costs and Usage page, navigate to the **Budgets** tab to create three new budgets covering different scenarios.
+In the Costs and Usage page, navigate to the **Budgets** tab to create two new budgets covering different scenarios.
 
-## Scenario 1 - Cost-Based Budget for Global Account
+## Scenario 1 - Cost-Based Budget for Specific Subaccount
 
-In this scenario, you will create a cost-based budget that applies to your entire global account. By default, the budget scope is defined for the entire Global Account (GA), and you should leave it as is.
-
-### Steps
-
-1. Click the **Create** button to start creating a new budget.
-2. Enter a name, for example: `APEX Holdings costs`
-3. No need to change the **Budget type**, since the default is **Cost** (based on list price data).
-
-> [!NOTE]
-> Cost-based budgets track the monetary value of your consumption at list price. This is the most common budget type for overall account management.
-
-4. Enter amount: `600,000` USD
-5. View the **history preview** below. You will see the budget amount and thresholds together with the actual costs and any exceedances over the past 12 months.
-
-> [!TIP]
-> The history preview is a powerful tool to validate whether your budget amount is appropriate based on historical trends. If the preview shows frequent exceedances, consider adjusting the budget amount.
-
-6. No need to change the **date range** and **thresholds** (keep defaults).
-7. Click **Create**.
-8. You will see a new budget created in the Budgets table.
-
-   **Are there any thresholds that have been exceeded for this budget?**
-
-   <details>
-   <summary>Answer</summary>
-
-   **No**
-
-   It is important to note that none of the thresholds have been exceeded because **budgets are evaluated on a monthly basis**. Exceedances from the previous month are not carried forward to the current month. Each month starts fresh with a clean threshold status.
-   </details>
-   <br>
-
-9. Select the budget row and view the details panel on the right to verify the information you entered.
-10. Review the budget configuration, including scope, amount, thresholds, and date range.
-
-## Scenario 2 - Cost-Based Budget for Specific Subaccount
-
-In this scenario, you will define a budget scope for a specific subaccount. This allows you to monitor and control spending at a more granular level. Let's create a budget for the subaccount with the highest costs in the previous month: **HR App 4 – TEST**.
+In this scenario, you will create a cost-based budget. By default, the budget scope applies to the entire Global Account. In this case, update the scope to subaccount HR App 4 – TEST (the highest-cost subaccount in the previous month). This allows you to monitor and control spending at a more granular level.
 
 ### Steps
 
 1. Click the **Create** button to create another budget.
 2. Enter a name, for example: `HR App 4 TEST costs`
-3. No need to change the **date range** and **Budget type** (the default is **Cost**).
+3. Keep the default Cost budget type. It tracks your consumption's monetary value at list price. No need to change the date range.
 
    ![Budget Scope - Subaccount Selection](images/04-budgets/budget-scope-subaccount.jpg)
 
@@ -100,7 +56,7 @@ In this scenario, you will define a budget scope for a specific subaccount. This
 > You can filter budgets by subaccounts, directories, services, or a combination of these. This flexibility allows you to create budgets aligned with your organizational structure and cost allocation needs.
 
 5. **Amount**: Enter `40,000` USD
-6. View the **history preview**. You will see the budget amount and thresholds together with the actual costs and any exceedances.
+6. View the history preview. You will see the budget amount and Thresholds together with the Actual costs and exceedance over the past 12 months.
 7. **Thresholds**: Change the threshold percentages to **20%**, **50%**, and **80%** to create more frequent alerts for this high-cost subaccount.
 8. View the updated history preview with the new thresholds.
 
@@ -121,17 +77,15 @@ In this scenario, you will define a budget scope for a specific subaccount. This
     </details>
     <br>
 
-11. In the **Active Budgets** table, locate the row for the budget you just created.
-12. Click the **"..."** menu (three dots) at the end of the row and choose **"View in Billing Tab"**.
-13. You will be taken to the Billing view filtered to show only the costs for HR App 4 – TEST subaccount, allowing you to drill into the details.
+11. In the Active Budgets table, choose the budget you just created and view the details to verify the information you entered when creating the Budget. Choose to view it in the Billing Tab (hint: via the '…' and choose 'View in Billing Tab').
 
-## Scenario 3 - Charged Usage Budget for Specific Service
+## Scenario 2 - Charged Usage Budget for Specific Service
 
 In this scenario, you will define a budget based on **charged usage** rather than cost. Charged usage budgets track the actual resource units consumed (e.g., compute hours, storage GB) rather than their monetary value. Let's create a budget for **SAP HANA Cloud**, which was the service with the highest costs in the previous month.
 
 ### Steps
 
-1. Click the **Create** button to create a third budget.
+1. Click the **Create** button to create a second budget.
 2. Enter a name, for example: `HANA Cloud Capacity Units`
 3. **Budget type**: Change from **Cost** to **Charged Usage**
 
@@ -163,58 +117,25 @@ In this scenario, you will define a budget based on **charged usage** rather tha
     <details>
     <summary>Answer</summary>
 
-    **This depends on the current month's usage.**
-
-    Check the threshold indicators in the Budgets table. Since we set the amount to 150,000 units, compare this against the current month's actual usage shown in the budget row. If usage has exceeded 80%, 90%, or 100% of 150,000 units, those thresholds will be marked as exceeded.
+    No. It is important to note that none of the thresholds have been exceeded because budgets are evaluated on a monthly basis. Exceedances from the previous month are not considered
     </details>
     <br>
 
-11. When the 80% threshold is exceeded, Global Account Administrators will receive a Budget Alert Notification email similar to this:
+11. When the 80% threshold is exceeded, Global Account Administrators will receive a Budget Alert Notification email.
 
-> [!NOTE]
-> The email notification includes:
-> - Budget name and type
-> - Threshold percentage that was exceeded
-> - Current usage vs. budget amount
-> - Link to view details in the BTP Cockpit
->
-> These emails help ensure that budget owners are promptly informed and can take corrective action if needed.
-
-## Budget Management Best Practices
-
-After creating your budgets, consider these best practices:
-
-- **Regular Review**: Review your budgets monthly to ensure they remain aligned with business needs
-- **Threshold Tuning**: Adjust threshold percentages based on how much advance warning you need
-- **Alert Management**: At the end of this exercise, if you don't want to continue receiving alerts, uncheck the alert thresholds or delete test budgets
-- **Documentation**: Document the purpose of each budget and who is responsible for acting on alerts
-- **Scope Refinement**: Start with broad budgets (global account level) and add more granular budgets (subaccount or service level) as needed
+<!-- TODO: Add email picture here -->
 
 ## Summary
 
 ### 🎯 Key Takeaways
 
-#### Budget Creation & Configuration
 - ✅ Create and manage budgets to monitor cloud spending
-- ✅ Understand Cost-based (monetary) vs. Charged Usage (resource unit) budget types
-- ✅ Define budget scopes by Global Account, subaccounts, or services
-- ✅ Understand how budgets track consumption-based charges (excluding prepaid quota)
-
-#### Threshold Management & Alerts
-- ✅ Configure custom threshold percentages to match alert preferences
+- ✅ Understand Cost-based vs. Charged Usage budget types
+- ✅ Define budget scopes by subaccounts or services
+- ✅ Configure custom threshold percentages for alerts
 - ✅ Enable automatic email alerts when thresholds are exceeded
-- ✅ Use SAP Alert Notification Service for custom recipients and channels (Teams, Slack)
-- ✅ Understand how visual indicators provide at-a-glance threshold status
-
-#### Budget Monitoring & Analysis
-- ✅ Interpret budget history previews to validate amounts based on trends
-- ✅ Drill into budget details via Billing tab for deeper analysis
+- ✅ Use budget history previews to validate amounts
 - ✅ Recognize budgets evaluate monthly (exceedances don't carry over)
-
-These capabilities enable you to control and optimize SAP BTP costs effectively by providing early warnings before spending gets out of control.
-
-> [!TIP]
-> Budgets are most effective when combined with regular cost reviews, optimization initiatives, and clear ownership of cost centers. Consider establishing a monthly FinOps review meeting to discuss budget status and optimization opportunities.
 
 ---
 

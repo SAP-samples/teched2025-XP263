@@ -206,4 +206,4 @@ These capabilities enable you to control and optimize SAP BTP costs effectively 
 
 ---
 
-[← Previous: Exercise 5 - Optimization](05-optimization.md) | [Continue to: Exercise 3 - Cross charge / distribution →](03-cross-charge.md)
+[← Previous: Exercise 3 - Cross charge / distribution](03-cross-charge.md) | [Continue to: Exercise 5 - Optimization →](05-optimization.md)

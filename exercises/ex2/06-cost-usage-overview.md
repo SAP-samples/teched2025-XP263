@@ -103,4 +103,4 @@ The recommendations section provides actionable insights to help you manage cost
 
 ---
 
-[← Previous: Exercise 3 - Cross charge / distribution](03-cross-charge.md) | [Continue to: Exercise 7 - Export Excel (Optional) →](07-export-excel.md)
+[← Previous: Exercise 5 - Optimization](05-optimization.md) | [Continue to: Exercise 7 - Export Excel (Optional) →](07-export-excel.md)

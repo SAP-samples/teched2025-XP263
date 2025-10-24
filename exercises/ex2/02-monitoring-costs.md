@@ -82,4 +82,4 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 ---
 
-[← Previous: Exercise 1 - Billing verification](01-billing-verification.md) | [Continue to: Exercise 5 - Optimization →](05-optimization.md)
+[← Previous: Exercise 1 - Billing verification](01-billing-verification.md) | [Continue to: Exercise 3 - Cross charge / distribution →](03-cross-charge.md)

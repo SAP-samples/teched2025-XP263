@@ -1,6 +1,6 @@
-# Exercise 2.5 - Optimization
+# Exercise 7 - Optimization
 
-## Exercise 2.5.1 - Introduction
+## Exercise 7.1 - Introduction
 
 In this section, you will learn to identify and implement cost and utilization optimizations for your overall global account. By analyzing trends in **cloud credits**, **prepaid quotas**, and consumption patterns, you can make informed decisions to control costs and maximize the value of your **SAP BTP** investments.
 
@@ -12,11 +12,11 @@ The two key optimization strategies covered in this exercise are:
 
 By the end of this exercise, you'll be able to proactively manage your **BTP** spending and make strategic purchasing decisions.
 
-## Exercise 2.5.2 - Scenario 1 - Optimizing Cloud Credit Costs
+## Exercise 7.2 - Scenario 1 - Optimizing Cloud Credit Costs
 
 In this scenario, you will learn how to use Cloud Credit forecasting to anticipate potential overages and plan your purchasing strategy accordingly.
 
-![Cloud Credit Forecast](images/05-optimization/cloud-credit-forecast.jpg)
+![Cloud Credit Forecast](images/cloud-credit-forecast.jpg)
 
 ### Understanding Your Cloud Credit Status
 
@@ -24,8 +24,8 @@ In this scenario, you will learn how to use Cloud Credit forecasting to anticipa
 2. Review the current cloud credits cost to see if you have exceeded or are approaching the limit.
 3. Switch on the **"Show Forecast"** control to enable predictive analysis.
 
-> [!TIP]
-> The forecast uses historical consumption patterns and current trends to predict future cloud credit usage throughout your contract period.
+   > [!TIP]
+   > The forecast uses historical consumption patterns and current trends to predict future cloud credit usage throughout your contract period.
 
 4. Expand the card by clicking the expand icon to view the detailed monthly trend graph.
 5. Review the forecasted monthly trend and identify when costs are projected to exceed your cloud credit allocation.
@@ -61,11 +61,11 @@ With Cloud Credits Forecasting, you can:
 - **Plan proactively** with insights that support better budget and resource management across your organization
 - **Avoid surprises** by understanding your trajectory months in advance
 
-## Exercise 2.5.3 - Scenario 2 - Optimizing Subscription and Consumption Commercial Models
+## Exercise 7.3 - Scenario 2 - Optimizing Subscription and Consumption Commercial Models
 
 In this scenario, you will learn how to manage and track both **subscription** and **consumption** commercial models for your **BTP** services to ensure you're using the most cost-effective approach.
 
-![Prepaid Quota Overview](images/05-optimization/prepaid-quota-overview.jpg)
+![Prepaid Quota Overview](images/prepaid-quota-overview.jpg)
 
 ### Understanding Your Prepaid Quota Utilization
 
@@ -78,8 +78,8 @@ In this scenario, you will learn how to manage and track both **subscription** a
    > [!TIP]
    > Keeping all services visible allows you to see both services within prepaid quota and those incurring additional charges, giving you a complete picture of your service portfolio.
 
-> [!NOTE]
-> The Prepaid Quota represents capacity you've already purchased through a subscription. It's critical to maximize utilization of this quota before paying for additional consumption-based services.
+   > [!NOTE]
+   > The Prepaid Quota represents capacity you've already purchased through a subscription. It's critical to maximize utilization of this quota before paying for additional consumption-based services.
 
 6. Review the list and observe that most of these services (except one) have **Charged Usage** and **List Price** of 0, because their usage is lower than the prepaid quota. This means they are fully utilizing services covered by the subscription without incurring additional costs.
 7. Select **Cloud Foundry Runtime - Standard**, which is the only service with both prepaid quota **and** a list price, indicating its usage has exceeded the prepaid quota.
@@ -93,8 +93,8 @@ In this scenario, you will learn how to manage and track both **subscription** a
    - Recognizing this increase, the Apex controller purchased an additional **20 GB** of Cloud Foundry Runtime subscription, increasing the quota to **60 GB**
    - After several more months, usage has increased to **80 GB**, creating a **20 GB overage** that is being charged at consumption rates
 
-> [!TIP]
-> The dotted line in the graph represents your prepaid quota. When the solid usage line exceeds the dotted line, you're paying additional consumption-based charges for the overage.
+   > [!TIP]
+   > The dotted line in the graph represents your prepaid quota. When the solid usage line exceeds the dotted line, you're paying additional consumption-based charges for the overage.
 
 ### Optimization Recommendation
 
@@ -136,4 +136,4 @@ When deciding between subscription (prepaid quota) and consumption models, consi
 
 ---
 
-[← Previous: Exercise 4 - Controlling Costs Using Budgets](04-budgets.md) | [Continue to: Exercise 6 - Cost and Usage Overview (Preview - Bonus) →](06-cost-usage-overview.md)
+[← Previous: Exercise 6 - Controlling Costs Using Budgets](../ex6/) | [Continue to: Exercise 8 - Cost and Usage Overview (Preview - Bonus) →](../ex8/)

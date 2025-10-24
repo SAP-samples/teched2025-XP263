@@ -1,42 +1,51 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - TechEd - Apex Holdings Scenario
 
-In this exercise, we will create...
+## Exercise 2.1 - Overview
 
-## Exercise 2.1 Sub Exercise 1 Description
+In Exercise 1, you previously set up the initial Apex Holdings account structure.
 
-After completing these steps you will have created...
+Now, several years have passed, Apex Holdings has expanded and acquired new companies, which have become its subsidiaries (represented as directories). In this exercise, you'll continue building on that scenario by taking on the roles of **Apex Holdings administrator and FinOps controller**.
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+During this time, Apex Holdings has also signed a major **CPEA contract** that extends coverage to all its subsidiaries.
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ).
-```
+This exercise demonstrates **FinOps capabilities** that are publicly available to all customers. At the end, you'll explore a preview of the **Cost and Usage Overview** page, which is currently in a non-productive (preview) state.
 
+> [!NOTE]
+> The data used in this exercise is **mock data created specifically for TechEd**. All costs and names shown are for demonstration purposes only and should be disregarded.
 
+## Exercise 2.2 - Getting Started
 
-## Exercise 2.2 Sub Exercise 2 Description
+1. Open the following link in a browser to access the **SAP BTP** account: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=glnfm15r.accounts.ondemand.com&teched=true#>
+2. Enter the user name `XP263-XXX@education.cloud.sap`, where `XXX` is the number of your workshop place. For example: XP263-000@education.cloud.sap
+3. Enter the password: `Access$teched2025`
 
-After completing these steps you will have...
+This will open the **BTP Cockpit** with the **Global Account Administrator** role collection and mocked data for Apex Holdings.
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+4. In the **BTP Cockpit**, under the left pane -> navigate to the **Account Explorer**
 
-```
+5. Review the account structure including **Subsidiaries**, represented as directories
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+6. Make sure under each Subsidiary, you see **DEV**, **TEST** and **PROD** environments represented as directories.
 
-## Summary
+7. Make sure under each environment folder, you see the dedicated applications represented as subaccounts.
 
-You've now ...
+8. Each subaccount has 5 **Labels** representing the **Contact Person**, **Cost Center**, **Department**, **Environment** and **Region**.
 
-Continue to - [Exercise 3 - Exercise 3](../ex3/README.md)
+   <details>
+   <summary><b>What are labels?</b></summary>
+
+   **Labels** are user-defined words or phrases that you can assign to various entities (such as directories, subaccounts) in **SAP BTP** to categorize them in your global account, to identify them more easily. They enable you to organize and filter your entities within your global account to assist in managing the account and cost aggregation. They are particularly useful for accounts that lack a well-defined structure (e.g., those built-up layer by layer over time).
+
+   </details>
+
+<br>
+
+Try out label filtering by entering ContactPerson in the search box and choose "ContactPerson :alex.yamamoto@apex.com". You will see a filtered list of the account structure including the subaccounts with this label.
+
+In this section, you have learned:
+- Understand the Apex Holdings hierarchical structure (Subsidiaries → Environments → Applications)
+- Understand and use labels for filtering the organization
+
+---
+
+[Continue to: Exercise 3 - Billing verification →](../ex3/)

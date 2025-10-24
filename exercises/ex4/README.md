@@ -1,28 +1,32 @@
-# Exercise 2.2 - Monitoring cost and consumption
+# Exercise 4 - Monitoring cost and consumption
 
-## Exercise 2.2.1 - Introduction
+## Exercise 4.1 - Introduction
 
 In this section, you will monitor costs and resource consumption by comparing services and subaccounts, analyzing trends, and drilling into detailed data. The objective is to identify the reasons behind the cost increase in October (the previous month), which was identified in the previous exercise as the month with the highest costs over the past 12 months.
 
 > [!NOTE]
-> You can expand ![expand icon](images/02-monitoring-costs/expand.jpg) the table at any time to increase the visible area and view more data.
+> You can expand ![expand icon](images/expand.jpg) the table at any time to increase the visible area and view more data.
 
-## Exercise 2.2.2 - Investigate and monitor the cost increase in the previous month
+## Exercise 4.2 - Investigate and monitor the cost increase in the previous month
 
 1. In the **Costs and Usage** header, ensure that the filter for **Month** is set to the previous month.
 2. The default view displays **Billing → View By Service**
 3. Which service plan has the highest cost?
 
    <details>
-   <summary>Answer</summary>
+   <summary><b>Hint</b></summary>
+
+   Sort the **List Price** column in descending order to organize the services by cost.
+
+   </details>
+
+   <details>
+   <summary><b>Answer</b></summary>
 
    **SAP HANA Cloud - HANA**
 
    ***SAP HANA Cloud** is a database-as-a-service offering that typically represents a significant cost component in **BTP** environments. As the service plan with the highest cost, it will be a key focus area for investigating the October cost increase.*
    </details>
-
-   > [!TIP]
-   > Sort the **List Price** column in descending order to organize the services by cost.
 
    <br>
 
@@ -31,7 +35,7 @@ In this section, you will monitor costs and resource consumption by comparing se
    2. Look for the service plan with the highest cost which you found in the previous step. Review the trend, has there been an increase in the costs of this service plan in the previous month vs. the month before?
 
       <details>
-      <summary>Answer</summary>
+      <summary><b>Answer</b></summary>
 
       **Yes**
 
@@ -45,25 +49,29 @@ In this section, you will monitor costs and resource consumption by comparing se
 7. What is the Subaccount with the highest costs in the previous month using this service plan?
 
    <details>
-   <summary>Answer</summary>
+   <summary><b>Hint</b></summary>
+
+   Check **"Shows subaccounts only"** and sort the **List Price** Column by descending.
+
+   </details>
+
+   <details>
+   <summary><b>Answer</b></summary>
 
    **Sales App 1 – PROD**
 
    *This production subaccount is the primary consumer of SAP HANA Cloud - HANA services in the previous month. Identifying the specific subaccount allows you to drill deeper into understanding when and why these costs began, and whether they represent expected growth or an anomaly requiring attention.*
    </details>
 
-   > [!TIP]
-   > Check **"Shows subaccounts only"** and sort the **List Price** Column by descending.
-
    <br>
 
-   ![Service Plan Details](images/02-monitoring-costs/service-plan-subaccount-view.jpg)
+   ![Service Plan Details](images/service-plan-subaccount-view.jpg)
 
 8. For this subaccount click on the switch button (see highlighted in screen shot above). This action will take you to the 'View by Account', where you can view the subaccount's costs and usage within the account hierarchy.
 9. Scroll down to the graph and view the Cost Breakdown by Service Plans. Can you find a reason for the increase in the previous month?
 
    <details>
-   <summary>Answer</summary>
+   <summary><b>Answer</b></summary>
 
    ***Sales App 1 – PROD** subaccount began incurring costs last month mainly due to the use of **SAP HANA Cloud – HANA** service plan, which helps explain part of the overall cost increase.*
    </details>
@@ -82,4 +90,4 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 ---
 
-[← Previous: Exercise 1 - Billing verification](01-billing-verification.md) | [Continue to: Exercise 3 - Cross charge / distribution →](03-cross-charge.md)
+[← Previous: Exercise 3 - Billing verification](../ex3/) | [Continue to: Exercise 5 - Cross charge / distribution →](../ex5/)

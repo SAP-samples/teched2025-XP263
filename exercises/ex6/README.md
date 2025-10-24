@@ -1,6 +1,6 @@
-# Exercise 2.4 - Controlling Costs Using Budgets
+# Exercise 6 - Controlling Costs Using Budgets
 
-## Exercise 2.4.1 - Introduction
+## Exercise 6.1 - Introduction
 
 In this section, you will learn to manage, control, and optimize cloud spending using **Budgets**. Budgets allow you to better control your global account spending and plan for future consumption by setting up budget limits for your global account in **SAP BTP**.
 
@@ -24,13 +24,13 @@ When budget thresholds are reached, multiple alert options are available (you ca
 > [!TIP]
 > For more information, see: [How to enable SAP Alert Notification for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/alerting-events) and subscribe to the budget event: [Budget Threshold Exceedance Event (Beta)](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance-event). This link is also available in the budget creation screen.
 
-## Exercise 2.4.2 - Creating Budgets
+## Exercise 6.2 - Creating Budgets
 
-![Budget Creation Overview](images/04-budgets/budget-creation-overview.jpg)
+![Budget Creation Overview](images/budget-creation-overview.jpg)
 
 In the Costs and Usage page, navigate to the **Budgets** tab to create two new budgets covering different scenarios.
 
-## Exercise 2.4.3 - Scenario 1 - Cost-Based Budget for Specific Subaccount
+## Exercise 6.3 - Scenario 1 - Cost-Based Budget for Specific Subaccount
 
 In this scenario, you will create a cost-based budget. By default, the budget scope applies to the entire Global Account. In this case, update the scope to subaccount HR App 4 – TEST (the highest-cost subaccount in the previous month). This allows you to monitor and control spending at a more granular level.
 
@@ -40,7 +40,7 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
 2. Enter a name, for example: `HR App 4 TEST costs`
 3. Keep the default Cost budget type. It tracks your consumption's monetary value at list price. No need to change the date range.
 
-   ![Budget Scope - Subaccount Selection](images/04-budgets/budget-scope-subaccount.jpg)
+   ![Budget Scope - Subaccount Selection](images/budget-scope-subaccount.jpg)
 
 4. **Scope**:
    - Click on **Scope** to expand the filter options
@@ -52,16 +52,16 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
    - Click **Select** and then **Apply**
    - View the history preview showing the HR App 4 – TEST cost trend for the last 12 months
 
-> [!TIP]
-> You can filter budgets by subaccounts, directories, services, or a combination of these. This flexibility allows you to create budgets aligned with your organizational structure and cost allocation needs.
+   > [!TIP]
+   > You can filter budgets by subaccounts, directories, services, or a combination of these. This flexibility allows you to create budgets aligned with your organizational structure and cost allocation needs.
 
 5. **Amount**: Enter `40,000` USD
 6. View the history preview. You will see the budget amount and Thresholds together with the Actual costs and exceedance over the past 12 months.
 7. **Thresholds**: Change the threshold percentages to **20%**, **50%**, and **80%** to create more frequent alerts for this high-cost subaccount.
 8. View the updated history preview with the new thresholds.
 
-> [!NOTE]
-> Custom threshold percentages are useful when you want earlier warnings for critical subaccounts or services. Lower thresholds (like 20%) provide earlier alerts, giving you more time to react.
+   > [!NOTE]
+   > Custom threshold percentages are useful when you want earlier warnings for critical subaccounts or services. Lower thresholds (like 20%) provide earlier alerts, giving you more time to react.
 
 9. Click **Create**.
 10. You will see a new budget created in the Budgets table.
@@ -79,7 +79,7 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
 
 11. In the Active Budgets table, choose the budget you just created and view the details to verify the information you entered when creating the Budget. Choose to view it in the Billing Tab (hint: via the '…' and choose 'View in Billing Tab').
 
-## Exercise 2.4.4 - Scenario 2 - Charged Usage Budget for Specific Service
+## Exercise 6.4 - Scenario 2 - Charged Usage Budget for Specific Service
 
 In this scenario, you will define a budget based on **charged usage** rather than cost. **Charged usage budgets** track the actual resource units consumed (e.g., compute hours, storage GB) rather than their monetary value. Let's create a budget for **SAP HANA Cloud**, which was the service with the highest costs in the previous month.
 
@@ -89,8 +89,8 @@ In this scenario, you will define a budget based on **charged usage** rather tha
 2. Enter a name, for example: `HANA Cloud Capacity Units`
 3. **Budget type**: Change from **Cost** to **Charged Usage**
 
-> [!NOTE]
-> Charged Usage budgets are useful when you want to track actual resource consumption independently of pricing fluctuations. This is particularly valuable for capacity planning and understanding usage patterns.
+   > [!NOTE]
+   > Charged Usage budgets are useful when you want to track actual resource consumption independently of pricing fluctuations. This is particularly valuable for capacity planning and understanding usage patterns.
 
 4. **Scope**:
    - Click on **Scope** to expand the filter options
@@ -106,8 +106,8 @@ In this scenario, you will define a budget based on **charged usage** rather tha
 7. No need to change the **date range** and **thresholds** (keep defaults).
 8. Toggle **ON** the option to **"Automatically send alerts to global account admins"**
 
-> [!WARNING]
-> Remember: When this option is enabled, all Global Account Administrators will receive email notifications when thresholds are exceeded. Consider whether this is appropriate for your organization before enabling.
+   > [!WARNING]
+   > Remember: When this option is enabled, all Global Account Administrators will receive email notifications when thresholds are exceeded. Consider whether this is appropriate for your organization before enabling.
 
 9. Click **Create**.
 10. You will see a new budget created in the Budgets table with type **Charged Usage**.
@@ -139,4 +139,4 @@ In this scenario, you will define a budget based on **charged usage** rather tha
 
 ---
 
-[← Previous: Exercise 3 - Cross charge / distribution](03-cross-charge.md) | [Continue to: Exercise 5 - Optimization →](05-optimization.md)
+[← Previous: Exercise 5 - Cross charge / distribution](../ex5/) | [Continue to: Exercise 7 - Optimization →](../ex7/)

@@ -1,6 +1,6 @@
-# Exercise 2.6 - Cost and Usage Overview (Preview - Bonus)
+# Exercise 8 - Cost and Usage Overview (Preview - Bonus)
 
-## Exercise 2.6.1 - Introduction
+## Exercise 8.1 - Introduction
 
 As promised, you can now preview the new **Cost and Usage Overview** page, which is currently in a non-productive (preview) state. This new interface represents SAP's vision for providing centralized, actionable insights for **BTP FinOps** management.
 
@@ -11,7 +11,7 @@ The goal of this **Overview** page is to provide a centralized view of key insig
 
 Some of the information introduced earlier in this exercise, such as **prepaid quota** details, top-cost service plans, and subaccounts, is now consolidated and visible on this **Overview** page for quick access and monitoring.
 
-## Exercise 2.6.2 - Accessing the Preview
+## Exercise 8.2 - Accessing the Preview
 
 To access the preview version of the Cost and Usage Overview:
 
@@ -29,10 +29,10 @@ To access the preview version of the Cost and Usage Overview:
 3. In the BTP Cockpit, navigate to the Costs and Usage page using the left navigation pane.
 4. You will see the new **"Overview"** tab displayed by default instead of the traditional Billing view.
 
-> [!TIP]
-> Bookmark this preview URL if you want to explore the new interface further during the session.
+   > [!TIP]
+   > Bookmark this preview URL if you want to explore the new interface further during the session.
 
-## Exercise 2.6.3 - Exploring the Cost and Usage Overview
+## Exercise 8.3 - Exploring the Cost and Usage Overview
 
 ### Monthly Cost Summary
 
@@ -40,8 +40,8 @@ To access the preview version of the Cost and Usage Overview:
 2. Note the "Total forecasted cost for current month" value.
 3. Observe the predicted increase or decrease compared to last month.
 
-> [!NOTE]
-> The forecasting feature uses historical consumption patterns and current trends to estimate end-of-month costs, helping you anticipate budget impacts early in the billing cycle.
+   > [!NOTE]
+   > The forecasting feature uses historical consumption patterns and current trends to estimate end-of-month costs, helping you anticipate budget impacts early in the billing cycle.
 
 ### Prepaid Quota Consumption
 
@@ -49,8 +49,8 @@ To access the preview version of the Cost and Usage Overview:
 2. This provides a quick overview of how much of your prepaid quota was utilized in the previous month.
 3. Click the link to **"View in the Billing tab"** to drill into detailed prepaid quota consumption data.
 
-> [!TIP]
-> Monitoring prepaid quota consumption helps ensure you maximize the value of your committed spend before incurring overage charges.
+   > [!TIP]
+   > Monitoring prepaid quota consumption helps ensure you maximize the value of your committed spend before incurring overage charges.
 
 ### Cost and Usage Recommendations
 
@@ -68,8 +68,8 @@ The recommendations section provides actionable insights to help you manage cost
    - Identifies unusual increases in costs compared to historical patterns
    - Helps you quickly investigate and address unexpected consumption
 
-> [!NOTE]
-> These recommendations are generated automatically based on your account's cost patterns and configured thresholds. Acting on these recommendations promptly can help prevent budget overruns and optimize spending.
+   > [!NOTE]
+   > These recommendations are generated automatically based on your account's cost patterns and configured thresholds. Acting on these recommendations promptly can help prevent budget overruns and optimize spending.
 
 ### Cost Breakdown
 
@@ -77,8 +77,8 @@ The recommendations section provides actionable insights to help you manage cost
 2. This view provides a quick comparison of your highest-cost items.
 3. Identify which services and subaccounts are driving the majority of your costs.
 
-> [!TIP]
-> Use this breakdown to focus your optimization efforts on the areas with the greatest potential impact.
+   > [!TIP]
+   > Use this breakdown to focus your optimization efforts on the areas with the greatest potential impact.
 
 ### Cost Distribution
 
@@ -86,8 +86,8 @@ The recommendations section provides actionable insights to help you manage cost
 2. These visualizations provide an at-a-glance view of how costs are distributed across your global account.
 3. Identify concentration risks where a single service or subaccount represents a disproportionate share of total costs.
 
-> [!NOTE]
-> Understanding cost distribution helps you balance your cloud portfolio and identify opportunities for consolidation or optimization.
+   > [!NOTE]
+   > Understanding cost distribution helps you balance your cloud portfolio and identify opportunities for consolidation or optimization.
 
 ## Summary
 
@@ -103,4 +103,4 @@ The recommendations section provides actionable insights to help you manage cost
 
 ---
 
-[← Previous: Exercise 5 - Optimization](05-optimization.md) | [Continue to: Exercise 7 - Export Excel (Optional) →](07-export-excel.md)
+[← Previous: Exercise 7 - Optimization](../ex7/) | [Continue to: Exercise 9 - Export Excel (Optional) →](../ex9/)

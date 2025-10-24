@@ -15,13 +15,21 @@ Each Subsidiary manages its own dedicated applications, ranging from payroll and
 
 The overall account structure mirrors a real-world organization with production, test, and development environments (represented as directories) aligned to cost centers and contact persons (represented as labels).
 
-This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It consists of two parts:
+This session gives the attendees the opportunity to get hands-on experience with advanced administration tools in SAP Business Technology Platform (SAP BTP). It consists of two main parts:
 
 - **Exercise 1** will give you insights on how to automate a consistent sample setup of SAP BTP accounts using **Terraform** as a foundation for using the FinOps capabilities on your accounts.
-- **Exercise 2** will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. You will learn about the **FinOps capabilities** (management cost and usage for BTP services) available to all customers using the Apex setup. At the end, you will explore a preview of the Cost and Usage Overview page (non-productive at the time of SAP TechEd 2025).
+- **Exercises 2-9** will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. You will learn about the **FinOps capabilities** (management cost and usage for BTP services) available to all customers using the Apex setup. The exercises cover:
+  - Exercise 2: Introduction to Apex Holdings scenario
+  - Exercise 3: Billing verification
+  - Exercise 4: Monitoring costs
+  - Exercise 5: Cross-charging and cost distribution
+  - Exercise 6: Budget management and alerts
+  - Exercise 7: Cost optimization strategies
+  - Exercise 8: Cost and Usage Overview (Preview)
+  - Exercise 9: Exporting data to Excel (Optional)
 
 > [!NOTE]
-> The two exercises are independent of each other. In case you get stuck in exercise 1 you can still proceed with exercise 2.
+> The exercises are independent. In case you get stuck in exercise 1 you can still proceed with exercises 2-9.
 
 ## Requirements
 
@@ -40,9 +48,14 @@ Make sure that the following prerequisites are met if you do this exercise on yo
     - [Exercise 1.2 - Completing the basic Terraform configuration](exercises/ex1/README.md#exercise-12---completing-the-basic-terraform-configuration)
     - [Exercise 1.3 - Adding a new subaccount](exercises/ex1/README.md#exercise-13---adding-a-new-subaccount)
     - [Exercise 1.4 - Adding the production stage](exercises/ex1/README.md#exercise-14---adding-the-production-stage)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 2 - TechEd - Apex Holdings Scenario](exercises/ex2/)
+- [Exercise 3 - Billing Verification](exercises/ex3/)
+- [Exercise 4 - Monitoring Costs](exercises/ex4/)
+- [Exercise 5 - Cross Charge / Distribution](exercises/ex5/)
+- [Exercise 6 - Controlling Costs Using Budgets](exercises/ex6/)
+- [Exercise 7 - Optimization](exercises/ex7/)
+- [Exercise 8 - Cost and Usage Overview (Preview - Bonus)](exercises/ex8/)
+- [Exercise 9 - Export to Excel (Optional)](exercises/ex9/)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

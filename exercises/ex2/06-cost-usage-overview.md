@@ -1,17 +1,17 @@
-# Exercise 6 - Cost and Usage Overview (Preview - Bonus)
+# Exercise 2.6 - Cost and Usage Overview (Preview - Bonus)
 
-## Introduction
+## Exercise 2.6.1 - Introduction
 
-As promised, you can now preview the new Cost and Usage Overview page, which is currently in a non-productive (preview) state. This new interface represents SAP's vision for providing centralized, actionable insights for BTP FinOps management.
+As promised, you can now preview the new **Cost and Usage Overview** page, which is currently in a non-productive (preview) state. This new interface represents SAP's vision for providing centralized, actionable insights for **BTP FinOps** management.
 
 > [!WARNING]
 > This is the current state of planning and **may be changed by SAP at any time**. The features and interface shown here are subject to modification before general availability.
 
-The goal of this Overview page is to provide a centralized view of key insights and recommendations for BTP FinOps. You can explore further details by expanding specific views or navigating to relevant links throughout the interface.
+The goal of this **Overview** page is to provide a centralized view of key insights and recommendations for **BTP FinOps**. You can explore further details by expanding specific views or navigating to relevant links throughout the interface.
 
-Some of the information introduced earlier in this exercise, such as prepaid quota details, top-cost service plans, and subaccounts, is now consolidated and visible on this Overview page for quick access and monitoring.
+Some of the information introduced earlier in this exercise, such as **prepaid quota** details, top-cost service plans, and subaccounts, is now consolidated and visible on this **Overview** page for quick access and monitoring.
 
-## Accessing the Preview
+## Exercise 2.6.2 - Accessing the Preview
 
 To access the preview version of the Cost and Usage Overview:
 
@@ -32,7 +32,7 @@ To access the preview version of the Cost and Usage Overview:
 > [!TIP]
 > Bookmark this preview URL if you want to explore the new interface further during the session.
 
-## Exploring the Cost and Usage Overview
+## Exercise 2.6.3 - Exploring the Cost and Usage Overview
 
 ### Monthly Cost Summary
 
@@ -93,24 +93,10 @@ The recommendations section provides actionable insights to help you manage cost
 
 ### 🎯 Key Takeaways
 
-#### Preview Access & Future Vision
-- ✅ Explore the new Overview tab, SAP's vision for central FinOps entry point
-- ✅ Experience preview features under development (subject to change)
-- ✅ Understand SAP's direction for consolidating insights into single dashboard
-
-#### Centralized Cost Intelligence
-- ✅ View monthly cost summaries with current spend, trends, and forecasts
-- ✅ Monitor cost distribution through visual pie charts
-- ✅ Analyze cost breakdown to identify highest-cost items
-- ✅ Review prepaid quota consumption status without navigating elsewhere
-
-#### Proactive Recommendations & Actions
-- ✅ Act on automated recommendations for Budgets, Credit Overages, and Cost Spikes
-- ✅ Navigate between Overview and Billing views for deeper investigation
-- ✅ Leverage AI-driven insights to catch issues early
-
-#### Feedback Opportunity
-- ✅ Provide feedback to SAP to shape future BTP FinOps capabilities
+- ✅ Explore the new Overview tab preview as SAP's vision for centralized FinOps dashboard with consolidated cost intelligence
+- ✅ Monitor monthly cost summaries, trends, forecasts, and prepaid quota consumption through visual charts and breakdowns
+- ✅ Act on automated AI-driven recommendations for budget exceedances, cloud credit overages, and cost spikes
+- ✅ Navigate between Overview and Billing views for deeper investigation and provide feedback to shape future capabilities
 
 > [!TIP]
 > This preview gives you an early look at how SAP is evolving the BTP FinOps experience. Consider providing feedback to SAP through your account team to help shape the future of these capabilities.

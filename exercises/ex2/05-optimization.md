@@ -1,8 +1,8 @@
-# Exercise 5 - Optimization
+# Exercise 2.5 - Optimization
 
-## Introduction
+## Exercise 2.5.1 - Introduction
 
-In this section, you will learn to identify and implement cost and utilization optimizations for your overall global account. By analyzing trends in cloud credits, prepaid quotas, and consumption patterns, you can make informed decisions to control costs and maximize the value of your SAP BTP investments.
+In this section, you will learn to identify and implement cost and utilization optimizations for your overall global account. By analyzing trends in **cloud credits**, **prepaid quotas**, and consumption patterns, you can make informed decisions to control costs and maximize the value of your **SAP BTP** investments.
 
 This exercise focuses on **strategic, account-level optimizations** rather than service-specific optimizations, as recommendations for individual services vary based on their unique characteristics and usage patterns.
 
@@ -10,9 +10,9 @@ The two key optimization strategies covered in this exercise are:
 1. **Cloud Credit Management**: Forecasting and planning to avoid costly overages
 2. **Subscription vs. Consumption Balance**: Optimizing the mix of prepaid quotas and consumption-based usage
 
-By the end of this exercise, you'll be able to proactively manage your BTP spending and make strategic purchasing decisions.
+By the end of this exercise, you'll be able to proactively manage your **BTP** spending and make strategic purchasing decisions.
 
-## Scenario 1 - Optimizing Cloud Credit Costs
+## Exercise 2.5.2 - Scenario 1 - Optimizing Cloud Credit Costs
 
 In this scenario, you will learn how to use Cloud Credit forecasting to anticipate potential overages and plan your purchasing strategy accordingly.
 
@@ -61,9 +61,9 @@ With Cloud Credits Forecasting, you can:
 - **Plan proactively** with insights that support better budget and resource management across your organization
 - **Avoid surprises** by understanding your trajectory months in advance
 
-## Scenario 2 - Optimizing Subscription and Consumption Commercial Models
+## Exercise 2.5.3 - Scenario 2 - Optimizing Subscription and Consumption Commercial Models
 
-In this scenario, you will learn how to manage and track both subscription and consumption commercial models for your BTP services to ensure you're using the most cost-effective approach.
+In this scenario, you will learn how to manage and track both **subscription** and **consumption** commercial models for your **BTP** services to ensure you're using the most cost-effective approach.
 
 ![Prepaid Quota Overview](images/05-optimization/prepaid-quota-overview.jpg)
 
@@ -72,12 +72,11 @@ In this scenario, you will learn how to manage and track both subscription and c
 1. In the Costs and Usage header, ensure that the Month filter is set to **the previous month**. This is the month where you identified an increase in overall global account costs in Exercise 2.
 2. By default, you should see the Billing view → **View By Service** display.
 3. Make sure **"Show only services with charged usage"** is **NOT checked** (unchecked).
-
-> [!TIP]
-> Keeping all services visible allows you to see both services within prepaid quota and those incurring additional charges, giving you a complete picture of your service portfolio.
-
 4. Sort the **Prepaid Quota** column in **descending order** to see services with the highest quotas at the top.
 5. You will notice several services that include a prepaid quota. This refers to the amount your global account is entitled to consume in advance from your subscription-based commercial model agreement. Any usage within this quota will not incur additional billing.
+
+   > [!TIP]
+   > Keeping all services visible allows you to see both services within prepaid quota and those incurring additional charges, giving you a complete picture of your service portfolio.
 
 > [!NOTE]
 > The Prepaid Quota represents capacity you've already purchased through a subscription. It's critical to maximize utilization of this quota before paying for additional consumption-based services.
@@ -127,23 +126,10 @@ When deciding between subscription (prepaid quota) and consumption models, consi
 
 ### 🎯 Key Takeaways
 
-#### Cloud Credit Optimization
-- ✅ Track and forecast cloud credit usage to identify potential overages
-- ✅ Use "Show Forecast" feature to visualize projected spending
-- ✅ Purchase additional cloud credits at discounted rates before overages
-- ✅ Understand cost difference between prepaid credits and list-price overages
-
-#### Subscription vs. Consumption Analysis
-- ✅ Understand subscription (prepaid quota) vs. consumption-based models
-- ✅ Identify prepaid quota utilization to maximize existing investments
-- ✅ Analyze 12-month usage trends to distinguish baseline from growth
-- ✅ Identify services exceeding prepaid quotas and incurring consumption charges
-
-#### Strategic Cost Optimization
-- ✅ Make data-driven decisions about purchasing additional subscriptions
-- ✅ Balance subscription commitments with consumption flexibility
-- ✅ Apply break-even analysis for subscription vs. consumption decisions
-- ✅ Recognize optimization as ongoing process requiring monthly reviews
+- ✅ Track and forecast cloud credit usage to identify potential overages and purchase additional credits at discounted rates before exceeding limits
+- ✅ Analyze prepaid quota utilization and identify services exceeding quotas to maximize existing subscription investments
+- ✅ Use 12-month usage trends to distinguish baseline consumption from growth and make data-driven purchasing decisions
+- ✅ Balance subscription commitments with consumption flexibility using break-even analysis for optimal cost structure
 
 > [!TIP]
 > Optimization is an ongoing process. Review your cloud credits and prepaid quota utilization monthly to catch trends early and make timely adjustments to your purchasing strategy.

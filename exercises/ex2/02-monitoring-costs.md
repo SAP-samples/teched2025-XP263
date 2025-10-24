@@ -1,20 +1,16 @@
-# Exercise 2 - Monitoring cost and consumption
+# Exercise 2.2 - Monitoring cost and consumption
 
-## Introduction
+## Exercise 2.2.1 - Introduction
 
 In this section, you will monitor costs and resource consumption by comparing services and subaccounts, analyzing trends, and drilling into detailed data. The objective is to identify the reasons behind the cost increase in October (the previous month), which was identified in the previous exercise as the month with the highest costs over the past 12 months.
 
 > [!NOTE]
 > You can expand ![expand icon](images/02-monitoring-costs/expand.jpg) the table at any time to increase the visible area and view more data.
 
-## Investigate and monitor the cost increase in the previous month
+## Exercise 2.2.2 - Investigate and monitor the cost increase in the previous month
 
-1. In the Costs and Usage header, ensure that the filter for Month is set to the previous month.
-2. The default view displays Billing → View By Service
-
-> [!TIP]
-> Sort the List Price column in descending order to organize the services by cost.
-
+1. In the **Costs and Usage** header, ensure that the filter for **Month** is set to the previous month.
+2. The default view displays **Billing → View By Service**
 3. Which service plan has the highest cost?
 
    <details>
@@ -22,11 +18,15 @@ In this section, you will monitor costs and resource consumption by comparing se
 
    **SAP HANA Cloud - HANA**
 
-   SAP HANA Cloud is a database-as-a-service offering that typically represents a significant cost component in BTP environments. As the service plan with the highest cost, it will be a key focus area for investigating the October cost increase.
+   **SAP HANA Cloud** is a database-as-a-service offering that typically represents a significant cost component in **BTP** environments. As the service plan with the highest cost, it will be a key focus area for investigating the October cost increase.
    </details>
+
+   > [!TIP]
+   > Sort the **List Price** column in descending order to organize the services by cost.
+
    <br>
 
-4. Make sure no service is selected in the table. Scroll down to view the graph presenting the Global Account - Cost Summary and choose View By: Cost Breakdown. The graph presents the costliest services in your global account over the last 12 months.
+4. Make sure no service is selected in the table. Scroll down to view the graph presenting the **Global Account - Cost Summary** and choose **View By: Cost Breakdown**. The graph presents the costliest services in your global account over the last 12 months.
    1. Expand the graph
    2. Look for the service plan with the highest cost which you found in the previous step. Review the trend, has there been an increase in the costs of this service plan in the previous month vs. the month before?
 
@@ -39,13 +39,9 @@ In this section, you will monitor costs and resource consumption by comparing se
       </details>
       <br>
 
-   3. This explains some of the increase in the overall previous month costs. Let's see why this increase occurred. Close the expanded graph view to see the full Billing table
+   3. This explains some of the increase in the overall previous month costs. Let's see why this increase occurred. Close the expanded graph view to see the full **Billing** table
 5. Select the service plan with the highest costs (as identified in step #3).
 6. You can see on the right-hand side the service plan details and find all subaccounts that use this service plan.
-
-> [!TIP]
-> Check "Shows subaccounts only" and sort the List Price Column by descending.
-
 7. What is the Subaccount with the highest costs in the previous month using this service plan?
 
    <details>
@@ -55,6 +51,10 @@ In this section, you will monitor costs and resource consumption by comparing se
 
    This production subaccount is the primary consumer of SAP HANA Cloud - HANA services in the previous month. Identifying the specific subaccount allows you to drill deeper into understanding when and why these costs began, and whether they represent expected growth or an anomaly requiring attention.
    </details>
+
+   > [!TIP]
+   > Check **"Shows subaccounts only"** and sort the **List Price** Column by descending.
+
    <br>
 
    ![Service Plan Details](images/02-monitoring-costs/service-plan-subaccount-view.jpg)
@@ -75,21 +75,10 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 ### 🎯 Key Takeaways
 
-#### Cost Investigation & Root Cause Analysis
-- ✅ Identify highest-cost service plans driving cost increases
-- ✅ Analyze cost trends to distinguish sustained growth from temporary spikes
-- ✅ Drill down from service-level costs to specific subaccounts
-- ✅ Trace the timeline of cost changes to understand new workloads
-
-#### Advanced Navigation & Comparison
-- ✅ Navigate between "View by Service" and "View by Account" using the switch button
-- ✅ Sort and filter data by cost columns to prioritize investigations
-- ✅ Use "Shows subaccounts only" filter to focus on specific consumption units
-- ✅ Interpret Cost Breakdown graphs to visualize service plan distribution
-
-#### Data-Driven Decision Making
-- ✅ Connect cost data to business context
-- ✅ Distinguish between expected growth and unexpected anomalies
+- ✅ Identify and analyze highest-cost service plans to understand cost drivers and distinguish sustained growth from temporary spikes
+- ✅ Drill down from service-level costs to specific subaccounts to trace spending increases and new workloads
+- ✅ Navigate between "View by Service" and "View by Account" using filters, sorting, and the switch button
+- ✅ Interpret Cost Breakdown graphs and connect cost data to business context for data-driven decision making
 
 ---
 

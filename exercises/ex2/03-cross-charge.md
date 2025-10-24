@@ -93,38 +93,32 @@ You may also use the option available to export the data to **Excel** for furthe
       <br>
 
    5. View the Environment for this subaccount. You might notice something interesting - the environment is labeled as "Test", indicating it's used for testing purposes. Typically, production environments incur higher costs than test environments.
-   6. Bookmark subaccount HR App 4 – TEST for future tracking by searching for the subaccount and bookmarking the browser tab. Copy the link by clicking the bookmark icon ![bookmark icon](images/03-cross-charge/bookmark.jpg). This enables to save the link and send it to other global account admins for further tracking.
 
 7. Unselect the subaccount and deselect the "Show only subaccounts".
 
 ## Exercise 2.3.3 - Cross charge using Labels
 
 1. Ensure that the filter for Month is set to the previous month.
-2. Check the overall Tests cost in Apex by typing in the Search box Environment and choose Environment: Test costs. What are the costs?
 
-   <details>
-   <summary>Answer</summary>
+2. As you saw, subaccount HR App 4 - TEST is in EMEA. What are the overall costs for the Apex EMEA region?
 
-   **221,821.91 USD**
+<details>
+<summary><b>Hint</b></summary>
 
-   This represents the total cost for all test environments across the Apex global account in the previous month. This aggregated view, made possible by the Environment label, helps you understand the overall investment in testing infrastructure and can be used for cross-charging test costs back to the appropriate business units or departments.
-   </details>
-   <br>
+Type in the search box Region and choose Region: EMEA or you may search for EMEA
 
-3. As you saw, subaccount HR App 4 - TEST is in EMEA, what are the cost for the whole Apex EMEA region?
+</details>
 
-   <details>
-   <summary>Answer</summary>
+<details>
+<summary><b>Answer</b></summary>
 
-   **362,710.05 USD**
+362,710.05 USD
 
-   This is the total cost for the EMEA (Europe, Middle East, and Africa) region in the previous month. Using the Region label enables regional cost tracking and cross-charging, which is essential for multi-regional organizations to understand geographic cost distribution and allocate expenses appropriately to regional teams or cost centers.
-   </details>
+</details>
 
-   > [!TIP]
-   > Search for the label Region and choose Region: EMEA or you may search for EMEA (similar to the previous step).
+<br>
 
-   <br>
+3. Bookmark the Apex EMEA region for future tracking by clicking on the bookmark button Image. This enables to copy the link and save it for future use send it to others (e.g. EMEA region owner) for further tracking.
 
 4. You also saw the Department for this subaccount is HR, what are the overall cost for HR in the previous month? In order to charge them back for their usage.
 

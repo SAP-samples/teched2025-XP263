@@ -2,37 +2,35 @@
 
 In this section, you will explore the **BTP Cockpit Costs and Usage** interface and cross-check the data with the **Balance Statement**.
 
-## Exercise 3.1 - Orientation
+## Exercise 3.1 - Orientation  
 **Screenshot: Costs and Usage header**
 ![BTP Cockpit Costs and Usage](images/btp-cockpit-costs-and-usage-overview.jpg)
 
 1. In the **BTP Cockpit**, under the left pane navigate to the last page -> **Costs and Usage**
 2. Click on this button in the top left corner ![hamburger menu icon](images/hamburger.png) to collapse the left pane and expand the viewing area.
-3. In the header section, within the **Global Account Info** card (card on the left), click the **"Billing Statement Information"** link. This link directs you to **SAP for Me**, where you can download the **Balance Statement**.
-
-   For this exercise, there is no need to download the Balance Statement, as we have provided screenshots for reference.
+3. In the header section (see screen shot above), within the **Global Account Info** card (card on the left), click the **"Billing Statement Information"** link. This link directs you to SAP for Me, where you can download the Balance Statement. For this exercise, there is no need to download the Balance Statement, as we have provided screenshots for reference.
 4. In the same card, click the link **"Important information about your billing and usage data"**.
 5. You will see that the global account is licensed for both the **consumption-based** and **subscription-based** commercial models. This means that billing is structured so that the **prepaid quota** from your subscription is utilized first, after which any excess usage is charged under the **consumption-based model**.
-6. In the header, locate the **Cloud Platform Enterprise Agreement** card (card on the right), which displays information about **Cloud Credits**, including costs, status, and trends.  
-
+6. In the header (see screen shot above), locate the **Cloud Platform Enterprise Agreement** card (card on the right), which displays information about **Cloud Credits**, including costs, status, and trends.
+<br><br>
 
 **Screenshot: Costs and Usage - Billing View by Service**
 ![Billing View by Service](images/billing-view-by-service-with-cost-summary.jpg)
 
-7. You can use the **BTP Cockpit Billing** view (see screen shot above) to display, monitor, and analyze your monthly charges of billable services, which have been consumed by the subaccounts in your global account over the last 12 months. The **Billing** view is split into two perspectives:
+8. You can use the **Billing View by Service**  (see screen shot above) to display, monitor, and analyze your monthly charges of billable services, which have been consumed by the subaccounts in your global account over the last 12 months. The **Billing** view is split into two perspectives:
    - **View by Service** – more suitable for billing verification as it presents all the services ordered as in the balance statement to enable easy analysis of the service costs and usage.
    - **View by Account** – better suited for cross charging as it presents the account hierarchy including subaccounts and directories to enable analysis of the account entity costs and usage.
 
 ## Exercise 3.2 - Compare the Balance Statement and SAP BTP Cockpit Information
 
-The **Balance Statement** (available in **SAP for Me**) is the starting point for cross-checking the **BTP** cost information. It is recommended to verify the **Balance Statement** monthly against the **BTP Cockpit Billing** view. After completing this verification, you can proceed to investigate and further analyze cost details within the **BTP Cockpit**.
+The **Balance Statement** (available in SAP for Me) is the starting point for cross-checking the **BTP** cost information. It is recommended to verify the **Balance Statement** monthly against the **Billing View by Service**. After completing this verification, you can proceed to investigate and further analyze cost details within the BTP Cockpit.
 
 **Screenshot #1: Balance Statement - Total Consumption Section**
 <img src="images/balance-statement-total-consumption.jpg" alt="Balance Statement comparison" width="75%">
 
 For this exercise, screenshots from the October 2025 **Balance Statement** are provided.
 
-**Note:** The **Balance Statement** is divided into several sections, indicated by the blue headings.
+**Note:** The Balance Statement is divided into several sections, indicated by the blue headings.
 
 1. In the **Costs and Usage**, the default view displays **Billing → View By Service**. You can see that the list is automatically sorted by **Product (SKU)**, matching the order in the **Balance Statement**.
 2. This view includes both services with and without costs for this month (see **List Price** column). The balance statement, however, displays only services with incurred costs. To focus on services with actual charges, select **"Show only services with charged usage."** Note that all services with cost of 0 will disappear from the list.

@@ -50,7 +50,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
    **HR App 4 – TEST**
 
-   *This test environment subaccount has the highest costs in the previous month. It's noteworthy that a test environment is incurring such significant costs, which may indicate an opportunity for optimization or a need to understand why test workloads are so resource-intensive.*
+   *This subaccount has the highest costs in the previous month, which may indicate an opportunity for optimization or further investigation into the cost drivers.*
 
    </details>
 
@@ -90,7 +90,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
    **SAP Integration Suite, advanced event mesh - Default**
 
-   *The "SAP Integration Suite, advanced event mesh - Default" service plan is responsible for most of the costs in the HR App 4 – TEST subaccount. This service plan provides event-messaging capabilities, which can become expensive if the system is handling or processing a large number of messages or high throughput. Since this is a test environment, it's important to check if this level of resource usage is expected, or if there are optimization, configuration, or cost control opportunities to reduce unnecessary spending.*
+   *The "SAP Integration Suite, advanced event mesh - Default" service plan is responsible for most of the costs in the HR App 4 – TEST subaccount. This service plan provides event-messaging capabilities, which can become expensive if the system is handling or processing a large number of messages or high throughput. It's important to investigate whether this level of resource usage is expected, or if there are optimization, configuration, or cost control opportunities to reduce unnecessary spending.*
 
    </details>
 
@@ -99,22 +99,23 @@ You may also use the option available to export the data to **Excel** for furthe
 9. To investigate this subaccount – view the labels assigned to it.
 10. You may contact the owner of this subaccount to inform them that they have crossed the 40k USD in the previous month. Who is the contact person?
 
-   <details>
-   <summary><b>Hint</b></summary>
+    <details>
+    <summary><b>Hint</b></summary>
 
-   View the labels of this subaccount.
+    View the labels of this subaccount.
 
-   </details>
+    </details>
 
-   <details>
-   <summary><b>Answer</b></summary>
+    <details>
+    <summary><b>Answer</b></summary>
 
-   **logan.ibrahim@apex.com**
+    **logan.ibrahim@apex.com**
 
-   *Logan Ibrahim is the designated contact person for this subaccount and should be notified about the significant cost increase, particularly since the subaccount has exceeded 40,000 USD in the previous month. Reaching out to the contact person enables collaborative discussion about the cost drivers and potential optimization strategies.*
-   </details>
+    *Logan Ibrahim is the designated contact person for this subaccount and should be notified about the significant cost increase, particularly since the subaccount has exceeded 40,000 USD in the previous month. Reaching out to the contact person enables collaborative discussion about the cost drivers and potential optimization strategies.*
 
-   <br>
+    </details>
+
+    <br>
 
 11. View the Environment for this subaccount. You might notice something interesting - the environment is labeled as "Test", indicating it's used for testing purposes. Typically, production environments incur higher costs than test environments.
 

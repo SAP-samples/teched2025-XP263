@@ -90,7 +90,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
    **SAP Integration Suite, advanced event mesh - Default**
 
-   *The "SAP Integration Suite, advanced event mesh - Default" service plan is responsible for most of the costs in the HR App 4 – TEST subaccount. This service plan provides event-messaging capabilities, which can become expensive if the system is handling or processing a large number of messages or high throughput. It's important to investigate whether this level of resource usage is expected, or if there are optimization, configuration, or cost control opportunities to reduce unnecessary spending.*
+   *The "SAP Integration Suite, advanced event mesh - Default" service plan is responsible for most of the costs in the HR App 4 – TEST subaccount. It's important to investigate whether this level of resource usage is expected, or if there are optimization, configuration, or cost control opportunities to reduce unnecessary spending.*
 
    </details>
 

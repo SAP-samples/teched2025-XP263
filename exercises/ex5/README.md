@@ -56,69 +56,69 @@ You may also use the option available to export the data to **Excel** for furthe
 
    <br>
 
-   1. Was the previous month the highest cost period for this SA in the last 12 months?
+7. Was the previous month the highest cost period for this SA in the last 12 months?
 
-      <details>
-      <summary><b>Hint</b></summary>
+   <details>
+   <summary><b>Hint</b></summary>
 
-      Select this subaccount and scroll down to the graph, choose View by: List Price.
+   Select this subaccount and scroll down to the graph, choose View by: List Price.
 
-      </details>
+   </details>
 
-      <details>
-      <summary><b>Answer</b></summary>
+   <details>
+   <summary><b>Answer</b></summary>
 
-      **Yes**
+   **Yes**
 
-      *The previous month (October) represents the peak cost period for this subaccount over the entire 12-month period. This sustained high cost trend suggests this is not a temporary spike but rather a consistent pattern that requires attention and potentially cost optimization measures.*
+   *The previous month (October) represents the peak cost period for this subaccount over the entire 12-month period. This sustained high cost trend suggests this is not a temporary spike but rather a consistent pattern that requires attention and potentially cost optimization measures.*
 
-      </details>
+   </details>
 
-      <br>
+   <br>
 
-   2. Which is the costliest service plan they used?
+8. Which is the costliest service plan they used?
 
-      <details>
-      <summary><b>Hint</b></summary>
+   <details>
+   <summary><b>Hint</b></summary>
 
-      In the graph choose View by: Cost Breakdown by Service Plans.
+   In the graph choose View by: Cost Breakdown by Service Plans.
 
-      </details>
+   </details>
 
-      <details>
-      <summary><b>Answer</b></summary>
+   <details>
+   <summary><b>Answer</b></summary>
 
-      **SAP Integration Suite, advanced event mesh - Default**
+   **SAP Integration Suite, advanced event mesh - Default**
 
-      *The “SAP Integration Suite, advanced event mesh - Default” service plan is responsible for most of the costs in the HR App 4 – TEST subaccount. This service plan provides event-messaging capabilities, which can become expensive if the system is handling or processing a large number of messages or high throughput. Since this is a test environment, it’s important to check if this level of resource usage is expected, or if there are optimization, configuration, or cost control opportunities to reduce unnecessary spending.*
+   *The "SAP Integration Suite, advanced event mesh - Default" service plan is responsible for most of the costs in the HR App 4 – TEST subaccount. This service plan provides event-messaging capabilities, which can become expensive if the system is handling or processing a large number of messages or high throughput. Since this is a test environment, it's important to check if this level of resource usage is expected, or if there are optimization, configuration, or cost control opportunities to reduce unnecessary spending.*
 
-      </details>
+   </details>
 
-      <br>
+   <br>
 
-   3. To investigate this subaccount – view the labels assigned to it.
-   4. You may contact the owner of this subaccount to inform them that they have crossed the 40k USD in the previous month. Who is the contact person?
+9. To investigate this subaccount – view the labels assigned to it.
+10. You may contact the owner of this subaccount to inform them that they have crossed the 40k USD in the previous month. Who is the contact person?
 
-      <details>
-      <summary><b>Hint</b></summary>
+   <details>
+   <summary><b>Hint</b></summary>
 
-      View the labels of this subaccount.
+   View the labels of this subaccount.
 
-      </details>
+   </details>
 
-      <details>
-      <summary><b>Answer</b></summary>
+   <details>
+   <summary><b>Answer</b></summary>
 
-      **logan.ibrahim@apex.com**
+   **logan.ibrahim@apex.com**
 
-      *Logan Ibrahim is the designated contact person for this subaccount and should be notified about the significant cost increase, particularly since the subaccount has exceeded 40,000 USD in the previous month. Reaching out to the contact person enables collaborative discussion about the cost drivers and potential optimization strategies.*
-      </details>
+   *Logan Ibrahim is the designated contact person for this subaccount and should be notified about the significant cost increase, particularly since the subaccount has exceeded 40,000 USD in the previous month. Reaching out to the contact person enables collaborative discussion about the cost drivers and potential optimization strategies.*
+   </details>
 
-      <br>
+   <br>
 
-   5. View the Environment for this subaccount. You might notice something interesting - the environment is labeled as "Test", indicating it's used for testing purposes. Typically, production environments incur higher costs than test environments.
+11. View the Environment for this subaccount. You might notice something interesting - the environment is labeled as "Test", indicating it's used for testing purposes. Typically, production environments incur higher costs than test environments.
 
-7. Unselect the subaccount and deselect the "Show only subaccounts".
+12. Unselect the subaccount and deselect the "Show only subaccounts".
 
 ## Exercise 5.3 - Cross charge using Labels
 

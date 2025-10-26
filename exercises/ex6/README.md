@@ -37,7 +37,8 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
 1. In the Costs and Usage page, navigate to the **Budgets** tab to create a new budget.
 2. Click the **Create** button to create a budget.
 3. Enter a name, for example: `HR App 4 TEST costs`
-4. Keep the default Cost budget type. It tracks your consumption's monetary value at list price. No need to change the date range.
+4. Keep the default Cost budget type. It tracks your consumption's monetary value at list price.
+5. No need to change the date range.
 
    
    <br>

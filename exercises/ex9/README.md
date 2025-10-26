@@ -19,25 +19,18 @@ In this scenario, you will export cost data filtered by a specific contact perso
 2. In the **Month** filter, select **"Previous Month"**.
 3. In the search box, search for the label: `ContactPerson alex.yamamoto@apex.com`
 
-   > [!TIP]
-   > Start typing "ContactPerson" in the search box, and the auto-complete will help you select the correct label and value.
+> [!TIP]
+> Start typing "ContactPerson" in the search box, and the auto-complete will help you select the correct label and value.
 
 4. Launch the **Export** menu by clicking the small arrow near the **Export** button and select **"Custom..."**.
 5. Verify that the time period is set to the previous month and the search filter shows: `Label Key:Value -- ContactPerson:alex.yamamoto@apex.com`
 6. Keep the default settings in the export dialog.
 7. Click **"Export"**.
-8. Open the exported **Excel** file from your Downloads folder.
-9. Review the exported data in the Excel sheets:
-   - **Global Account Costs**: Shows the aggregated costs for the filtered time period and contact person.
-   - **Subaccount Costs by Service**: Displays detailed costs broken down by subaccount and service.
+8. Open the exported **Excel** file from your Downloads folder. Note that the exported data in the excel sheets: Global Account Costs, Subaccount Costs by Service is filtered by the  period and contact person you have defined. 
+9. You can use this file to share with the contact person, helping them understand their costs and take appropriate actions if needed.
 
-   > [!TIP]
-   > Notice how the exported data is automatically filtered by the period and contact person you defined, making it easy to share with the relevant stakeholder.
-
-10. You can use this file to share with the contact person, helping them understand their costs and take appropriate actions if needed.
-
-    > [!NOTE]
-    > Similarly to the steps above, you can search and filter by services, subaccounts/directories, and other labels to generate customized Excel files for different reporting needs.
+> [!NOTE]
+> Similarly to the steps above, you can search and filter by services, subaccounts/directories, and other labels to generate customized Excel files for different reporting needs.
 
 ## Exercise 9.3 - Scenario 2 - Aggregate and compare costs by cost center
 
@@ -51,16 +44,16 @@ In this scenario, you will export all cost data with an additional column for co
 6. Keep the default settings in the export dialog.
 7. In the "Labels as Columns" field, enter: `CostCenter`
 
-   > [!TIP]
-   > Adding labels as columns allows you to pivot and analyze data by those dimensions in Excel, making it easier to aggregate costs by business units, departments, or projects.
+> [!TIP]
+> Adding labels as columns allows you to pivot and analyze data by those dimensions in Excel, making it easier to aggregate costs by business units, departments, or projects.
 
 8. Click "Export".
 9. Open the exported Excel file from your Downloads folder.
 10. Navigate to the sheet "Subaccount Costs by Service".
 11. Locate column S, which should be labeled "Label Values for Key: CostCenter". This column contains the assigned cost center for each subaccount.
 
-    > [!TIP]
-    > You can use this column to filter for a specific cost center or perform more advanced analytics using Excel's pivot table functionality.
+> [!TIP]
+  > You can use this column to filter for a specific cost center or perform more advanced analytics using Excel's pivot table functionality.
 
 ### Using Excel's Analyze Data feature
 
@@ -79,12 +72,12 @@ In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate a
 
    **CC-400**
 
-   *Cost center CC-400 has the highest aggregated costs among all cost centers in the previous month. This insight, generated using Excel's AI-powered Analyze Data feature and the exported cost center column, helps identify which business units or departments are driving the most BTP consumption and may require budget adjustments or cost optimization focus.*
+   *Cost center CC-400 has the highest aggregated costs among all cost centers in the previous month. This insight, generated using Excel's AI-powered Analyze Data feature and the exported cost center column, helps identify which cost center is driving the highest costs and may require budget adjustments or cost optimization focus.*
    </details>
    <br>
 
-   > [!NOTE]
-   > The Analyze Data feature uses AI to understand your data and generate insights automatically. This can save significant time compared to manually creating pivot tables and charts.
+> [!NOTE]
+> The Analyze Data feature uses AI to understand your data and generate insights automatically. This can save significant time compared to manually creating pivot tables and charts.
 
 ## Summary
 
@@ -93,7 +86,7 @@ In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate a
 - ✅ Export customized cost data to Excel (12-36 months) with filters and labels as columns for tailored reporting and pivot analysis
 - ✅ Share filtered cost reports with specific stakeholders by contact person for transparent, data-driven cost discussions
 - ✅ Use Excel's AI-powered Analyze Data to aggregate costs, create visualizations, and perform cost center comparisons with natural language
-- ✅ Import exported data into third-party tools (Power BI, Tableau) for custom dashboards and reporting integration
+- ✅ Extend analysis by importing SAP BTP data into third-party tools.
 
 ---
 

@@ -25,7 +25,7 @@ In this section, you will monitor costs and resource consumption by comparing se
 
    **SAP HANA Cloud - HANA**
 
-   ***SAP HANA Cloud** is a database-as-a-service offering that typically represents a significant cost component in **BTP** environments. As the service plan with the highest cost, it will be a key focus area for investigating the October cost increase.*
+   ***SAP HANA Cloud - HANA** is the service plan with the highest cost, it will be a key focus area for investigating the October cost increase.*
    </details>
 
    <br>
@@ -83,10 +83,10 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 ### 🎯 Key Takeaways
 
-- ✅ Identify and analyze highest-cost service plans to understand cost drivers and distinguish sustained growth from temporary spikes
-- ✅ Drill down from service-level costs to specific subaccounts to trace spending increases and new workloads
-- ✅ Navigate between "View by Service" and "View by Account" using filters, sorting, and the switch button
-- ✅ Interpret Cost Breakdown graphs and connect cost data to business context for data-driven decision making
+- ✅ Advanced navigation in the BTP Cockpit Costs and Usage interface
+- ✅ Drill down from service-level costs to specific subaccounts to trace spending increases 
+- ✅ Identify and analyze highest-cost service plans and subaccounts to understand cost drivers 
+- ✅ Interpret Cost Breakdown graphs, analyze cost trends and drill into detailed data for data-driven decision making
 
 ---
 

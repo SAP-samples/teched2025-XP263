@@ -22,7 +22,7 @@ This session gives the attendees the opportunity to get hands-on experience with
   - Exercise 2: Introduction to FinOps exercises
   - Exercise 3: Billing verification
   - Exercise 4: Monitoring costs
-  - Exercise 5: Cross-charging and cost distribution
+  - Exercise 5: Cross-charging and cost allocation
   - Exercise 6: Budget management and alerts
   - Exercise 7: Cost optimization strategies
   - Exercise 8: Cost and Usage Overview (Preview)
@@ -51,7 +51,7 @@ Make sure that the following prerequisites are met if you do this exercise on yo
 - [Exercise 2 - Introduction to FinOps exercises](exercises/ex2/)
 - [Exercise 3 - Billing Verification](exercises/ex3/)
 - [Exercise 4 - Monitoring Costs](exercises/ex4/)
-- [Exercise 5 - Cross Charge / Distribution](exercises/ex5/)
+- [Exercise 5 - Cross Charge / Cost Allocation](exercises/ex5/)
 - [Exercise 6 - Controlling Costs Using Budgets](exercises/ex6/)
 - [Exercise 7 - Optimization](exercises/ex7/)
 - [Exercise 8 - Cost and Usage Overview (Preview - Bonus)](exercises/ex8/)

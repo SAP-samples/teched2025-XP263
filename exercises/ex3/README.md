@@ -3,7 +3,7 @@
 In this section, you will explore the **BTP Cockpit Costs and Usage** interface and cross-check the data with the **Balance Statement**.
 
 ## Exercise 3.1 - Orientation
-
+**Screenshot: Costs and Usage header**
 ![BTP Cockpit Costs and Usage](images/btp-cockpit-costs-and-usage-overview.jpg)
 
 1. In the **BTP Cockpit**, under the left pane navigate to the last page -> **Costs and Usage**
@@ -13,11 +13,13 @@ In this section, you will explore the **BTP Cockpit Costs and Usage** interface 
    For this exercise, there is no need to download the Balance Statement, as we have provided screenshots for reference.
 4. In the same card, click the link **"Important information about your billing and usage data"**.
 5. You will see that the global account is licensed for both the **consumption-based** and **subscription-based** commercial models. This means that billing is structured so that the **prepaid quota** from your subscription is utilized first, after which any excess usage is charged under the **consumption-based model**.
-6. In the header, locate the **Cloud Platform Enterprise Agreement** card (card on the right), which displays information about **Cloud Credits**, including costs, status, and trends.
+6. In the header, locate the **Cloud Platform Enterprise Agreement** card (card on the right), which displays information about **Cloud Credits**, including costs, status, and trends.  
 
+
+**Screenshot: Costs and Usage - Billing View by Service**
 ![Billing View by Service](images/billing-view-by-service-with-cost-summary.jpg)
 
-7. You can use the **BTP Cockpit Billing** (see screen shot above) view to display, monitor, and analyze your monthly charges of billable services, which have been consumed by the subaccounts in your global account over the last 12 months. The **Billing** view is split into two perspectives:
+7. You can use the **BTP Cockpit Billing** view (see screen shot above) to display, monitor, and analyze your monthly charges of billable services, which have been consumed by the subaccounts in your global account over the last 12 months. The **Billing** view is split into two perspectives:
    - **View by Service** – more suitable for billing verification as it presents all the services ordered as in the balance statement to enable easy analysis of the service costs and usage.
    - **View by Account** – better suited for cross charging as it presents the account hierarchy including subaccounts and directories to enable analysis of the account entity costs and usage.
 
@@ -83,10 +85,9 @@ For this exercise, screenshots from the October 2025 **Balance Statement** are p
 ### 🎯 Key Takeaways
 
 - ✅ Basic navigation in the BTP Cockpit Costs and Usage interface
-- ✅ Compare balance statement data with BTP Cockpit information systematically
-- ✅ Verify service costs across different billing sections
+- ✅ Verify balance statement data with BTP Cockpit information systematically
 - ✅ Calculate and validate cloud credit balances
-- ✅ Basic analysis of cost trends and identify anomalies
+- ✅ Basic analysis of cost trends and anomalies
 
 Following Apex's previous cost reduction project, a steady increase in costs has been observed from June to October. We will explore the reasons behind this trend in the next section.
 

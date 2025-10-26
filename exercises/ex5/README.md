@@ -117,7 +117,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
     <br>
 
-11. View the Environment for this subaccount. You might notice something interesting - the environment is labeled as "Test", indicating it's used for testing purposes. Typically, production environments incur higher costs than test environments.
+11. View the Environment label for this subaccount. Notice that it's labeled as "Test", indicating this is a testing environment. This is noteworthy because test environments typically incur significantly lower costs than production environments, yet this subaccount has the highest costs in the previous month.
 
 12. Unselect the subaccount and deselect the "Show only subaccounts".
 

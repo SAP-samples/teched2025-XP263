@@ -90,4 +90,4 @@ In this section, you will monitor costs and resource consumption by comparing se
 
 ---
 
-[← Previous: Exercise 3 - Billing verification](../ex3/) | [Continue to: Exercise 5 - Cross charge / distribution →](../ex5/)
+[← Previous: Exercise 3 - Billing verification](../ex3/) | [Continue to: Exercise 5 - Cross charge / cost allocation →](../ex5/)

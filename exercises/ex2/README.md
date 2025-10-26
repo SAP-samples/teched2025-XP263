@@ -15,13 +15,13 @@ This exercise demonstrates **FinOps capabilities** that are publicly available t
 
 ## Exercise 2.2 - Getting Started
 
-1. Open the following link in a browser. It contains a parameter that provides access to the Apex Holdings SAP BTP account with mock data: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=glnfm15r.accounts.ondemand.com&teched=true#>
+1. Open the following link in a browser. It contains a parameter that provides access to the Apex Holdings SAP BTP account with mock data: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com&teched=true#>
 2. Enter the user name `XP263-XXX@education.cloud.sap`, where `XXX` is the number of your workshop place. For example: XP263-000@education.cloud.sap
-3. Enter the password: `Access$teched2025`
+3. Enter the password for your user as provided to you at the beginning of the workshop.
 
 This will open the **BTP Cockpit** with the **Global Account Administrator** role collection and mocked data for Apex Holdings.
 
-4. In the **BTP Cockpit**, under the left pane -> navigate to the **Account Explorer**
+4. In the **BTP Cockpit**, under the left pane -> navigate to the **Account Explorer** and choose the **Directories and Subaccounts** tab. 
 
 5. Review the account structure including **Subsidiaries**, represented as directories
 
@@ -46,10 +46,9 @@ This will open the **BTP Cockpit** with the **Global Account Administrator** rol
 
 ### 🎯 Key Takeaways
 
-- ✅ Access the Apex Holdings mock environment to explore real-world BTP account structure and FinOps capabilities
+- ✅ Access the Apex Holdings mock environment to explore a real-world BTP account structure and FinOps capabilities
 - ✅ Understand the Apex Holdings hierarchical structure (Subsidiaries → Environments → Applications)
 - ✅ Learn how labels categorize and filter entities within the global account for better organization and cost tracking
-- ✅ Recognize the CPEA contract context that provides foundation for subsequent FinOps exercises
 
 ---
 

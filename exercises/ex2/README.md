@@ -42,9 +42,14 @@ This will open the **BTP Cockpit** with the **Global Account Administrator** rol
 
 9. Try out label filtering by entering ContactPerson in the search box and choose "ContactPerson :alex.yamamoto@apex.com". You will see a filtered list of the account structure including the subaccounts with this label.
 
-Summary and Key takeaways
-- Understand the Apex Holdings hierarchical structure (Subsidiaries → Environments → Applications)
-- Understand and use labels for filtering the organization
+## Summary
+
+### 🎯 Key Takeaways
+
+- ✅ Access the Apex Holdings mock environment to explore real-world BTP account structure and FinOps capabilities
+- ✅ Understand the Apex Holdings hierarchical structure (Subsidiaries → Environments → Applications)
+- ✅ Learn how labels categorize and filter entities within the global account for better organization and cost tracking
+- ✅ Recognize the CPEA contract context that provides foundation for subsequent FinOps exercises
 
 ---
 

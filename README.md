@@ -19,7 +19,7 @@ This session gives the attendees the opportunity to get hands-on experience with
 
 - **Exercise 1** will give you insights on how to automate a consistent sample setup of SAP BTP accounts using **Terraform** as a foundation for using the FinOps capabilities on your accounts.
 - **Exercises 2-9** will equip you as global account administrator and controller with the skills to efficiently manage, monitor, and optimize their global accounts. You will learn about the **FinOps capabilities** (management cost and usage for BTP services) available to all customers using the Apex setup. The exercises cover:
-  - Exercise 2: Introduction to Apex Holdings scenario
+  - Exercise 2: Introduction to FinOps exercises
   - Exercise 3: Billing verification
   - Exercise 4: Monitoring costs
   - Exercise 5: Cross-charging and cost distribution
@@ -48,7 +48,7 @@ Make sure that the following prerequisites are met if you do this exercise on yo
     - [Exercise 1.2 - Completing the basic Terraform configuration](exercises/ex1/README.md#exercise-12---completing-the-basic-terraform-configuration)
     - [Exercise 1.3 - Adding a new subaccount](exercises/ex1/README.md#exercise-13---adding-a-new-subaccount)
     - [Exercise 1.4 - Adding the production stage](exercises/ex1/README.md#exercise-14---adding-the-production-stage)
-- [Exercise 2 - TechEd - Apex Holdings Scenario](exercises/ex2/)
+- [Exercise 2 - Introduction to FinOps exercises](exercises/ex2/)
 - [Exercise 3 - Billing Verification](exercises/ex3/)
 - [Exercise 4 - Monitoring Costs](exercises/ex4/)
 - [Exercise 5 - Cross Charge / Distribution](exercises/ex5/)

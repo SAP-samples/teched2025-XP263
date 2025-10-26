@@ -1,4 +1,4 @@
-# Exercise 2 - TechEd - Apex Holdings Scenario
+# Exercise 2 - Introduction to FinOps exercises
 
 ## Exercise 2.1 - Overview
 
@@ -15,7 +15,7 @@ This exercise demonstrates **FinOps capabilities** that are publicly available t
 
 ## Exercise 2.2 - Getting Started
 
-1. Open the following link in a browser to access the **SAP BTP** account: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=glnfm15r.accounts.ondemand.com&teched=true#>
+1. Open the following link in a browser. It contains a parameter that provides access to the Apex Holdings SAP BTP account with mock data: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=glnfm15r.accounts.ondemand.com&teched=true#>
 2. Enter the user name `XP263-XXX@education.cloud.sap`, where `XXX` is the number of your workshop place. For example: XP263-000@education.cloud.sap
 3. Enter the password: `Access$teched2025`
 
@@ -40,9 +40,9 @@ This will open the **BTP Cockpit** with the **Global Account Administrator** rol
 
 <br>
 
-Try out label filtering by entering ContactPerson in the search box and choose "ContactPerson :alex.yamamoto@apex.com". You will see a filtered list of the account structure including the subaccounts with this label.
+9. Try out label filtering by entering ContactPerson in the search box and choose "ContactPerson :alex.yamamoto@apex.com". You will see a filtered list of the account structure including the subaccounts with this label.
 
-In this section, you have learned:
+Summary and Key takeaways
 - Understand the Apex Holdings hierarchical structure (Subsidiaries → Environments → Applications)
 - Understand and use labels for filtering the organization
 

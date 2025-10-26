@@ -90,7 +90,7 @@ You may also use the option available to export the data to **Excel** for furthe
 
       **SAP Integration Suite, advanced event mesh - Default**
 
-      *This advanced event mesh service is the primary cost driver for the HR App 4 – TEST subaccount. The advanced event mesh is an event-driven architecture platform that can incur significant costs based on message volume and throughput, which may need to be reviewed for cost optimization opportunities in the test environment.*
+      *The “SAP Integration Suite, advanced event mesh - Default” service plan is responsible for most of the costs in the HR App 4 – TEST subaccount. This service plan provides event-messaging capabilities, which can become expensive if the system is handling or processing a large number of messages or high throughput. Since this is a test environment, it’s important to check if this level of resource usage is expected, or if there are optimization, configuration, or cost control opportunities to reduce unnecessary spending.*
 
       </details>
 

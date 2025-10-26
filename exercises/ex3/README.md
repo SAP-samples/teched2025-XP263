@@ -1,10 +1,8 @@
 # Exercise 3 - Billing verification
 
-## Exercise 3.1 - Introduction
-
 In this section, you will explore the **BTP Cockpit Costs and Usage** interface and cross-check the data with the **Balance Statement**.
 
-## Exercise 3.2 - Orientation
+## Exercise 3.1 - Orientation
 
 ![BTP Cockpit Costs and Usage](images/btp-cockpit-costs-and-usage-overview.jpg)
 
@@ -23,7 +21,7 @@ In this section, you will explore the **BTP Cockpit Costs and Usage** interface 
    - **View by Service** – more suitable for billing verification as it presents all the services ordered as in the balance statement to enable easy analysis of the service costs and usage.
    - **View by Account** – better suited for cross charging as it presents the account hierarchy including subaccounts and directories to enable analysis of the account entity costs and usage.
 
-## Exercise 3.3 - Compare the Balance Statement and SAP BTP Cockpit Information
+## Exercise 3.2 - Compare the Balance Statement and SAP BTP Cockpit Information
 
 The **Balance Statement** (available in **SAP for Me**) is the starting point for cross-checking the **BTP** cost information. It is recommended to verify the **Balance Statement** monthly against the **BTP Cockpit Billing** view. After completing this verification, you can proceed to investigate and further analyze cost details within the **BTP Cockpit**.
 
@@ -63,7 +61,7 @@ For this exercise, screenshots from the October 2025 **Balance Statement** are p
 *The billing verification confirms that all charges are accurate. The data in the BTP Cockpit Costs and Usage page matches the Balance Statement across all sections, including total consumption, cloud credits usage, and prepaid quota. This verification establishes confidence in the billing data and provides a solid foundation for further cost analysis and optimization efforts.*
 </details>
 
-## Exercise 3.4 - Analyze the Overall Global Account Cost Trend
+## Exercise 3.3 - Analyze the Overall Global Account Cost Trend
 
 1. Scroll down to view the graph presenting the **Global Account - Cost Summary** and choose **View By: List Price**. Here you may see the cost trend of the global account costs for the last 12 months.
 

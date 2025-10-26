@@ -1,10 +1,10 @@
-# Exercise 5 - Cross charge / distribution
+# Exercise 5 - Cross charge / cost allocation
 
 ## Exercise 5.1 - Introduction
 
 **Cross charging** is an accounting and cost allocation practice where one part of an organization charges another part of the same organization for services or resources provided. It's often used in large enterprises, especially holding companies or businesses with multiple subsidiaries, divisions, or departments. This internal process ensures costs are fairly distributed, and each business unit reflects the true expense of the services it consumes.
 
-In this section, you will track costs within the Apex account hierarchy to effectively share and distribute expenses across the organization. This process primarily utilizes the account structure, along with search and filter options based on **labels**.
+In this section, you will track costs within the Apex account hierarchy to effectively share and distribute expenses across the organization. This process primarily utilizes the account structure, along with search and filter options based on **labels** defined in Apex Holdings (Contact Person, Cost Center, Department, Environment and Region).
 
 You may also use the option available to export the data to **Excel** for further tracking and cross charging. This optional exercise is available at the end of the hands-on session (if time permits).
 
@@ -29,14 +29,12 @@ You may also use the option available to export the data to **Excel** for furthe
 
    **1,887,337.35 USD**
 
-   *This represents the total cumulative list price for the NexaTech Digital subsidiary over the last 12 months, providing a comprehensive view of this business unit's BTP consumption costs. This information is valuable for cross-charging and understanding the cost distribution across subsidiaries.*
+   *This represents the total cumulative list price for the NexaTech Digital subsidiary over the last 12 months, providing a comprehensive view of the BTP costs of this subsidiary. This information is valuable for overall tracking of costs and understanding the cost distribution across subsidiaries.*
 
    </details>
 
-   <br>
-
 5. Unselect subsidiary NexaTech Digital.
-6. What subaccount has the highest costs in the previous month?
+6. Which subaccount had the highest costs in the previous month?
 
    <details>
    <summary><b>Hint</b></summary>
@@ -54,34 +52,13 @@ You may also use the option available to export the data to **Excel** for furthe
 
    </details>
 
-   <br>
 
-7. Was the previous month the highest cost period for this SA in the last 12 months?
-
-   <details>
-   <summary><b>Hint</b></summary>
-
-   Select this subaccount and scroll down to the graph, choose View by: List Price.
-
-   </details>
-
-   <details>
-   <summary><b>Answer</b></summary>
-
-   **Yes**
-
-   *The previous month (October) represents the peak cost period for this subaccount over the entire 12-month period. This sustained high cost trend suggests this is not a temporary spike but rather a consistent pattern that requires attention and potentially cost optimization measures.*
-
-   </details>
-
-   <br>
-
-8. Which is the costliest service plan they used?
+7. Which is the costliest service plan they used?
 
    <details>
    <summary><b>Hint</b></summary>
 
-   In the graph choose View by: Cost Breakdown by Service Plans.
+   Select HR App 4 – TEST subaccount and scroll down to the graph, choose View by: Cost Breakdown by Service Plans.
 
    </details>
 
@@ -94,10 +71,8 @@ You may also use the option available to export the data to **Excel** for furthe
 
    </details>
 
-   <br>
-
-9. To investigate this subaccount – view the labels assigned to it.
-10. You may contact the owner of this subaccount to inform them that they have crossed the 40k USD in the previous month. Who is the contact person?
+8. To investigate this subaccount – view the labels assigned to it.
+9. You may contact the owner of this subaccount to inform them that they have crossed the 40k USD in the previous month. Who is the contact person?
 
     <details>
     <summary><b>Hint</b></summary>
@@ -115,11 +90,9 @@ You may also use the option available to export the data to **Excel** for furthe
 
     </details>
 
-    <br>
+10. View the Environment label for this subaccount. Notice that it's labeled as "Test", indicating this is a testing environment. This is noteworthy because test environments typically incur significantly lower costs than production environments, yet this subaccount has the highest costs in the previous month.
 
-11. View the Environment label for this subaccount. Notice that it's labeled as "Test", indicating this is a testing environment. This is noteworthy because test environments typically incur significantly lower costs than production environments, yet this subaccount has the highest costs in the previous month.
-
-12. Unselect the subaccount and deselect the "Show only subaccounts".
+11. Unselect the subaccount and deselect the "Show only subaccounts".
 
 ## Exercise 5.3 - Cross charge using Labels
 
@@ -139,33 +112,30 @@ You may also use the option available to export the data to **Excel** for furthe
 
    **362,710.05 USD**
 
-   *This is the total cost for the EMEA (Europe, Middle East, and Africa) region in the previous month. Using the Region label enables regional cost tracking and cross-charging, which is essential for multi-regional organizations to understand geographic cost distribution and allocate expenses appropriately to regional teams or cost centers.*
+   *This is the total cost for the Apex EMEA region in the previous month. The Apex EMEA Region label enables regional cost tracking and cross-charging, which is essential for multi-regional organizations to understand geographic cost distribution and allocate expenses appropriately to regional teams.*
 
    </details>
 
-   <br>
+3. Bookmark the Apex EMEA region for future tracking by clicking on the bookmark button (see highlighted in screenshot). This allows you to copy the link, save it for future use and send it to others (e.g. Apex EMEA region owner) for further tracking.
 
-3. Bookmark the Apex EMEA region for future tracking by clicking on the bookmark button Image. This enables to copy the link and save it for future use send it to others (e.g. EMEA region owner) for further tracking.
-
-4. You also saw the Department for this subaccount is HR, what are the overall cost for HR in the previous month? In order to charge them back for their usage.
+4. Based on the Apex labels, you can determine that this subaccount belongs to the HR Department. Identify the total costs for HR in the previous month to enable cross charging for their usage.
 
    <details>
    <summary><b>Answer</b></summary>
 
    **156,097.00 USD**
 
-   *This is the total cost for the HR (Human Resources) department in the previous month. By using the Department label, you can accurately track and cross-charge costs back to the HR department for their BTP usage. This departmental cost view enables effective showback or chargeback processes, ensuring that each department is accountable for their cloud consumption.*
+   *This is the total cost for the Apex HR (Human Resources) department in the previous month. By using the Apex Department label, you can accurately track and cross-charge costs back to the HR department for their BTP usage. This enables effective cost allocation processes, ensuring that each department is accountable for their cloud consumption.*
    </details>
-   <br>
-
+   
 ## Summary
 
 ### 🎯 Key Takeaways
 
-- ✅ Navigate and analyze costs across organizational hierarchy (subsidiaries, directories, subaccounts) to compare distribution
-- ✅ Use labels (Environment, Region, Department, Cost Center, Contact Person) to aggregate and filter costs for flexible reporting
-- ✅ Calculate accurate costs for cross-charging and showback to business units, departments, or regions
-- ✅ Identify cost anomalies and bookmark specific views for recurring tracking and transparent accountability
+- ✅ Navigate and analyze costs across organizational hierarchy to compare cost distribution
+- ✅ Use labels (Environment, Region, Department, Cost Center, Contact Person) to filter and aggregate costs for flexible reporting
+- ✅ Calculate accurate costs for cross-charging using the account hierarchy and labels 
+- ✅ Bookmark and share key information for ongoing tracking and collaboration
 
 ---
 

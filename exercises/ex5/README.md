@@ -2,7 +2,7 @@
 
 ## Exercise 5.1 - Introduction
 
-**Cross charging** is an accounting and cost allocation practice where one part of an organization charges another part of the same organization for services or resources provided. It's often used in large enterprises, especially holding companies or businesses with multiple subsidiaries, divisions, or departments. This internal process ensures costs are fairly distributed, and each business unit reflects the true expense of the services it consumes.
+**Cross charging** is an internal cost allocation practice where one part of an organization charges another for shared services or resources. It ensures fair cost distribution and helps each business unit reflect the true expense of what it consumes.
 
 In this section, you will track costs within the Apex account hierarchy to effectively share and distribute expenses across the organization. This process primarily utilizes the account structure, along with search and filter options based on **labels** defined in Apex Holdings (Contact Person, Cost Center, Department, Environment and Region).
 
@@ -118,15 +118,6 @@ You may also use the option available to export the data to **Excel** for furthe
 
 3. Bookmark the Apex EMEA region for future tracking by clicking on the bookmark button (see highlighted in screenshot). This allows you to copy the link, save it for future use and send it to others (e.g. Apex EMEA region owner) for further tracking.
 
-4. Based on the Apex labels, you can determine that this subaccount belongs to the HR Department. Identify the total costs for HR in the previous month to enable cross charging for their usage.
-
-   <details>
-   <summary><b>Answer</b></summary>
-
-   **156,097.00 USD**
-
-   *This is the total cost for the Apex HR (Human Resources) department in the previous month. By using the Apex Department label, you can accurately track and cross-charge costs back to the HR department for their BTP usage. This enables effective cost allocation processes, ensuring that each department is accountable for their cloud consumption.*
-   </details>
    
 ## Summary
 

@@ -31,15 +31,6 @@ This session gives the attendees the opportunity to get hands-on experience with
 > [!NOTE]
 > The exercises are independent. In case you get stuck in exercise 1 you can still proceed with exercises 2-9.
 
-## Requirements
-
-Make sure that the following prerequisites are met if you do this exercise on your own SAP BTP account:
-
-- You have an SAP BTP account.
-- Make sure that your SAP Universal ID is configured correctly. You can find the instructions in [SAP Note 3085908](https://me.sap.com/notes/3085908).
-- The Terraform provider does not support 2FA. Make sure that this option is not enforced for your account.
-- If you intend to use the ['dev container' tools option](exercises/ex0/README.md#using-the-dev-container) then you must also have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your machine, as well as [Visual Studio Code](https://code.visualstudio.com/) with the [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
-
 ## Exercises
 
 - [Getting Started](exercises/ex0/README.md#getting-started)

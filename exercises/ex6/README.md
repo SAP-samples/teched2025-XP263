@@ -2,25 +2,24 @@
 
 ## Exercise 6.1 - Introduction
 
-In this section, you will learn to manage, control, and optimize cloud spending using **Budgets**. Budgets allow you to better control your global account spending and plan for future consumption by setting up budget limits for your global account in **SAP BTP**. Note: Budgets track actual consumption charges, not prepaid quota usage. This helps you focus on controlling costs that directly impact your bill.
-
+In this section, you’ll learn to manage, control and optimize cloud spending with **Budgets** in SAP BTP. This feature lets you set spending limits and plan future consumption. Currently in Beta, it will soon be available for productive use.
 
  <details>
    <summary><b>What are Budget Thresholds and Alert options?</b></summary>
 
 ### Budget Thresholds
 
-By default, each budget includes three budget thresholds defined for **80%**, **90%**, and **100%** of the budget amount. You can customize these thresholds by unchecking them or changing the percentage values to match your organization's needs.
+Each budget includes three default thresholds (80%, 90%, and 100%) that you can adjust or disable as needed.
 
 ### Alert Options
 
-When budget thresholds are reached, multiple alert options are available (you can use all options or choose the ones that fit best):
+When a threshold is reached, you can choose how to be notified (all options or choose the ones that fit best):
 
-1. **Visual Indicators**: In the Costs and Usage page, visual indicators show the threshold status (0-3 threshold exceedances) for quick at-a-glance monitoring.
+1. **Visual Indicators**: Show threshold status (0–3 exceeded) on the Costs and Usage page.
+   
+2. **Email Alerts**: Automatically notify Global Account Administrators when a threshold is exceeded.
 
-2. **Automatic Email Alerts**: Automatically send alert emails to Global Account Administrators. You can enable this option when creating a new budget. Once a defined threshold is exceeded, an email notification will be sent to all Global Account Administrators. If you prefer not to send alert emails to all administrators, keep the default setting (disabled).
-
-3. **Custom Alerts with SAP Alert Notification Service**: Define custom alerts for specific recipients (e.g., subaccount admins or distribution lists), delivery channels like Microsoft Teams or Slack, and more.
+3. **Custom Alerts**: Use SAP Alert Notification Service to send alerts to specific recipients or channels (e.g., Teams, Slack).
 
 For more information, see: [How to enable SAP Alert Notification for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/alerting-events) and subscribe to the budget event: [Budget Threshold Exceedance Event (Beta)](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance-beta?version=Cloud). This link is also available in the budget creation screen.
  </details> 
@@ -34,7 +33,7 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
 
 ### Steps
 
-1. In the Costs and Usage page, navigate to the **Budgets** tab to create a new budget.
+1. In the Costs and Usage header, clear filters and navigate to the **Budgets** tab to create a new budget.
 2. Click the **Create** button to create a budget.
 3. Enter a name, for example: `HR App 4 TEST costs`
 4. Keep the default Cost budget type. It tracks your consumption's monetary value at list price.
@@ -57,7 +56,7 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
 
    Note: You can scope budgets by subaccounts, services, or a combination of them. This flexibility allows you to create budgets aligned with your organizational structure and cost allocation needs.
 
-7. **Amount**: Enter `40,000` USD
+7. **Amount**: Enter `40,000` USD. Note: Budgets track actual consumption, not prepaid quota. This helps you focus on controlling costs that directly impact your bill.
 8. **View the History Preview**. You will see the budget amount and Thresholds together with the Actual costs and exceedance over the past 12 months.
 9. **Thresholds**: Change the threshold percentages to **20%**, **50%**, and **80%** to create more frequent alerts for this high-cost subaccount.
 10. View the updated history preview with the new thresholds.

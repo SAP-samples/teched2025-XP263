@@ -294,7 +294,7 @@ You learned how to use Terraform to:
 
 - ✅ Setup a multistage SAP BTP account structure
 - ✅ Create directories, subaccounts, and other resources like entitlements and Cloud Foundry environments
-- ✅ Provision an overall consistent and reproduceable setup ensuring naming conventions and labeling
+- ✅ Provision an overall consistent and reproducible setup ensuring naming conventions and labeling
 - ✅ Lay the foundation for FinOps by organizing your SAP BTP account structure
 
 ---

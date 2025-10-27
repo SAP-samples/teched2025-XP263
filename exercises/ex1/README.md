@@ -1,4 +1,4 @@
-# Exercise 1 - Setup of Terraform Configuration
+# Exercise 1 - Setup of Terraform Configuration (approx. 30 minutes)
 
 In this exercise, we will walk through a setup of an SAP BTP account structure consisting of directories, subaccounts and several other resources. We will use [Terraform](https://developer.hashicorp.com/terraform) to automate the creation of these resources.
 
@@ -7,6 +7,8 @@ Terraform is the industry standard when it comes to infrastructure as code. It a
 You find the solution for this exercise in the folder [`solutions/ex1`](../../solutions/ex1/) i.e., in the corresponding subfolder for each exercise.
 
 ## Exercise 1.1 - Understanding the Setup
+
+> 👓 **Note**: This section is optional. It explains the technical details of the Terraform setup. You can quickly scan this section or skip it and come back afterwards. Your handson part starts in [Exercise 1.2 - Completing the basic Terraform configuration](#exercise-12---completing-the-basic-terraform-configuration)
 
 After completing these steps, you will have an understanding of the preconfigured setup that we will use in this exercise.
 
@@ -81,6 +83,8 @@ With that we are ready to make the necessary adjustments and deploy the setup to
 
 ## Exercise 1.2 - Completing the basic Terraform configuration
 
+> 💻 **Note**: This part needs to be completed before moving on to [Exercise 1.3 - Adding a new subaccount](#exercise-13---adding-a-new-subaccount)
+
 After completing these steps, you will have a first deployment of your Terraform configuration to SAP BTP.
 
 Inside of the folder `exercises/ex1/infra` you find a file called [`sample.tfvars`](infra/sample.tfvars). This file contains the *values* for the variables that you want to use for your configuration. Execute the following steps:
@@ -118,7 +122,7 @@ Execute the following commands in the PowerShell terminal:
    terraform fmt
    ```
 
-1. Make sure that the configuration is formatted correctly:
+1. Make sure that the configuration is valid:
 
    ```powershell
    terraform validate
@@ -162,6 +166,8 @@ Let's enhance the configuration further by adding a new subaccount.
 
 ## Exercise 1.3 - Adding a new subaccount
 
+> 💻 **Note**: This part needs to be completed before moving on to [Exercise 1.4 - Adding the production stage](#exercise-14---adding-the-production-stage)
+
 After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional subaccount.
 
 The creation of the subaccounts is triggered by the values we provide for the variable `subaccounts`. To add a new subaccount, add a new value to the variable `subaccounts` in the file `terraform.tfvars`.
@@ -196,7 +202,7 @@ Let us deploy the changes to SAP BTP. To do so, execute the following commands i
    terraform fmt
    ```
 
-1. Make sure that the configuration is formatted correctly:
+1. Make sure that the configuration is valid:
 
    ```powershell
    terraform validate
@@ -220,10 +226,10 @@ Once the deployment is finished, you see a summary of the resources that were cr
 
 Check the setup in the SAP BTP cockpit. Besides the already existing subaccounts you also see the newly added ones per stage.
 
-## Exercise 1.4 - Adding the production stage
+## Exercise 1.4 - Adding the production stage (optional)
 
-> [!NOTE]
-> This exercise is optional. If you want to continue with the next exercise, you can directly go to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+> [!Important]
+> This exercise is optional. If you want to continue with the next exercise or are running short of time, you can directly go to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 
 After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional stage representing the subaccounts used for production.
 
@@ -247,7 +253,7 @@ You are already an expert in deploying the configuration, so you can now deploy 
    terraform fmt
    ```
 
-1. Make sure that the configuration is formatted correctly:
+1. Make sure that the configuration is valid:
 
    ```powershell
    terraform validate

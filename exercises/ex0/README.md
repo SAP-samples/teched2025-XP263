@@ -6,7 +6,9 @@ We distinguish between two ways of doing the Terraform part of the workshop:
 - Guided hands-on workshop at the SAP TechEd 2025 in Berlin
 - Self-paced on your own
 
-## Guided Hands-On Workshop at SAP TechEd 2025 in Berlin
+## Guided Hands-On Workshop at SAP TechEd 2025 in Berlin (approx. 5 minutes)
+
+> 💻 **Note**: This part needs to be completed for SAP TechEd participants **before** continuing with [Exercise 1 - Setup of Terraform Configuration](../ex1/README.md)
 
 The prerequisites for the hands-on workshop are already installed on the local machine provided to you. There are two steps you need to do before you can start with the first exercise of the workshop:
 

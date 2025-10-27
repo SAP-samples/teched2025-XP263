@@ -39,7 +39,7 @@ In this scenario, you will learn how to manage and track both **subscription** a
 ![Prepaid Quota Overview](images/prepaid-quota-overview.jpg)
 
 1. In the Costs and Usage header, ensure that the Month filter is set to **the previous month**. This is the month where you identified an increase in overall global account costs in Exercise 2.
-2. By default, you should see the Billing view → **View By Service** display.
+2. Navigate to Billing view → **View By Service** display.
 3. Make sure **"Show only services with charged usage"** is **NOT checked** (unchecked).
 4. Sort the **Prepaid Quota** column in **descending order** to see services with the highest quotas at the top.
 5. You will notice several services that include a prepaid quota. This refers to the amount your global account is entitled to consume in advance from your subscription-based commercial model agreement. Any usage within this quota will not incur additional billing.

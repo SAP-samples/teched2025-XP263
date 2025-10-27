@@ -109,6 +109,9 @@ You are good to go and can start with the [Exercise 1 - Setup of Terraform Confi
 
 ## Self-paced on your own
 
+> [!IMPORTANT]
+> This section is only relevant if you want to do the workshop on your own outside of the guided hands-on workshop at SAP TechEd 2025 in Berlin. If you are participating in the guided hands-on workshop, please follow the instructions in the previous section.
+
 If you want to do the workshop on your own, you can do a local installation or use the provided dev container.
 
 ### Local Installation
@@ -147,4 +150,4 @@ The dev container will automatically start and you are ready to go.
 
 Now that you have set up the prerequisites, you can start with the first exercise of the workshop.
 
-Continue to - [Exercise 1 - Setup of Terraform Configuration](../ex1/README.md)
+[← Previous: Overview](../../README.md) | [Continue to: Exercise 1 - Setup of Terraform Configuration](../ex1/README.md)

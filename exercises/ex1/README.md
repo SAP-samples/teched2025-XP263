@@ -280,14 +280,23 @@ Check the setup in the SAP BTP cockpit. Besides the already existing directories
 > [!NOTE]
 > You can also delete the complete setup in one run via the command `terraform destroy`. This will delete all resources created by Terraform in the current state. The command will present you a plan what it will destroy. Review and carefully and approve the action by typing `yes` when prompted.
 
-## Summary
-
-You've now finished all steps to setup a multistage SAP BTP account structure using Terraform. You have learned how to create directories, subaccounts, and other resources in a structured way that enables further administrative tasks like cost and usage optimizations (*FinOps*).
-
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
-
 ## Additional Resources
 
 - [Getting Started with Terraform on SAP BTP](https://learning.sap.com/learning-journeys/getting-started-with-terraform-on-sap-btp) on learning.sap.com
 - [SAP BTP Administrator's Guide](https://help.sap.com/docs/btp/btp-admin-guide/btp-admin-guide)
 - [SAP BTP - Administrator's Guide Samples](https://github.com/SAP-samples/btp-admin-guide-samples)
+
+## Summary
+
+### 🎯 Key Takeaways
+
+You learned how to use Terraform to:
+
+- ✅ Setup a multistage SAP BTP account structure
+- ✅ Create directories, subaccounts, and other resources like entitlements and Cloud Foundry environments
+- ✅ Provision an overall consistent and reproducible setup ensuring naming conventions and labeling
+- ✅ Lay the foundation for FinOps by organizing your SAP BTP account structure
+
+---
+
+[← Previous: Getting Started](../ex0/README.md) | [Continue to: Exercise 2 - Introduction to FinOps exercises →](../ex2/README.md)

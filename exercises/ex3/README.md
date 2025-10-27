@@ -26,30 +26,27 @@ In this section, you will explore the **BTP Cockpit Costs and Usage** interface 
 The **Balance Statement** (available in SAP for Me) is the starting point for cross-checking the **BTP** cost information. It is recommended to verify the **Balance Statement** monthly against the **Billing View by Service**. After completing this verification, you can proceed to investigate and further analyze cost details within the BTP Cockpit.
 
 **Screenshot #1: Balance Statement - Total Consumption Section**
-<img src="images/balance-statement-total-consumption.jpg" alt="Balance Statement comparison" width="75%">
+<img src="images/1 1.png" alt="Balance Statement comparison" width="75%">
 
-For this exercise, screenshots from the October 2025 **Balance Statement** are provided.
-
-**Note:** The Balance Statement is divided into several sections, indicated by the blue headings.
+For this exercise, screenshots from the October 2025 **Balance Statement** are provided. **Note:** The Balance Statement is divided into several sections, indicated by the blue headings.
 
 1. In the **Costs and Usage**, the default view displays **Billing → View By Service**. You can see that the list is automatically sorted by **Product (SKU)**, matching the order in the **Balance Statement**.
 2. This view includes both services with and without costs for this month (see **List Price** column). The balance statement, however, displays only services with incurred costs. To focus on services with actual charges, select **"Show only services with charged usage."** Note that all services with cost of 0 will disappear from the list.
 3. In screenshot #1 above, see the comparison of the **Usage**, **Prepaid Quota**, and **Charged Usage** columns for the first three services. You can see the same in the **Billing → View By Service**. If you are unsure what these columns represent, click the information icon for detailed explanations.
+<br>
 
 **Screenshot #2: Balance Statement - Cloud Platform Enterprise Agreement Section**
-<img src="images/balance-statement-cpea.jpg" alt="List Price comparison" width="75%">
+<img src="images/2 1.png" alt="List Price comparison" width="75%">
 
 4. In screenshot #2 above, see the comparison of the **List Price** column for the first three services. You can see the same in the **Billing → View By Service**.
 5. As you may see in the **Billing → View By Service**, the table aggregates the two sections from the balance statement into a single view. This enabled you to see the information per service together and drill down into the details of each service to better understand how its costs were generated.
+<br>
 
 **Screenshot #3: Balance Statement - Cloud Credits and Payment Summary**
-<img src="images/balance-statement-cloud-credits-payment.jpg" alt="Cloud Credits and Payment Summary" width="75%">
+<img src="images/3 1.png" alt="Cloud Credits and Payment Summary" width="75%">
 
-6. In screenshot #3 above, see the comparison of the **'Total net value of service consumed'** 709,356.33 USD in the balance statement with the data in the **Cost and Usage** header. In the **Cost and Usage** header, you may find this information by expanding the **Cloud Platform Enterprise Agreement** card (card on the right). To view cloud credits used in October, hover over the October bar.
-7. In screenshot #3 above, see the comparison of the **'Closing Cloud Credit balance as of 30, Oct 2025'** 2,736,931.0 USD in the balance statement with the information in **Cloud Platform Enterprise Agreement** card. In the card, you will find the cloud credits for the current period:
-   - **Cloud credits allocated:** $8.3 M
-   - **Cloud credits used:** $5.6 M
-   - This means the **remaining cloud credits:** $2.7 M ($8.3 M − $5.6 M) like in the balance statement.
+6. In screenshot #3 above in 3.A, see the comparison of the **consumed cloud credits** in October both in the balance statement and in the **Cost and Usage** header. 
+7. In screenshot #3 above in 3.B, see the comparison of the **remaining cloud credits** in October both in the balance statement and in the **Cost and Usage** header. 
 
 **Note:** Since there are remaining cloud credits, the balance statement shows a 'Net Overage Amount' of 0. This indicates there are no overages, and therefore you can see in the "Payment Summary", no additional costs to be paid.
 

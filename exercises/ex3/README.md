@@ -43,7 +43,7 @@ For this exercise, screenshots from the October 2025 **Balance Statement** are p
 <br>
 
 **Screenshot #3: Balance Statement - Cloud Credits and Payment Summary**
-<img src="images/3 1.png" alt="Cloud Credits and Payment Summary" width="75%">
+<img src="images/3 3.png" alt="Cloud Credits and Payment Summary" width="75%">
 
 6. In screenshot #3 above in 3.A, see the comparison of the **consumed cloud credits** in October both in the balance statement and in the **Cost and Usage** header. 
 7. In screenshot #3 above in 3.B, see the comparison of the **remaining cloud credits** in October both in the balance statement and in the **Cost and Usage** header. 

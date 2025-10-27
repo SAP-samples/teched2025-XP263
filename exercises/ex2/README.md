@@ -34,11 +34,10 @@ This will open the **BTP Cockpit** with the **Global Account Administrator** rol
    <details>
    <summary><b>What are labels?</b></summary>
 
-   **Labels** are user-defined words or phrases that you can assign to various entities (such as directories, subaccounts) in **SAP BTP** to categorize them in your global account, to identify them more easily. They enable you to organize and filter your entities within your global account to assist in managing the account and cost aggregation. They are particularly useful for accounts that lack a well-defined structure (e.g., those built-up layer by layer over time).
+   **Labels** are user-defined key:value pairs that you can assign to various entities (such as directories or subaccounts) in SAP BTP to categorize and identify them more easily within your global account. They enable you to organize and filter entities, supporting account management and cost aggregation. Labels are especially useful for accounts without a well-defined structure (for example, those that evolved over time).
 
    </details>
 
-<br>
 
 9. Try out label filtering by entering ContactPerson in the search box and choose "ContactPerson :alex.yamamoto@apex.com". You will see a filtered list of the account structure including the subaccounts with this label.
 

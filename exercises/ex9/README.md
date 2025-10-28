@@ -17,7 +17,8 @@ In this scenario, you will export cost data filtered by a specific contact perso
 
 1. In the **Costs and Usage** header, click **"Clear Filters"** to reset any existing filters.
 2. In the **Month** filter, select **"Previous Month"**.
-3. In the search box, search for the label: `ContactPerson alex.yamamoto@apex.com`
+3. Navigate to the **Billing -> View by Service**
+4. In the search box, search for the label: `ContactPerson alex.yamamoto@apex.com`
 
 > [!TIP]
 > Start typing "ContactPerson" in the search box, and the auto-complete will help you select the correct label and value.
@@ -26,8 +27,9 @@ In this scenario, you will export cost data filtered by a specific contact perso
 5. Verify that the time period is set to the previous month and the search filter shows: `Label Key:Value -- ContactPerson:alex.yamamoto@apex.com`
 6. Keep the default settings in the export dialog.
 7. Click **"Export"**.
-8. Open the exported **Excel** file from your Downloads folder. Note that the exported data in the excel sheets: Global Account Costs, Subaccount Costs by Service is filtered by the  period and contact person you have defined. 
-9. You can use this file to share with the contact person, helping them understand their costs and take appropriate actions if needed.
+8. Open the exported **Excel** file from your Downloads folder. Note that the exported data in the excel sheets: Global Account Costs, Subaccount Costs by Service is filtered by the  period and contact person you have defined.
+9. In the Global Account Costs excel sheet, select column I (Cost) to see in the footer the sum of the costs for the contact person.
+10. You can use this file to share with the contact person, helping them understand their costs and take appropriate actions if needed.
 
 > [!NOTE]
 > Similarly to the steps above, you can search and filter by services, subaccounts/directories, and other labels to generate customized Excel files for different reporting needs.
@@ -59,8 +61,8 @@ In this scenario, you will export all cost data with an additional column for co
 
 In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate and compare cost center expenses in the previous month by entering a natural language prompt.
 
-1. Launch the Home ribbon in Excel.
-2. Click "Analyze Data" (this feature may be called "Ideas" in some Excel versions).
+1. Launch the Home or Data ribbon in Excel. 
+2. Click "Analyze Data" (this feature may be called "Ideas" in some Excel versions). If it is not visible, you can search in Excel for "Analyze Data".
 3. In the "Ask a question about your data" text box, enter the prompt: `Show the aggregated costs by Label Values for Key: CostCenter`
 4. Review the generated analysis and click "Insert PivotChart" to add it to your worksheet.
 5. Review the new pivot table and chart.

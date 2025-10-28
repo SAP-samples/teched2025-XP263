@@ -15,7 +15,7 @@ This exercise demonstrates **FinOps capabilities** that are publicly available t
 
 ## Exercise 2.2 - Getting Started
 
-1. Open the following link in a browser. It contains a parameter that provides access to the Apex Holdings SAP BTP account with mock data: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com&teched=true#>
+1. **Open the following link** in a browser. It **contains a special parameter** that provides access to the Apex Holdings SAP BTP account with mock data: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com&teched=true#>
 2. Enter the user name `XP263-XXX@education.cloud.sap`, where `XXX` is the number of your workshop place. For example: XP263-000@education.cloud.sap
 3. Enter the password for your user as provided to you at the beginning of the workshop.
 
@@ -25,7 +25,7 @@ This will open the **BTP Cockpit** with the **Global Account Administrator** rol
 
 5. Review the account structure including **Subsidiaries**, represented as directories
 
-6. Make sure under each Subsidiary, you see **DEV**, **TEST** and **PROD** environments represented as directories.
+6. Make sure under each Subsidiary, you see **DEV**, **TEST** and **PROD** environments/stages represented as directories.
 
 7. Make sure under each environment folder, you see the dedicated applications represented as subaccounts.
 
@@ -45,8 +45,8 @@ This will open the **BTP Cockpit** with the **Global Account Administrator** rol
 
 ### 🎯 Key Takeaways
 
-- ✅ Access the Apex Holdings mock environment to explore a real-world BTP account structure and FinOps capabilities
-- ✅ Understand the Apex Holdings hierarchical structure (Subsidiaries → Environments → Applications)
+- ✅ Access the Apex Holdings mock account to explore a real-world BTP account structure and FinOps capabilities
+- ✅ Understand the Apex Holdings hierarchical structure (Subsidiaries → Environments/Stages → Applications)
 - ✅ Learn how labels categorize and filter entities within the global account for better organization and cost tracking
 
 ---

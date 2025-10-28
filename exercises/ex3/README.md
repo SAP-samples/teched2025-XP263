@@ -46,17 +46,11 @@ For this exercise, screenshots from the October 2025 **Balance Statement** are p
 <img src="images/3 3.png" alt="Cloud Credits and Payment Summary" width="75%">
 
 6. In screenshot #3 above in 3.A, see the comparison of the **consumed cloud credits** in October both in the balance statement and in the **Cost and Usage** header. 
-7. In screenshot #3 above in 3.B, see the comparison of the **remaining cloud credits** in October both in the balance statement and in the **Cost and Usage** header. 
+7. In screenshot #3 above in 3.B, see the comparison of the **remaining cloud credits** in October both in the balance statement and in the **Cost and Usage** header.
+8. Since there are remaining cloud credits, the balance statement shows a 'Net Overage Amount' of 0. This indicates there are no overages, and therefore you can see in the "Payment Summary", no additional costs to be paid.
 
-**Note:** Since there are remaining cloud credits, the balance statement shows a 'Net Overage Amount' of 0. This indicates there are no overages, and therefore you can see in the "Payment Summary", no additional costs to be paid.
+**Note:** The billing verification confirms that all charges are accurate. The data in the BTP Cockpit Costs and Usage page matches the Balance Statement across all sections This verification establishes confidence in the billing data and provides a solid foundation for further cost analysis and optimization efforts.
 
-<details>
-<summary>Did the billing verification confirm that all charges are accurate?</summary>
-
-**Yes**
-
-*The billing verification confirms that all charges are accurate. The data in the BTP Cockpit Costs and Usage page matches the Balance Statement across all sections, including total consumption, cloud credits usage, and prepaid quota. This verification establishes confidence in the billing data and provides a solid foundation for further cost analysis and optimization efforts.*
-</details>
 
 ## Exercise 3.3 - Analyze the Overall Global Account Cost Trend
 

@@ -15,7 +15,7 @@ After completing these steps, you will have an understanding of the preconfigure
 The goal of our Terraform configuration is to create a multistage SAP BTP account structure. This structure on SAP BTP is given by:
 
 - One main directory representing a subsidiary of your company
-- Three directories represent the different stages of your development process: development, test and production
+- Three directories represent the different stages/environments of your development process: development, test and production
 - Each directory contains one or more subaccounts. Each subaccount represents a specific application used by a business department in your company
 - Each subaccount contains several resources like entitlements, a Cloud Foundry environment etc.
 
@@ -24,7 +24,7 @@ You find the baseline for this configuration in the folder `exercises/ex1/infra`
 - The configuration of the Terraform provider is done in the file [`provider.tf`](infra/provider.tf). This file contains the configuration for the Terraform provider for SAP BTP, namely the version constraints as well as the authentication information.
 - As an input for the configuration we use the file [`variables.tf`](infra/variables.tf). This contains the parameters for the configuration of the Terraform provider and other data to configure your SAP BTP account, like the information about the contact person and cost centers for the subaccounts.
 - The magic happens in the file [`main.tf`](infra/main.tf). This file contains the main configuration for the SAP BTP account structure. Let's take a closer look at this file:
-  - First, we define a local variable `stages` that contains the stages of our development process:
+  - First, we define a local variable `stages` that contains the stages/environments of our development process:
 
     ```terraform
     locals {
@@ -41,7 +41,7 @@ You find the baseline for this configuration in the folder `exercises/ex1/infra`
     }
     ```
 
-  - The next section creates the directories for the different stages of our development process. We use a `for_each` loop to create one directory for each stage defined in the local variable `stages`:
+  - The next section creates the directories for the different stages/environments of our development process. We use a `for_each` loop to create one directory for each stage/environment defined in the local variable `stages`:
 
     ```terraform
     resource "btp_directory" "stage" {
@@ -52,7 +52,7 @@ You find the baseline for this configuration in the folder `exercises/ex1/infra`
       parent_id   = btp_directory.main.id
     }
     ```
-  - Finally, we create the subaccounts for each stage. We delegate this via a local [module](../../modules/sap-btp-subaccount-setup/README.md). We use again a `for_each` loop to create one subaccount for each stage:
+  - Finally, we create the subaccounts for each stage/environment. We delegate this via a local [module](../../modules/sap-btp-subaccount-setup/README.md). We use again a `for_each` loop to create one subaccount for each stage/environment:
 
     ```terraform
     module "sap-btp-subaccount-setup" {
@@ -69,7 +69,7 @@ You find the baseline for this configuration in the folder `exercises/ex1/infra`
 The module [`sap-btp-subaccount-setup`](../../modules/sap-btp-subaccount-setup/README.md) contains the details of the subaccount setup namely:
 
 - The creation of the subaccount itself including naming conventions
-- The creation of the entitlements for the subaccount based on the stage
+- The creation of the entitlements for the subaccount based on the stage/environment
 - The creation of the Cloud Foundry environment for the subaccount
 - The creation of application subscriptions and service instances for the subaccounts
 
@@ -227,17 +227,17 @@ Once the deployment is finished, you see a summary of the resources that were cr
 
 Check the setup in the SAP BTP cockpit. Besides the already existing subaccounts you also see the newly added ones per stage.
 
-## Exercise 1.4 - Adding the production stage (optional)
+## Exercise 1.4 - Adding the production stage/environment (optional)
 
 > [!Important]
 > This exercise is optional. If you want to continue with the next exercise or are running short of time, you can directly go to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 
-After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional stage representing the subaccounts used for production.
+After completing these steps, you will have enhanced and deployed the Terraform configuration with an additional stage/environment representing the subaccounts used for production.
 
-As we are confident with the setup, you can now enhance the configuration to include a production stage. This is done by adding the stage `Prod` to the local variable `stages` in the file `main.tf`.
+As we are confident with the setup, you can now enhance the configuration to include a production stage/environment. This is done by adding the value `Prod` to the local variable `stages` in the file `main.tf`.
 
 1. Open the file `main.tf` in the folder `infra`.
-1. Add the stage `Prod` to the local variable `stages`. The result should look like this:
+1. Add the value `Prod` to the local variable `stages`. The result should look like this:
 
    ```terraform
    locals {
@@ -266,7 +266,7 @@ You are already an expert in deploying the configuration, so you can now deploy 
    terraform plan -out="plan.out"
    ```
 
-    You see that the change that will be applied create the new stage. As in the previous step you also see some changes for the existing resources. This is due to Terraform's dependency management and if you take a closer look at the details of the plan you see that the existing resources are not changed.
+    You see that the change that will be applied create the new stage/environment. As in the previous step you also see some changes for the existing resources. This is due to Terraform's dependency management and if you take a closer look at the details of the plan you see that the existing resources are not changed.
 
 1. Apply the stored plan and execute the deployment:
 
@@ -276,7 +276,7 @@ You are already an expert in deploying the configuration, so you can now deploy 
 
 Once the deployment is finished, you see a summary of the resources that were created. You also see that there have been no changes to the existing resources during the apply phase of Terraform.
 
-Check the setup in the SAP BTP cockpit. Besides the already existing directories and subaccounts for the stages `Dev` and `Test` you also find the newly added ones for the stage `Prod`.
+Check the setup in the SAP BTP cockpit. Besides the already existing directories and subaccounts for the stages/environments `Dev` and `Test` you also find the newly added ones for `Prod`.
 
 > [!NOTE]
 > You can also delete the complete setup in one run via the command `terraform destroy`. This will delete all resources created by Terraform in the current state. The command will present you a plan what it will destroy. Review and carefully and approve the action by typing `yes` when prompted.

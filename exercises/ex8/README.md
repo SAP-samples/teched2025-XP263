@@ -14,7 +14,7 @@ Some of the information introduced earlier in this exercise, such as prepaid quo
 
 To access the preview version of the Cost and Usage Overview:
 
-1. Use the following URL with the preview parameters enabled: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com&teched=true&dashboard=true#>
+1. **Open the following link** in a browser. It **contains an additional special parameter** that provides access to the preview version with Apex Holdings: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com&teched=true&dashboard=true#>
    
    **Alternatively**, if you're already logged in, you can modify the TechEd global account URL by adding `&dashboard=true#` after `teched=true`.
 

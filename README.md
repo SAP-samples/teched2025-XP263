@@ -1,5 +1,7 @@
 # XP263 - Advanced tools for administrators in SAP BTP
 
+![Banner for TechEd Session XP263](./images/XP263-banner.png)
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2025 session called XP263 - Advanced tools for administrators in SAP BTP.

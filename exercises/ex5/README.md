@@ -13,7 +13,7 @@ You may also use the option available to export the data to **Excel** for furthe
 ## Exercise 5.2 - Track costs and cross charge using the Account hierarchy
 
 1. In the **Costs and Usage** header, ensure that the filter for **Month** is set to the previous month.
-2. Ensure that you are in the **Billing → View by Account** and click on the **collapse all** button to view the **Account hierarchy**.
+2. Ensure that you are in the **Billing → View by Account** and click on the **collapse all** button to view the **Account hierarchy**. This is the same account structure you saw via the Account Explorer in Exercise 2.
 3. You will see 5 **Subsidiaries** and a list of subaccounts. These are subaccounts that had cost or usage during the last 12 months and were deleted.
 4. Select subsidiary **NexaTech Digital**, what is the cumulative list price in the last 12 months?
 

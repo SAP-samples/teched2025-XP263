@@ -19,6 +19,9 @@ In this scenario, you will learn how to use Cloud Credit forecasting to anticipa
 
 4. Expand the card by clicking the expand icon to view the detailed monthly trend graph.
 5. Review the forecasted monthly trend and identify when costs are projected to exceed your cloud credit allocation.
+   
+   **Note**: The "Forecasted Cost" (white) represents the projected costs within the 8.3M USD cloud credit limit. The "Forecasted Cost Overage" (red) represents the projected costs expected to exceed that limit.
+
 
    **When does the forecast predict cost overage?**
 
@@ -30,7 +33,7 @@ In this scenario, you will learn how to use Cloud Credit forecasting to anticipa
    *The forecast predicts that cloud credit overage will occur in February, approximately 3-4 months from now. This early warning provides valuable lead time to take proactive action, such as purchasing additional cloud credits at discounted rates or implementing cost optimization measures to avoid expensive list-price overage charges.*
    </details>
    <br>
-
+7. Close the expanded card.
 
 ## Exercise 7.3 - Optimizing Subscription and Consumption Commercial Models
 

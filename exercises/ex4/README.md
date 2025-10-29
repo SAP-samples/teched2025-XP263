@@ -30,8 +30,8 @@ In this section, you will monitor costs and resource consumption by comparing se
 
    <br>
 
-4. Make sure no service is selected in the table. Scroll down to view the graph presenting the **Global Account - Cost Summary** and choose **View By: Cost Breakdown**. The graph presents the costliest services in your global account over the last 12 months.
-   1. Expand the graph
+4. Make sure no service is selected in the table. Scroll down to view the graph presenting the **Global Account - Cost Summary** and choose **View By: Cost Breakdown by Service Plan**. The graph presents the costliest services in your global account over the last 12 months.
+   1. **Expand** the graph
    2. Look for the service plan with the highest cost which you found in the previous step. Review the trend, has there been an increase in the costs of this service plan in the previous month vs. the month before?
 
       <details>
@@ -41,9 +41,9 @@ In this section, you will monitor costs and resource consumption by comparing se
 
       *There has been a noticeable increase in SAP HANA Cloud - HANA costs in the previous month compared to the month before. This upward trend contributes to the overall cost increase observed in October and requires further investigation to identify the specific subaccounts driving this growth.*
       </details>
-      <br>
 
-   3. This explains some of the increase in the overall previous month costs. Let's see why this increase occurred. Close the expanded graph view to see the full **Billing** table
+   3. This explains some of the increase in the overall previous month costs. Let's see why this increase occurred.
+   4. **Close** the expanded graph view to see the full Billing table.
 5. Select the service plan with the highest costs (as identified in step #3).
 6. You can see on the right-hand side the service plan details and find all subaccounts that use this service plan.
 7. What is the Subaccount with the highest costs in the previous month using this service plan?

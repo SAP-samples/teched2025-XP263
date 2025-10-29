@@ -8,7 +8,7 @@ In this section, you will explore the **BTP Cockpit Costs and Usage** interface 
 
 1. In the **BTP Cockpit**, under the left pane navigate to the last page -> **Costs and Usage**
 2. Click on this button in the top left corner ![hamburger menu icon](images/hamburger.png) to collapse the left pane and expand the viewing area.
-3. In the header section (see screen shot above), within the **Global Account Info** card (card on the left), click the **"Billing Statement Information"** link. This link directs you to SAP for Me, where you can download the Balance Statement. For this exercise, there is no need to download the Balance Statement, as we have provided screenshots for reference.
+3. In the header section (see screen shot above), within the **Global Account Info** card (card on the left), click the **"Billing Statement Information"** link. This link directs you to SAP for Me, where you can download the Balance Statement. For this exercise, there is no need to login to SAP for Me and download the Balance Statement, as we have provided screenshots for reference.
 4. In the same card, click the link **"Important information about your billing and usage data"**.
 5. You will see that the global account is licensed for both the **consumption-based** and **subscription-based** commercial models. This means that billing is structured so that the **prepaid quota** from your subscription is utilized first, after which any excess usage is charged under the **consumption-based model**.
 6. In the header (see screen shot above), locate the **Cloud Platform Enterprise Agreement** card (card on the right), which displays information about **Cloud Credits**, including costs, status, and trends.
@@ -23,7 +23,7 @@ In this section, you will explore the **BTP Cockpit Costs and Usage** interface 
 
 ## Exercise 3.2 - Compare the Balance Statement and SAP BTP Cockpit Information
 
-The **Balance Statement** (available in SAP for Me) is the starting point for cross-checking the **BTP** cost information. It is recommended to verify the **Balance Statement** monthly against the **Billing View by Service**. After completing this verification, you can proceed to investigate and further analyze cost details within the BTP Cockpit.
+The **Balance Statement** is the starting point for cross-checking the **BTP** cost information. It is recommended to verify the **Balance Statement** monthly against the **Billing View by Service**. After completing this verification, you can proceed to investigate and further analyze cost details within the BTP Cockpit.
 
 **Screenshot #1: Balance Statement - Total Consumption Section**
 <img src="images/1 1.png" alt="Balance Statement comparison" width="75%">

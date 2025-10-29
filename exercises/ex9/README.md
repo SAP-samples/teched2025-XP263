@@ -15,21 +15,17 @@ You can create a customized **Excel** export by applying filters such as subacco
 
 In this scenario, you will export cost data filtered by a specific contact person, allowing you to share relevant cost information with stakeholders who need to understand their team's expenses.
 
-1. In the **Costs and Usage** header, click **"Clear Filters"** to reset any existing filters.
-2. In the **Month** filter, select **"Previous Month"**.
-3. Navigate to the **Billing -> View by Service**
-4. In the search box, search for the label: `ContactPerson alex.yamamoto@apex.com`
-
-> [!TIP]
-> Start typing "ContactPerson" in the search box, and the auto-complete will help you select the correct label and value.
-
-4. Launch the **Export** menu by clicking the small arrow near the **Export** button and select **"Custom..."**.
-5. Verify that the time period is set to the previous month and the search filter shows: `Label Key:Value -- ContactPerson:alex.yamamoto@apex.com`
-6. Keep the default settings in the export dialog.
-7. Click **"Export"**.
-8. Open the exported **Excel** file from your Downloads folder. Note that the exported data in the excel sheets: Global Account Costs, Subaccount Costs by Service is filtered by the  period and contact person you have defined.
-9. In the Global Account Costs excel sheet, select column I (Cost) to see in the footer the sum of the costs for the contact person.
-10. You can use this file to share with the contact person, helping them understand their costs and take appropriate actions if needed.
+1. Navigate to the **Billing tab**.
+2. In the **Costs and Usage** header, click **"Clear Filters"** to reset any existing filters.
+3. In the **Month** filter, select **"Previous Month"**.
+4. In the search box, type "ContactPerson" and using the auto-complete choose "ContactPerson alex.yamamoto@apex.com"
+5. Launch the **Export** menu by clicking the small arrow near the **Export** button and select **"Custom..."**.
+6. Verify that the time period is set to Oct 2025 (selected month) and the search filter shows: `Label Key:Value -- ContactPerson:alex.yamamoto@apex.com`
+7. Keep the default settings in the export dialog.
+8. Click **"Export"**.
+9. Open the exported **Excel** file from your Downloads folder. Note that the exported data in the excel sheets: Global Account Costs, Subaccount Costs by Service is filtered by the  period and contact person you have defined.
+10. In the Global Account Costs excel sheet, select column I (Cost) to see in the footer the sum of the costs for the contact person.
+11. You can use this file to share with the contact person, helping them understand their costs and take appropriate actions if needed.
 
 > [!NOTE]
 > Similarly to the steps above, you can search and filter by services, subaccounts/directories, and other labels to generate customized Excel files for different reporting needs.
@@ -41,7 +37,7 @@ In this scenario, you will export all cost data with an additional column for co
 1. In the Costs and Usage header, click "Clear Filters" to reset any existing filters.
 2. In the Month filter, select "Previous Month".
 3. Launch the Export menu by clicking the small arrow near the Export button and select "Custom...".
-4. Verify that the time period is set to the previous month.
+4. Verify that the time period is set to Oct 2025 (selected month).
 5. Confirm that "All filters show (no filter)" is displayed, meaning no specific filters are applied.
 6. Keep the default settings in the export dialog.
 7. In the "Labels as Columns" field, enter: `CostCenter`

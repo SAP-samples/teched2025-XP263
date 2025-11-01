@@ -92,4 +92,4 @@ In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate a
 
 ---
 
-**This concludes the SAP TechEd 2025 XP263 Hands-On session. We hope you found it informative and gained valuable insights into SAP BTP cost management and FinOps best practices.**
+**This concludes the SAP TechEd 2025 XP263 Hands-On session. We hope you found it informative and gained valuable insights into SAP BTP cost management, FinOps best practices and Terraform on SAP BTP.**

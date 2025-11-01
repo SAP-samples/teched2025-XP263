@@ -14,9 +14,9 @@ Some of the information introduced earlier in this exercise, such as prepaid quo
 
 To access the preview version of the Cost and Usage Overview:
 
-1. **Open the following link** in a browser. It **contains an additional special parameter** that provides access to the preview version with Apex Holdings: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com&teched=true&dashboard=true#>
+1. **Open the following link** in a browser. It **contains an additional special parameter** that provides access to the preview of the Overview tab for Apex Holdings account: <https://emea.cockpit.btp.cloud.sap/cockpit/?idp=ainfvn15r.accounts.ondemand.com&teched=true&dashboard=true#>
    
-   **Alternatively**, if you're already logged in, you can modify the TechEd global account URL by adding `&dashboard=true#` after `teched=true`.
+   **Alternatively**, if you're already logged in, you can modify the account URL by adding `&dashboard=true#` after `teched=true`.
 
 2. Log in using the same user credentials provided at the beginning of the hands-on session:
    - Enter the User name: `XP263-XXX@education.cloud.sap` (where XXX is your workshop place number)

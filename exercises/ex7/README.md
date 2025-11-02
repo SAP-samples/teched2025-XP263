@@ -1,4 +1,4 @@
-# Exercise 7 - Optimization
+# Exercise 7 - Optimization (approx. 7 minutes)
 
 ## Exercise 7.1 - Introduction
 

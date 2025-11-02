@@ -1,4 +1,4 @@
-# Exercise 2 - Introduction to FinOps exercises
+# Exercise 2 - Introduction to FinOps exercises (approx. 15 minutes)
 
 ## Exercise 2.1 - Overview
 

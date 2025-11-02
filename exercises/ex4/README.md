@@ -1,4 +1,4 @@
-# Exercise 4 - Monitoring cost and consumption
+# Exercise 4 - Monitoring cost and consumption (approx. 5-7 minutes)
 
 ## Exercise 4.1 - Introduction
 

@@ -1,4 +1,4 @@
-# Exercise 6 - Controlling Costs Using Budgets
+# Exercise 6 - Controlling Costs Using Budgets (approx. 7 minutes)
 
 ## Exercise 6.1 - Introduction
 

@@ -1,4 +1,4 @@
-# Exercise 8 - Cost and Usage Overview (Preview - Bonus)
+# Exercise 8 - Cost and Usage Overview - Preview - Bonus (approx. 5-7 minutes)
 
 ## Exercise 8.1 - Introduction
 

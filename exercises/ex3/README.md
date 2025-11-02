@@ -1,4 +1,4 @@
-# Exercise 3 - Billing verification
+# Exercise 3 - Billing verification (approx. 10 minutes)
 
 In this section, you will explore the **BTP Cockpit Costs and Usage** interface and cross-check the data with the **Balance Statement**.
 

@@ -1,4 +1,4 @@
-# Exercise 9 - Export Excel (Optional)
+# Exercise 9 - Export Excel - Optional (approx. 10 minutes)
 
 ## Exercise 9.1 - Introduction
 

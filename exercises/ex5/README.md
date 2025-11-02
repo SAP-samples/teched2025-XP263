@@ -1,4 +1,4 @@
-# Exercise 5 - Cross charge / cost allocation
+# Exercise 5 - Cross charge / cost allocation (approx. 10 minutes)
 
 ## Exercise 5.1 - Introduction
 

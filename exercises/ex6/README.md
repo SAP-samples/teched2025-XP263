@@ -60,21 +60,23 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
 8. **View the History Preview**. You will see the budget amount and Thresholds together with the Actual costs and exceedance over the past 12 months.
 9. **Thresholds**: Change the threshold percentages to **20%**, **50%**, and **80%** to create more frequent alerts for this high-cost subaccount.
 10. View the updated history preview with the new thresholds.
-11. Click **Create**.
-12. You will see a new budget created in the Budgets table.
+11. Toggle on the option to “Automatically send alerts to global account admins” 
+12. Click **Create**.
+13. You will see a new budget created in the Budgets table.
 
     **Are there any thresholds that have been exceeded?**
 
     <details>
     <summary>Answer</summary>
 
-    **Yes.**
+    **Yes**, one threshold has exceeded.
 
-    *Review the threshold indicators in the Budgets table. Remember that budgets evaluate the current month only, so previous month's exceedances don't carry over.*
+    *Review the threshold indicators in the Budgets table. Remember that budgets are evaluated for the current month only, so previous month's exceedances don't carry over.*
     </details>
 
-13. In the Active Budgets table, choose the budget you just created and view the details to verify the information you entered when creating the Budget.
-14. Choose to view it in the Billing Tab
+14.See below an example of the Budget Alert Notification email which was sent when the 20% threshold has  exceeded.
+15. In the Active Budgets table, choose the budget you just created and view the details to verify the information you entered when creating the Budget.
+16. Choose to view it in the Billing Tab
     <details>
     <summary>Hint</summary>
 
@@ -83,7 +85,7 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
     </details>
 
 > [!Tip]
-> You can also create budget based on **Charged Usage** rather than cost. **Charged Usage budgets** track the actual resource units consumed (e.g., compute hours, storage GB) rather than their monetary value. 
+> You can also create budget based on **Charged Usage** rather than cost. **Charged Usage budgets** track the actual resource units consumed (e.g., users, GB of storage) rather than their monetary value. 
 
 
 <!-- TODO: Add email picture here -->

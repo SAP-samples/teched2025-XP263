@@ -74,15 +74,18 @@ In this scenario, you will create a cost-based budget. By default, the budget sc
     *Review the threshold indicators in the Budgets table. Remember that budgets are evaluated for the current month only, so previous month's exceedances don't carry over.*
     </details>
 
-14.See below an example of the Budget Alert Notification email which was sent when the 20% threshold has  exceeded.
-15. In the Active Budgets table, choose the budget you just created and view the details to verify the information you entered when creating the Budget.
-16. Choose to view it in the Billing Tab
+14. In the Active Budgets table, choose the budget you just created and view the details to verify the information you entered when creating the Budget.
+    
+15. Choose to view it in the Billing Tab
     <details>
     <summary>Hint</summary>
 
     Via the '…' and choose 'View in Billing Tab'
 
     </details>
+
+16. See below an example of the SAP BTP Budget Alert Notification email which was sent when the 20% threshold has  exceeded.
+![Budget Alert](images/budgetalert.jpg)
 
 > [!Tip]
 > You can also create budget based on **Charged Usage** rather than cost. **Charged Usage budgets** track the actual resource units consumed (e.g., users, GB of storage) rather than their monetary value. 

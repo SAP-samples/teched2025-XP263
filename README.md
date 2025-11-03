@@ -1,5 +1,7 @@
 # XP263 - Advanced tools for administrators in SAP BTP
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2025-XP263)](https://api.reuse.software/info/github.com/SAP-samples/teched2025-XP263)
+
 ![Banner for TechEd Session XP263](./images/XP263-banner.png)
 
 ## Description

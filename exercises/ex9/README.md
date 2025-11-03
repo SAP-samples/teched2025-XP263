@@ -57,9 +57,9 @@ In this scenario, you will export all cost data with an additional column for co
 
 In this step, you will use Excel's AI-powered "Analyze Data" tool to aggregate and compare cost center expenses in the previous month by entering a natural language prompt.
 
-1. Launch the Home or Data ribbon in Excel. 
-2. Click "Analyze Data" (this feature may be called "Ideas" in some Excel versions). If it is not visible, you can search in Excel for "Analyze Data".
-3. In the "Ask a question about your data" text box, enter the prompt: `Show the aggregated costs by Label Values for Key: CostCenter`
+1. In the Excel Home ribbon (visible by default). 
+2. Click "Analyze Data".
+3. In the text box: "Ask a question about your data", enter the prompt: `Show the aggregated costs by Label Values for Key: CostCenter`
 4. Review the generated analysis and click "Insert PivotChart" to add it to your worksheet.
 5. Review the new pivot table and chart.
 

@@ -283,7 +283,7 @@ Check the setup in the SAP BTP cockpit. Besides the already existing directories
 
 ## Additional Resources
 
-- [Getting Started with Terraform on SAP BTP](https://learning.sap.com/learning-journeys/getting-started-with-terraform-on-sap-btp) on learning.sap.com
+- [Getting Started with Terraform on SAP BTP](https://learning.sap.com/courses/getting-started-with-terraform-on-sap-btp) on learning.sap.com
 - [SAP BTP Administrator's Guide](https://help.sap.com/docs/btp/btp-admin-guide/btp-admin-guide)
 - [SAP BTP - Administrator's Guide Samples](https://github.com/SAP-samples/btp-admin-guide-samples)
 
